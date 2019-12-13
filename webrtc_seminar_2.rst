@@ -158,21 +158,21 @@ WebRTC 現在と今後
 WebRTC Signaling Server Ayame 入門
 ----------------------------------
 
-:時間: 20 分
+:時間: 10 分
 
 `OpenAyame プロジェクト <https://gist.github.com/voluntas/90cc9686a11de2f1acca845c6278a824>`_
 
 Ayame Plus の紹介
 -----------------
 
-:時間: 15 分
+:時間: 10 分
 
 `時雨堂 Ayame Plus 開発ログ <https://gist.github.com/voluntas/396167bd197ba005ae5a9e8c5e60f7cd>`_
 
 WebRTC Native Client Momo 入門
 ------------------------------
 
-:時間: 20 分
+:時間: 30 分
 
 `OpenMomo プロジェクト <https://gist.github.com/voluntas/51c67d0d8ce7af9f24655cee4d7dd253>`_
 
@@ -186,7 +186,7 @@ WebRTC Native Client Momo 入門
 新製品 Azuki の紹介
 -------------------
 
-:時間: 15 分
+:時間: 10 分
 
 `Azuki プロジェクト <https://gist.github.com/voluntas/a9519de94f92102cc22b5f723d03dbd6>`_
 
@@ -200,7 +200,7 @@ Jetson Nano 上で動作する、2 拠点間を 4K@30 で繋ぐ常時接続型�
 WebRTC SFU Sora 入門
 --------------------
 
-:時間: 20 分
+:時間: 30 分
 
 - WebRTC SFU Sora について
 
@@ -218,6 +218,11 @@ WebRTC 事例
 
 - WebRTC の事例を紹介
 - WebRTC を採用するべきかどうか
+
+AWS の WebRTC 対応について
+--------------------------
+
+:時間: 10 分
 
 質疑応答
 --------

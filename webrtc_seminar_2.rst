@@ -3,7 +3,7 @@
 ################################
 
 :日時: 2020 年 1 月 22 (水)
-:場所: `AP 秋葉原 会議室 <https://www.tc-forum.co.jp/kanto-area/ap-akihabara/ak-base/>`_ の予定
+:場所: `AP 秋葉原 会議室 <https://www.tc-forum.co.jp/kanto-area/ap-akihabara/ak-base/>`_
 
 概要
 ====

@@ -12,8 +12,9 @@
 概要
 ====
 
+これは `第 2 回 時雨堂 WebRTC セミナー <https://github.com/shiguredo/seminar/blob/master/webrtc_seminar_2.rst>`_ の夜の部の発表者向け資料です。
 
-
+発表者がこの資料を使って口頭で補足をしつつ発表します。
 
 WebRTC の現在と今後
 ===================

@@ -14,17 +14,74 @@
 
 これは `第 2 回 時雨堂 WebRTC セミナー <https://github.com/shiguredo/seminar/blob/master/webrtc_seminar_2.rst>`_ の夜の部の発表者向け資料です。
 
-発表者がこの資料を使って口頭で補足をしつつ発表します。
+発表者がこの資料を使って口頭で補足をしつつ発表します
+
+以下の資料は読んでいる前提となります。
+
+`WebRTC コトハジメ <https://gist.github.com/voluntas/67e5a26915751226fdcf>`_
 
 WebRTC の現在と今後
 ===================
 
+`WebRTC の未来 <https://gist.github.com/voluntas/59a135343538c290e515>`_
 
+WebRTC 1.0
+----------
+
+よほどのことがない限り 2020 年には 1.0 が出ます。だからといって全てのブラウザが実装を守っているわけではありません。
+ただ、一段落つけられるというのは大きいです。
+
+AV1
+--------------------
+
+クアルコムからハードウェアデコーダを積んだチップがでてきました。ここ 1-2 年で劇的に変わっていきそうです。
+YouTube でかなり見られている動画の場合は AV1 でのエンコードも始まっているようです。
+
+サイマルキャスト
+--------------------
+
+Google 独自対応が終わりに向かい、IETF / W3C に定義されているサイマルキャストの実装が進んでいます。
+残念ながらかなり知識のいる世界なため、もし使う場合は SDK を利用するのがおすすめです。
+
+SVC
+---
+
+資料はせず、当日口頭でのみ発表。
+
+QUIC
+------
+
+説明不要なくらい多くの場所で使われ結果も出してきています。 WebRTC では利用するプロトコルを QUIC ベースにしていきたいという考えがあります。
+
+理由としては ..
+
+- DTLS-SRTP over UDP をやめたい
+- SCTP over DTLS over SDP をやめたい
+
+というシンプルなものです。RTP は古すぎるし、SCTP はマイナーすぎる、そこで QUIC に置き換えることで色々モダンにしていきたい方向です。
+
+実はもともとはそのまま QUIC を使えるように RTCQuicTransport という API が用意されたりもしたのですが、
+どうやら流れとしては WebTransport に流れていくようです。
+
+WebTransport
+----------------
+
+WebTransport はすごく雑に言ってしまえば、 over QUIC または over HTTP/3 の上に実装される WebSocket です。
+実装自体は始まっていますが、こちら利用可能になるのは早くても 2 年後くらいだと思います。
+
+まずは over QUIC から入っていくようです。
 
 WebRTC Signaling Server Ayame 入門
 ==================================
 
+:URL: `OpenAyame/ayame: WebRTC Signaling Server Ayame <https://github.com/OpenAyame/ayame>`_
 
+資料
+----
+
+以下の資料を参考にお話をしていきます。
+
+- `OpenAyame プロジェクト <https://gist.github.com/voluntas/90cc9686a11de2f1acca845c6278a824>`_
 
 Ayame Plus の紹介
 =================
@@ -33,15 +90,40 @@ Ayame Plus の紹介
 WebRTC Native Client Momo 入門
 ==============================
 
+:URL: `shiguredo/momo: WebRTC Native Client Momo <https://github.com/shiguredo/momo>`_
+
+WebRTC Native Client Momo はブラウザレスで複数プラットフォームで動作する WebRTC クライアントです。音声や映像の配信、受信を 1 バイナリで実現しています。
+
+資料
+----
+
+以下の資料を参考にお話をしていきます。
+
+- `OpenMomo プロジェクト <https://gist.github.com/voluntas/51c67d0d8ce7af9f24655cee4d7dd253>`_
 
 新製品 Azuki の紹介
 ===================
 
+Azuki は Momo をベースにした常時接続型の拠点間通信向けソフトウェアです。
+複数拠点間の映像を流しっぱなしで繋ぐという事に利用可能です。
+
+資料
+----
+
+以下の資料を参考にお話をしていきます。
+
+- `Azuki プロジェクト <https://gist.github.com/voluntas/a9519de94f92102cc22b5f723d03dbd6>`_
 
 WebRTC SFU Sora 入門
 ====================
 
+資料
+----
 
+以下の資料を参考にお話をしていきます。
+
+- `時雨堂 WebRTC SFU Sora 開発ログ <https://gist.github.com/voluntas/e914aa245fc26f3133c2>`_
+- `WebRTC SFU Sora ドキュメント <https://sora.shiguredo.jp/doc/>`_
 
 Sora Labo の紹介
 ================

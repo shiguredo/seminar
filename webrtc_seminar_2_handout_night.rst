@@ -3,9 +3,9 @@
 #####################################
 
 :日時: 2020-01-22 (水)
-:更新: 2020-01-12
+:更新: 2020-01-19
 :作: `時雨堂 <https://shiguredo.jp>`_
-:バージョン: 20.01.
+:バージョン: 20.01.2
 
 .. image:: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
    :target: https://creativecommons.org/licenses/by-nc-nd/4.0/

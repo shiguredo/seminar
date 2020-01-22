@@ -12,6 +12,8 @@
 
 .. contents:: :depth: 1
 
+http://bit.ly/shiguredo-seminar-2-night
+
 概要
 ====
 

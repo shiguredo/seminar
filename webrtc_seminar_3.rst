@@ -20,10 +20,11 @@
 
 **準備中です**
 
-抽選とさせていただきます。抽選では Momo に貢献していただいている方は優先させていただきます。
+抽選とさせていただきます。抽選では Momo への貢献者を優先させていただきます。
 
 貢献者
-  Discord で貢献者の Role を持たれている方、または GitHub shiguredo/momo THANKS に掲載されている方
+  Discord で貢献者の Role を持たれている方、
+  または `THANKS <https://github.com/shiguredo/momo/blob/develop/THANKS>`_ に掲載されている方
 
 お申込みの人数が多い場合や弊社の競合となる可能性のある方は、ご参加いただけない場合がございます。
 ご了承ください。

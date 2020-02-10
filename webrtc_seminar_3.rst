@@ -90,7 +90,6 @@ WebRTC Native Client Momo の紹介
 - @massie_g
 - @bugfire
 - @melpon
-- @tetsu_koba
 
 
 WebRTC Native Client Momo の今後

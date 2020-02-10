@@ -68,6 +68,13 @@ WebRTC Native Client Momo の紹介
 
 :時間: 各 15 分
 
+日程調整
+^^^^^^^^^^
+
+- @soudegesu
+  - momo(Jetson@4k) + Sora + iOS/Android/JavaScript SDKを使ったWeb会議システム（東京ー沖縄間）
+- @bugfire
+
 発表者候補
 ^^^^^^^^^^
 
@@ -80,7 +87,7 @@ WebRTC Native Client Momo の紹介
 - @bugfire
 - @melpon
 - @tetsu_koba
-- @bugfire
+
 
 WebRTC Native Client Momo の今後
 --------------------------------

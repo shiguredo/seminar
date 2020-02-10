@@ -66,7 +66,7 @@ WebRTC Native Client Momo の紹介
 フリートーク
 ------------
 
-:時間: 各 15 分
+:時間: 各最大 15 分
 
 日程調整
 ^^^^^^^^^^
@@ -75,6 +75,9 @@ WebRTC Native Client Momo の紹介
   
   - momo(Jetson@4k) + Sora + iOS/Android/JavaScript SDKを使ったWeb会議システム（東京ー沖縄間）
 - @bugfire
+- @tetsu_koba
+
+  - 遠隔操作できるライブカメラの話
 
 発表者候補
 ^^^^^^^^^^

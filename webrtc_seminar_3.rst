@@ -20,11 +20,14 @@
 
 **準備中です**
 
-抽選とさせていただきます。抽選では Momo への貢献者を優先させていただきます。
+抽選とさせていただきます。抽選では Momo への貢献者や Discord への参加者を優先させていただきます。
 
 貢献者
   Discord で貢献者の Role を持たれている方、
   または `THANKS <https://github.com/shiguredo/momo/blob/develop/THANKS>`_ に掲載されている方
+  
+Discord への参加者
+  Momo の Discord サーバに参加されている方
 
 お申込みの人数が多い場合や弊社の競合となる可能性のある方は、ご参加いただけない場合がございます。
 ご了承ください。
@@ -33,7 +36,7 @@
 ======
 
 :定員: 最大 40 名
-:時間: 18:00-21:30
+:時間: 17:00-20:30
 :資料: 事前に公開します
 
 時雨堂の WebRTC Native Client Momo に特化したイベントです。
@@ -51,9 +54,9 @@
 
 **原則として、途中参加はご遠慮ください。途中退席は可能です**
 
-:受付開始: 17:50
-:開始: 18:00
-:終了: 21:30
+:受付開始: 16:50
+:開始: 17:00
+:終了: 21:00
 
 時間は未定です。
 
@@ -70,31 +73,39 @@ WebRTC Native Client Momo の紹介
 
 **Momo を使った話ならどんな話でも問題ありません**
 
-日程調整
+日程調整候補
 ^^^^^^^^^^
+
+**発表は問題ない、あとは日程次第という方々**
 
 - @soudegesu
   
-  - momo(Jetson@4k) + Sora + iOS/Android/JavaScript SDKを使ったWeb会議システム（東京ー沖縄間）
+  - Momo(Jetson@4k) + Sora + iOS/Android/JavaScript SDKを使ったWeb会議システム（東京ー沖縄間）
 - @bugfire
+
+  - https://qiita.com/bugfire/items/0bc7f7874e0f9e346a91
+  - https://twitter.com/andobario/status/1199355069289746433?s=20
 - @tetsu_koba
 
   - 遠隔操作できるライブカメラの話
 - @massie_g
 
-  - Raspi momoを受信専用のサイネージにする話
+  - Raspberry Pi で Momo を受信専用のサイネージにする話
 - Hiromasam
 
-  - omo活用事例（画面配信など）の話
+  - Momo 活用事例（画面配信など）の話
+- @hakobera
+
+  - momo + go-ayame (Pion) + OpenCV + DeepLearning による推論で遊ぶ
+  - WebRTC P2P + プラレールカメラ実物持っていく
 
 発表者候補
 ^^^^^^^^^^
 
-**下記の発表者はまだ候補であって確定していません**
+**発表をお願いしようと思っている方々**
 
 - @tnoho
 - @shirokunet
-- @hakobera
 
 WebRTC Native Client Momo の今後
 --------------------------------
@@ -102,3 +113,8 @@ WebRTC Native Client Momo の今後
 :時間: 15 分
 :発表者: @voluntas
 
+個別相談会
+----------
+
+事前に個別相談を行いたい人向けに時間を取ります。
+その間、会場で雑談を楽しんでいただいて問題ありません。

@@ -58,9 +58,11 @@
 - 最新の WebRTC SFU Sora 情報をだらだらと
   
   - @voluntas
+- 最新の Sora Unity SDK の情報をだらだらと
+  - @voluntas
 - 最新の WebRTC Native Client Momo 情報をだらだらと
   
-  - @voluntas @tnoho (予定)
+  - @voluntas @tnoho
 - オライリーとラムダノート社の本の宣伝
 
   - `O'Reilly Japan - ハイパフォーマンス ブラウザネットワーキング <https://www.oreilly.co.jp/books/9784873116761/>`_

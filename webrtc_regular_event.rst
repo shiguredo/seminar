@@ -49,15 +49,23 @@
 開始時間に 1 人でも集まればとりあえずやります。
 
 - WebRTC SFU と E2EE についてだらだらと
-    - @voluntas
+  
+  - @voluntas
 - 最新の WebRTC 情報をだらだらと
-    - @voluntas
+  
+  - @voluntas
 - 最新の WebRTC SFU Sora 情報をだらだらと
-    - @voluntas
+  
+  - @voluntas
 - 最新の WebRTC Native Client Momo 情報をだらだらと
-    - @voluntas @tnoho (予定)
-- ラムダノート社の本の宣伝
-    - @voluntas
+  
+  - @voluntas @tnoho (予定)
+- オライリーとラムダノート社の本の宣伝
+
+  - `O'Reilly Japan - ハイパフォーマンス ブラウザネットワーキング <https://www.oreilly.co.jp/books/9784873116761/>`_
+  - `O'Reilly Japan - Real World HTTP 第2版 <https://www.oreilly.co.jp/books/9784873119038/>`_
+  - `プロフェッショナルSSL/TLS（紙書籍＋電子書籍） – 技術書出版と販売のラムダノート <https://www.lambdanote.com/products/tls>`_
+  - @voluntas
 
 質問については答えられる範囲で答えます。
 

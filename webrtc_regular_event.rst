@@ -34,3 +34,5 @@
 - 最新の WebRTC 情報をだらだらと
 - 最新の WebRTC SFU Sora 情報をだらだらと
 - 最新の WebRTC Native Client Momo 情報をだらだらと
+
+質問については答えられる範囲で答えます。

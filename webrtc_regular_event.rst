@@ -62,7 +62,7 @@
   - @voluntas
 - 最新の Sora Unity SDK の情報をだらだらと
   
-  - @voluntas @melpon
+  - @voluntas @melpon (予定)
 - 最新の WebRTC Native Client Momo 情報をだらだらと
   
   - @voluntas @tnoho

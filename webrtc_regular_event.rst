@@ -3,7 +3,7 @@
 #####################################
 
 :日時: 毎月、第 2 と 第 4 火曜日 20:00 から
-:場所: Discord https://discord.gg/k68nkRR
+:場所: Discord https://discord.gg/TJg5DR4
 
 概要
 ====
@@ -21,7 +21,7 @@
 
 申し込みは不要ですが、Discord のサーバに参加している必要があります。
 
-- https://discord.gg/k68nkRR
+- https://discord.gg/TJg5DR4
 
 開催
 ====

@@ -49,10 +49,15 @@
 開始時間に 1 人でも集まればとりあえずやります。
 
 - WebRTC SFU と E2EE についてだらだらと
+    - @voluntas
 - 最新の WebRTC 情報をだらだらと
+    - @voluntas
 - 最新の WebRTC SFU Sora 情報をだらだらと
+    - @voluntas
 - 最新の WebRTC Native Client Momo 情報をだらだらと
+    - @voluntas @tnoho (予定)
 - ラムダノート社の本の宣伝
+    - @voluntas
 
 質問については答えられる範囲で答えます。
 

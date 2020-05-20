@@ -73,7 +73,6 @@
 - 最新の WebRTC 情報をだらだらと
   
   - @voluntas
-
 - 最新の WebRTC SFU Sora 情報
   
   - @voluntas

@@ -149,12 +149,12 @@
 イベント用のプライベートチャンネルを作り、参加を表明されていた方にロールを付与します。
 そちらで Sora Labo の視聴用 URL を共有します。
 
-- 最新の WebRTC 情報をだらだらと
+- 最新の WebRTC 情報雑談
   
   - @voluntas
-- WebRTC SFU + End to End Media Encryption をだらだらと
+- WebRTC SFU + End to End Media Encryption 雑談
   
-  - 既存サービスの話も含みます
+  - Google Duo / Signal / Telegram なども触れていきます
   - @voluntas
 - オライリーとラムダノートから出版されている本の宣伝
 
@@ -173,7 +173,7 @@
 イベント用のプライベートチャンネルを作り、参加を表明されていた方にロールを付与します。
 そちらで Sora Labo の視聴用 URL を共有します。
 
-- 最新の WebRTC 情報をだらだらと
+- 最新の WebRTC 雑談
   
   - @voluntas
 - WebRTC SFU Sora 2020.1 リリース記念雑談

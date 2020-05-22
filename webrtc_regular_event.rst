@@ -46,7 +46,7 @@
 資料などの公開
 ==================
 
-しません。
+特別な資料自体を用意したりしません、公開されている資料のみを利用して話をします。
 
 キャンセル
 ==========
@@ -86,10 +86,7 @@
 イベント用のプライベートチャンネルを作り、参加を表明されていた方にロールを付与します。
 そちらで Sora Labo の視聴用 URL を共有します。
 
-- WebRTC SFU と E2EE についてだらだらと
-  
-  - @voluntas
-- 最新の WebRTC 情報をだらだらと
+- 最新の WebRTC 雑談
   
   - @voluntas
 - 最新の WebRTC SFU Sora 情報
@@ -127,12 +124,12 @@
 イベント用のプライベートチャンネルを作り、参加を表明されていた方にロールを付与します。
 そちらで Sora Labo の視聴用 URL を共有します。
 
-- 最新の WebRTC 情報をだらだらと
+- 最新の WebRTC 雑談
   
   - @voluntas
-- WebTransport / HTTP/3 / QUIC の話
-  
-  - @voluntas @flano-yuki (予定)
+- WebTransport / HTTP/3 / QUIC 雑談
+
+  - @voluntas @flano-yuki
 - オライリーとラムダノートから出版されている本の宣伝
 
   - `O'Reilly Japan - ハイパフォーマンス ブラウザネットワーキング <https://www.oreilly.co.jp/books/9784873116761/>`_
@@ -150,7 +147,7 @@
 イベント用のプライベートチャンネルを作り、参加を表明されていた方にロールを付与します。
 そちらで Sora Labo の視聴用 URL を共有します。
 
-- 最新の WebRTC 情報雑談
+- 最新の WebRTC 雑談
   
   - @voluntas
 - WebRTC SFU + End to End Media Encryption 雑談

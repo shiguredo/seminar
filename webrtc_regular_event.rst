@@ -176,7 +176,7 @@
   - @voluntas
 - WebRTC SFU Sora 2020.1 リリース記念雑談
   
-  - @voluntas
+  - @voluntas この時間に出演可能な社員の誰か
 - オライリーとラムダノートから出版されている本の宣伝
 
   - `O'Reilly Japan - ハイパフォーマンス ブラウザネットワーキング <https://www.oreilly.co.jp/books/9784873116761/>`_

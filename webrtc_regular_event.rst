@@ -198,7 +198,7 @@
 - 最新の WebRTC 雑談
   
   - @voluntas
-- WebRTC MCU Azuki 雑談
+- WebRTC P2P＋MCU Azuki 雑談
   
   - @voluntas @tnoho
 - オライリーとラムダノートから出版されている本の宣伝

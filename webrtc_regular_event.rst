@@ -114,7 +114,8 @@ Discord サーバには以下から参加可能です。
 ----------------------------------------------------
 
 - 最新の WebRTC 雑談
-  
+
+  - 特になければ飛ばします
   - @voluntas
 - WebRTC SFU + Message Layer Security + End to End Media Encryption 雑談
   

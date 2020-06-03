@@ -98,6 +98,10 @@ Discord サーバには以下から参加可能です。
 - WebTransport / HTTP/3 / QUIC 雑談
 
   - @voluntas @flano-yuki
+- ImageFlux Live Streaming 宣伝
+
+  - `ライブ配信サービス ImageFlux Live Streaming｜さくらインターネット <https://www.sakura.ad.jp/services/imageflux/livestreaming/>`_
+  - @voluntas
 - オライリーとラムダノートから出版されている本の宣伝
 
   - `O'Reilly Japan - ハイパフォーマンス ブラウザネットワーキング <https://www.oreilly.co.jp/books/9784873116761/>`_
@@ -143,6 +147,10 @@ Discord サーバには以下から参加可能です。
 - WebRTC P2P＋MCU Azuki 雑談
   
   - @voluntas @tnoho
+- ImageFlux Live Streaming 宣伝
+
+  - `ライブ配信サービス ImageFlux Live Streaming｜さくらインターネット <https://www.sakura.ad.jp/services/imageflux/livestreaming/>`_
+  - @voluntas
 - オライリーとラムダノートから出版されている本の宣伝
 
   - `O'Reilly Japan - ハイパフォーマンス ブラウザネットワーキング <https://www.oreilly.co.jp/books/9784873116761/>`_

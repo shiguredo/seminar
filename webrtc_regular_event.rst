@@ -2,7 +2,7 @@
 時雨堂 WebRTC 定期オンライン雑談イベント (SHIGURADIO)
 #######################################################
 
-:日時: 3 週間間隔で火曜日 20:00 から
+:日時: 不定期に火曜日 20:00 から
 :場所: Discord https://discord.gg/TJg5DR4
 
 .. image:: https://i.gyazo.com/0a6b81c59054c9a2d1918df5b6da110d.jpg

@@ -102,7 +102,11 @@ Discord サーバには以下から参加可能です。
     - `WebAssembly SIMD - Chrome Platform Status <https://www.chromestatus.com/feature/6533147810332672>`_
     - `QuicTransport - Chrome Platform Status <https://www.chromestatus.com/feature/4854144902889472>`_
     - `WebCodecs - Chrome Platform Status <https://www.chromestatus.com/feature/5669293909868544>`_
+  - WebTransport
 
+    - `Experimenting with QuicTransport <https://web.dev/quictransport/>`_
+    - `WebTransport over QUIC <https://tools.ietf.org/id/draft-vvv-webtransport-quic-02.html>`_
+    - `The WebTransport Protocol Framework <https://tools.ietf.org/id/draft-vvv-webtransport-overview-01.html>`_
   - @voluntas
 - React Native WebRTC Kit
 
@@ -220,6 +224,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 
 

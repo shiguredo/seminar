@@ -94,7 +94,9 @@ Discord サーバには以下から参加可能です。
 
 - 最新の WebRTC 雑談
   
-  - 特になければ飛ばします
+  - Firefox 78 で rid ベースの Simulcast
+
+    - ただなんか仕様が怪しい
   - `Zoom on Web: Getting Connected with Advanced Web Technology <https://youtu.be/r3QPKK0JPtI?t=10032>`_
   
     - `WebAssembly SIMD - Chrome Platform Status <https://www.chromestatus.com/feature/6533147810332672>`_

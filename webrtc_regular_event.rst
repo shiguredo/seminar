@@ -1,8 +1,8 @@
 #######################################################
-時雨堂 WebRTC 定期オンライン雑談イベント (SHIGURADIO)
+時雨堂 WebRTC 不定期オンライン雑談イベント (SHIGURADIO)
 #######################################################
 
-:日時: 不定期に火曜日 20:00 から
+:日時: ３週間おきの火曜日 20:00 から
 :場所: Discord https://discord.gg/TJg5DR4
 
 .. image:: https://i.gyazo.com/0a6b81c59054c9a2d1918df5b6da110d.jpg
@@ -95,15 +95,26 @@ Discord サーバには以下から参加可能です。
 - 最新の WebRTC 雑談
   
   - 特になければ飛ばします
+  - `Zoom on Web: Getting Connected with Advanced Web Technology <https://youtu.be/r3QPKK0JPtI?t=10032>`_
+  
+    - `WebAssembly SIMD - Chrome Platform Status <https://www.chromestatus.com/feature/6533147810332672>`_
+    - `QuicTransport - Chrome Platform Status <https://www.chromestatus.com/feature/4854144902889472>`_
+    - `WebCodecs - Chrome Platform Status <https://www.chromestatus.com/feature/5669293909868544>`_
+
   - @voluntas
 - WebRTC SFU Sora 雑談
 
   - Sora 2020.1 の機能紹介
+
+    - PauseRtpStream / ResumeRTPStream API
+    - Simulcast 個別画質指定 API
   - Sora の今後について
   - @voluntas
 - WebRTC Native Client Momo 雑談
   
   - Momo の今後について
+  - NVIDIA Jetson の Xavier NX / AGX Xavier について
+  - SDL 拡張
   - @voluntas @tnoho @melpon (予定)
 - WebRTC P2P＋MCU Azuki 雑談
   
@@ -142,9 +153,6 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
-
-
-
 
 2020 年 6 月 9 日 (火) 20:00~
 ----------------------------------------------------
@@ -200,5 +208,6 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 

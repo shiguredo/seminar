@@ -107,6 +107,10 @@ Discord サーバには以下から参加可能です。
     - `Experimenting with QuicTransport <https://web.dev/quictransport/>`_
     - `WebTransport over QUIC <https://tools.ietf.org/id/draft-vvv-webtransport-quic-02.html>`_
     - `The WebTransport Protocol Framework <https://tools.ietf.org/id/draft-vvv-webtransport-overview-01.html>`_
+  - WebAssembly SIMD
+
+    - `Fast, parallel applications with WebAssembly SIMD · V8 <https://v8.dev/features/simd>`_
+    - `V8がWebAssembly SIMDをサポート <https://www.infoq.com/jp/news/2020/04/v8-webassembly-simd/>`_
   - @voluntas
 - React Native WebRTC Kit
 

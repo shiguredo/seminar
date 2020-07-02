@@ -2,7 +2,7 @@
 時雨堂 WebRTC 不定期オンライン雑談イベント (SHIGURADIO)
 #######################################################
 
-:日時: ３週間おきの火曜日 20:00 から
+:日時: どこかの火曜日 20:00 から
 :場所: Discord https://discord.gg/TJg5DR4
 
 .. image:: https://i.gyazo.com/0a6b81c59054c9a2d1918df5b6da110d.jpg
@@ -104,6 +104,11 @@ Discord サーバには以下から参加可能です。
     - `WebCodecs - Chrome Platform Status <https://www.chromestatus.com/feature/5669293909868544>`_
 
   - @voluntas
+- React Native WebRTC Kit
+
+  - https://github.com/react-native-webrtc-kit/react-native-webrtc-kit
+  - libwebrtc M83 への対応の苦労話
+  - @voluntas
 - WebRTC SFU Sora 雑談
 
   - Sora 2020.1 の機能紹介
@@ -111,6 +116,11 @@ Discord サーバには以下から参加可能です。
     - PauseRtpStream / ResumeRTPStream API
     - Simulcast 個別画質指定 API
   - Sora の今後について
+
+    - Sora ARMv8 版の提供
+
+      - Graviton2
+    - https://medium.com/shiguredo/webrtc-sfu-sora-%E3%81%AE%E4%BB%8A%E5%BE%8C-2f0a9c3359a7
   - @voluntas
 - WebRTC Native Client Momo 雑談
   

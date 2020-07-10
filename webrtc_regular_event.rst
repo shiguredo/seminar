@@ -135,13 +135,19 @@ Discord サーバには以下から参加可能です。
 - WebRTC Native Client Momo 雑談
   
   - Momo の今後について
+    
+    - VP9 HWA 対応
+    - Simulcast VP8/H.264 対応
+    - Intel Media SDK 対応
+    - H.265 対応
   - NVIDIA Jetson の Xavier NX / AGX Xavier について
-  - SDL 拡張
-  - @voluntas @tnoho @melpon (予定)
+  - SDL の良さ
+  - @voluntas @tnoho @melpon
 - WebRTC P2P＋MCU Azuki 雑談
   
   - こんなの考えてるけどどうですか？という雑談会です
-  - @voluntas @tnoho
+  - `WebRTC P2P+MCU Azuki (仮) <https://gist.github.com/voluntas/a9519de94f92102cc22b5f723d03dbd6>`_
+  - @voluntas @tnoho @melpon
 
 質問については答えられる範囲で答えます。
 

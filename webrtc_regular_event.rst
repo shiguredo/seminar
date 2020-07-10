@@ -123,8 +123,11 @@ Discord サーバには以下から参加可能です。
 
     - PauseRtpStream / ResumeRTPStream API
     - Simulcast 個別画質指定 API
-  - `Sora の今後について <https://medium.com/shiguredo/webrtc-sfu-sora-%E3%81%AE%E4%BB%8A%E5%BE%8C-2f0a9c3359a7>`_
 
+  - `Sora の今後について <https://medium.com/shiguredo/webrtc-sfu-sora-%E3%81%AE%E4%BB%8A%E5%BE%8C-2f0a9c3359a7>`_
+    
+    - Sora E2EE の wasm 実装について
+    - Sora Signaling の DataChannel 実装について
     - Sora ARMv8 版の提供
 
       - Graviton2

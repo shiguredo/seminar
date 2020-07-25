@@ -92,13 +92,13 @@ Discord サーバには以下から参加可能です。
 2020 年 8 月 25 日 (火) 20:00~
 ----------------------------------------------------
 
-- 最新の WebRTC 雑談
-  
-  - @voluntas
-- WebRTC SFU Sora 雑談
+- WebRTC 雑談
   
   - @voluntas
 - WebRTC Native Client Momo 雑談
+  
+  - @voluntas
+- WebRTC SFU Sora 雑談
   
   - @voluntas
 
@@ -248,6 +248,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 
 

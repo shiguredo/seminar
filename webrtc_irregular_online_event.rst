@@ -93,10 +93,13 @@ Discord サーバには以下から参加可能です。
 ----------------------------------------------------
 
 - 最新の WebRTC 雑談
+  
   - @voluntas
 - WebRTC SFU Sora 雑談
+  
   - @voluntas
 - WebRTC Native Client Momo 雑談
+  
   - @voluntas
 
 質問については答えられる範囲で答えます。

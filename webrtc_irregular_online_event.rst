@@ -94,13 +94,66 @@ Discord サーバには以下から参加可能です。
 
 - WebRTC 雑談
   
+  - Threema. Cryptography Whitepaper
+
+    - https://threema.ch/press-files/2_documentation/cryptography_whitepaper.pdf
+  - [microsoft/winrtc: The WinRTC project hosts everything needed to build apps with interoperable real time communications for modern Windows\. It brings the power of WebRTC to modern Windows apps written in C\#, C\+\+ and VB\. WinRTC enables real\-time voice calling, video chat and data functionality \(file transfer etc\.\) with web browsers via WebRTC\.](https://github.com/microsoft/winrtc)
+
+    - [native libwebrtc for windows: WinRTC \| WebRTC by Dr Alex](http://webrtcbydralex.com/index.php/2020/07/26/native-libwebrtc-for-windows-winrtc/)
+  - [Video Calls and Seven Years of Telegram](https://telegram.org/blog/video-calls)
+  - [周囲雑音抑制需要の高まりを受けスマートノイズ抑制技術を擁するKrispが5\.3億円を調達 \| TechCrunch Japan](https://jp.techcrunch.com/2020/08/07/2020-08-05-krisp-snags-5m-a-round-as-demand-grows-for-its-voice-isolating-algorithm/)
+  - [2034 \- WebRTC: usrsctp is called with pointer as network address \- project\-zero](https://bugs.chromium.org/p/project-zero/issues/detail?id=2034)
+
+    - [Project Zero: Exploiting Android Messengers with WebRTC: Part 1](https://googleprojectzero.blogspot.com/2020/08/exploiting-android-messengers-part-1.html)
+    - [Project Zero: Exploiting Android Messengers with WebRTC: Part 2](https://googleprojectzero.blogspot.com/2020/08/exploiting-android-messengers-part-2.html)
+    - [Project Zero: Exploiting Android Messengers with WebRTC: Part 3](https://googleprojectzero.blogspot.com/2020/08/exploiting-android-messengers-part-3.html)
   - @voluntas
 - WebRTC Native Client Momo 雑談
-  
-  - @voluntas
+
+  - macOS 版での H.265 対応
+  - VP8 / H.264 でのサイマルキャスト対応
+  - Jetson Xavier NX 問題
+
+    - ハードウェア Motion JPEG デコーダーが遅い
+  - @voluntas @tnoho
 - WebRTC SFU Sora 雑談
   
+  - Sora Unity SDK の iOS 対応
+  - 新スポットライト機能開発状況共有
+
+    - [![Image from Gyazo](https://i.gyazo.com/e99e8fad2f974d07f73bb0b53a6256cd.gif)](https://gyazo.com/e99e8fad2f974d07f73bb0b53a6256cd)
+    - [![Image from Gyazo](https://i.gyazo.com/7c7f89244de2f51f924129bcc4d1d6e9.gif)](https://gyazo.com/7c7f89244de2f51f924129bcc4d1d6e9)
+  - 新デモ機能開発状況共有
+
+    - [![Image from Gyazo](https://i.gyazo.com/42e0a1742a828b62a31cd3e6a72438a0.png)](https://gyazo.com/42e0a1742a828b62a31cd3e6a72438a0)
+  - E2EE (鍵合意アルゴリズム利用) 開発状況共有
+
+    - https://github.com/shiguredo/sora-e2ee-wasm
+    - https://github.com/shiguredo/sora-e2ee/tree/feature/wasm
   - @voluntas
+- WebRTC Signaling Server Ayame 雑談
+
+  - Ayame Lite リプレイス
+
+    - 今年はない
+    - 利用数はめちゃくちゃ増えてる
+    
+      - 現時点で累計 25 万接続
+  - 自動ビルド復活させてパッケージングを公開する予定
+  - Go 1.15 に上げた
+
+    - そのうちリリースする予定
+  - iOS / Android SDK は作らない
+
+    - メンテナンスコストが高すぎる
+    - React Native WebRTC Kit を使ってもらいたい
+  - Unity SDK は作らない
+
+    - メンテナンスコストが高すぎる
+    - 公式を使ってほしい
+
+      - https://github.com/Unity-Technologies/com.unity.webrtc
+      - ロードマップが増えてた
 
 質問については答えられる範囲で答えます。
 
@@ -248,6 +301,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 
 

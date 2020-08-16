@@ -121,11 +121,11 @@ Discord サーバには以下から参加可能です。
   - Sora Unity SDK の iOS 対応
   - 新スポットライト機能開発状況共有
 
-    .. image:: https://i.gyazo.com/7c7f89244de2f51f924129bcc4d1d6e9.gif
-    .. image:: https://i.gyazo.com/e99e8fad2f974d07f73bb0b53a6256cd.gif
+    - https://gyazo.com/7c7f89244de2f51f924129bcc4d1d6e9
+    - https://gyazo.com/e99e8fad2f974d07f73bb0b53a6256cd
   - 新デモ機能開発状況共有
 
-    .. image:: https://i.gyazo.com/42e0a1742a828b62a31cd3e6a72438a0.png
+    - https://gyazo.com/42e0a1742a828b62a31cd3e6a72438a0
   - E2EE (鍵合意アルゴリズム利用) 開発状況共有
 
     - https://github.com/shiguredo/sora-e2ee-wasm
@@ -154,6 +154,12 @@ Discord サーバには以下から参加可能です。
 
       - https://github.com/Unity-Technologies/com.unity.webrtc
       - ロードマップが増えてた
+  - @voluntas
+- React Native WebRTC Kit
+
+  - Simulcast 対応
+  - M85 対応
+  - @voluntas
 
 質問については答えられる範囲で答えます。
 

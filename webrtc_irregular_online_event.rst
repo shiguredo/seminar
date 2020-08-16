@@ -97,16 +97,16 @@ Discord サーバには以下から参加可能です。
   - Threema. Cryptography Whitepaper
 
     - https://threema.ch/press-files/2_documentation/cryptography_whitepaper.pdf
-  - [microsoft/winrtc: The WinRTC project hosts everything needed to build apps with interoperable real time communications for modern Windows\. It brings the power of WebRTC to modern Windows apps written in C\#, C\+\+ and VB\. WinRTC enables real\-time voice calling, video chat and data functionality \(file transfer etc\.\) with web browsers via WebRTC\.](https://github.com/microsoft/winrtc)
+  - https://github.com/microsoft/winrtc
 
-    - [native libwebrtc for windows: WinRTC \| WebRTC by Dr Alex](http://webrtcbydralex.com/index.php/2020/07/26/native-libwebrtc-for-windows-winrtc/)
-  - [Video Calls and Seven Years of Telegram](https://telegram.org/blog/video-calls)
-  - [周囲雑音抑制需要の高まりを受けスマートノイズ抑制技術を擁するKrispが5\.3億円を調達 \| TechCrunch Japan](https://jp.techcrunch.com/2020/08/07/2020-08-05-krisp-snags-5m-a-round-as-demand-grows-for-its-voice-isolating-algorithm/)
-  - [2034 \- WebRTC: usrsctp is called with pointer as network address \- project\-zero](https://bugs.chromium.org/p/project-zero/issues/detail?id=2034)
+    - http://webrtcbydralex.com/index.php/2020/07/26/native-libwebrtc-for-windows-winrtc/
+  - `Video Calls and Seven Years of Telegram <https://telegram.org/blog/video-calls>`_
+  - `周囲雑音抑制需要の高まりを受けスマートノイズ抑制技術を擁するKrispが5.3億円を調達 | TechCrunch Japan <https://jp.techcrunch.com/2020/08/07/2020-08-05-krisp-snags-5m-a-round-as-demand-grows-for-its-voice-isolating-algorithm/>`_
+  - `2034 - WebRTC: usrsctp is called with pointer as network address - project-zero <https://bugs.chromium.org/p/project-zero/issues/detail?id=2034>`_
 
-    - [Project Zero: Exploiting Android Messengers with WebRTC: Part 1](https://googleprojectzero.blogspot.com/2020/08/exploiting-android-messengers-part-1.html)
-    - [Project Zero: Exploiting Android Messengers with WebRTC: Part 2](https://googleprojectzero.blogspot.com/2020/08/exploiting-android-messengers-part-2.html)
-    - [Project Zero: Exploiting Android Messengers with WebRTC: Part 3](https://googleprojectzero.blogspot.com/2020/08/exploiting-android-messengers-part-3.html)
+    - `Project Zero: Exploiting Android Messengers with WebRTC: Part 1 <https://googleprojectzero.blogspot.com/2020/08/exploiting-android-messengers-part-1.html>`_
+    - `Project Zero: Exploiting Android Messengers with WebRTC: Part 2 <https://googleprojectzero.blogspot.com/2020/08/exploiting-android-messengers-part-2.html>`_
+    - `Project Zero: Exploiting Android Messengers with WebRTC: Part 3 <https://googleprojectzero.blogspot.com/2020/08/exploiting-android-messengers-part-3.html>`_
   - @voluntas
 - WebRTC Native Client Momo 雑談
 
@@ -121,11 +121,11 @@ Discord サーバには以下から参加可能です。
   - Sora Unity SDK の iOS 対応
   - 新スポットライト機能開発状況共有
 
-    - [![Image from Gyazo](https://i.gyazo.com/e99e8fad2f974d07f73bb0b53a6256cd.gif)](https://gyazo.com/e99e8fad2f974d07f73bb0b53a6256cd)
-    - [![Image from Gyazo](https://i.gyazo.com/7c7f89244de2f51f924129bcc4d1d6e9.gif)](https://gyazo.com/7c7f89244de2f51f924129bcc4d1d6e9)
+    .. image:: https://gyazo.com/7c7f89244de2f51f924129bcc4d1d6e9
+    .. image:: https://gyazo.com/e99e8fad2f974d07f73bb0b53a6256cd
   - 新デモ機能開発状況共有
 
-    - [![Image from Gyazo](https://i.gyazo.com/42e0a1742a828b62a31cd3e6a72438a0.png)](https://gyazo.com/42e0a1742a828b62a31cd3e6a72438a0)
+    .. image:: https://gyazo.com/42e0a1742a828b62a31cd3e6a72438a0
   - E2EE (鍵合意アルゴリズム利用) 開発状況共有
 
     - https://github.com/shiguredo/sora-e2ee-wasm

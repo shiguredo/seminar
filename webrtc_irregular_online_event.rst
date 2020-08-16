@@ -97,10 +97,11 @@ Discord サーバには以下から参加可能です。
   - Threema. Cryptography Whitepaper
 
     - https://threema.ch/press-files/2_documentation/cryptography_whitepaper.pdf
+  - `Signal >> Blog >> A new platform is calling: Help us test one-to-one voice and video conversations on Signal Desktop <https://signal.org/blog/desktop-calling-beta/>`_
+  - `Video Calls and Seven Years of Telegram <https://telegram.org/blog/video-calls>`_
   - https://github.com/microsoft/winrtc
 
     - http://webrtcbydralex.com/index.php/2020/07/26/native-libwebrtc-for-windows-winrtc/
-  - `Video Calls and Seven Years of Telegram <https://telegram.org/blog/video-calls>`_
   - `周囲雑音抑制需要の高まりを受けスマートノイズ抑制技術を擁するKrispが5.3億円を調達 | TechCrunch Japan <https://jp.techcrunch.com/2020/08/07/2020-08-05-krisp-snags-5m-a-round-as-demand-grows-for-its-voice-isolating-algorithm/>`_
   - `2034 - WebRTC: usrsctp is called with pointer as network address - project-zero <https://bugs.chromium.org/p/project-zero/issues/detail?id=2034>`_
 
@@ -110,11 +111,26 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 - WebRTC Native Client Momo 雑談
 
+  - `Horo TsuyoshiさんはTwitterを使っています 「先日、病院にPCR検査を受けに行ったら、血液検査の結果の説明を隣の部屋にいる先生からのPCの画面越しに受けた際に、Momo WebRTC Native Clientが使われててちょっとびっくりした。ちなみに、PCR検査は陰性でした。とりあえず良かった。」 / Twitter <https://twitter.com/horo/status/1290113158426763265?s=20>`_
   - macOS 版での H.265 対応
+
+    - Add HEVC codec name.
+
+      - `f026592a6611944ee2ee7face4e56d589a3f08c4 - src - Git at Google <https://webrtc.googlesource.com/src/+/f026592a6611944ee2ee7face4e56d589a3f08c4>`_
   - VP8 / H.264 でのサイマルキャスト対応
   - Jetson Xavier NX 問題
 
     - ハードウェア Motion JPEG デコーダーが遅い
+  - 4K でサイマルキャスト対応？
+  - H.265 でサイマルキャスト対応？
+  - hakobera プロダクツ紹介
+
+    - `hakobera/go-sora: go-sora is go signaling client library for WebRTC SFU Sora <https://github.com/hakobera/go-sora>`_
+    - `hakobera/go-ayame: go-ayame is go client library for WebRTC Signaling Server Ayame <https://github.com/hakobera/go-ayame>`_
+    - `hakobera/go-webrtc-decoder: Decoders for WebRTC apps written in go and Pion <https://github.com/hakobera/go-webrtc-decoder>`_
+    - おまけ
+
+      - `Support VP9 Scalability Structure (SS) by hakobera · Pull Request #74 · pion/rtp <https://github.com/pion/rtp/pull/74>`_
   - @voluntas @tnoho
 - WebRTC SFU Sora 雑談
   
@@ -135,7 +151,7 @@ Discord サーバには以下から参加可能です。
 
   - Ayame Lite リプレイス
 
-    - 今年はない
+    - 今年は無理です
     - 利用数はめちゃくちゃ増えてる
     
       - 現時点で累計 25 万接続
@@ -160,6 +176,13 @@ Discord サーバには以下から参加可能です。
   - Simulcast 対応
   - M85 対応
   - @voluntas
+- 時雨堂の今後の新規プロジェクト
+
+  - Sora 向け統計解析パッケージの OSS 提供
+  - Sora 向け録画合成パッケージの OSS 提供
+  - Sora 向け負荷試験パッケージの OSS 提供
+  - @voluntas
+
 
 質問については答えられる範囲で答えます。
 
@@ -307,9 +330,3 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
-
-
-
-
-
-

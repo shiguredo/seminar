@@ -157,9 +157,10 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 - WebRTC Signaling Server Ayame 雑談
 
+  - Ayame WebSocket ライブラリの変更予定
   - Ayame Lite リプレイス
 
-    - 今年は無理です
+    - 今年は無理ですが、来年は正式リリースに向けてやっていきます
     - 利用数はめちゃくちゃ増えてる
     
       - 現時点で累計 25 万接続
@@ -191,8 +192,18 @@ Discord サーバには以下から参加可能です。
 - React Native WebRTC Kit
 
   - Simulcast 対応
+  - getStats 対応
   - M85 対応
   - @voluntas
+- Sora Labo
+
+  - Sora Labo 向け iOS / Android サンプルの用意
+
+    - Sora SDK を利用したサンプル
+    - ChannelID と SignalingKey を設定するだけで使えるようになる
+    - shiguredo/sora-labo-ios-sdk-samples
+    - shiguredo/sora-labo-android-sdk-samples
+  - 鍵合意アルゴリズムを利用した E2EE サンプルの追加
 - 時雨堂の今後の新規プロジェクト
 
   - Sora 向け負荷試験ツールの OSS 提供

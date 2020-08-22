@@ -99,6 +99,7 @@ Discord サーバには以下から参加可能です。
     - https://threema.ch/press-files/2_documentation/cryptography_whitepaper.pdf
   - `Signal >> Blog >> A new platform is calling: Help us test one-to-one voice and video conversations on Signal Desktop <https://signal.org/blog/desktop-calling-beta/>`_
   - `Video Calls and Seven Years of Telegram <https://telegram.org/blog/video-calls>`_
+  - `End-to-End Encryption: The Past, Present and Future of Security <https://resources.frozenmountain.com/developers/blog/end-to-end-encryption-the-past-present-and-future-of-security>`_
   - https://github.com/microsoft/winrtc
 
     - http://webrtcbydralex.com/index.php/2020/07/26/native-libwebrtc-for-windows-winrtc/
@@ -111,6 +112,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 - WebRTC Native Client Momo 雑談
 
+  - 破壊的変更のお知らせ --multistream true | false へ
   - `Horo TsuyoshiさんはTwitterを使っています 「先日、病院にPCR検査を受けに行ったら、血液検査の結果の説明を隣の部屋にいる先生からのPCの画面越しに受けた際に、Momo WebRTC Native Clientが使われててちょっとびっくりした。ちなみに、PCR検査は陰性でした。とりあえず良かった。」 / Twitter <https://twitter.com/horo/status/1290113158426763265?s=20>`_
   - macOS 版での H.265 対応
 
@@ -146,6 +148,12 @@ Discord サーバには以下から参加可能です。
 
     - https://github.com/shiguredo/sora-e2ee-wasm
     - https://github.com/shiguredo/sora-e2ee/tree/feature/wasm
+  - H.264 プロファイルレベル ID 変更可能機能
+  - 統計レポートに項目追加
+
+    - total_connection_created
+    - total_connection_updated
+    - total_connection_destoryed
   - @voluntas
 - WebRTC Signaling Server Ayame 雑談
 
@@ -170,6 +178,15 @@ Discord サーバには以下から参加可能です。
 
       - https://github.com/Unity-Technologies/com.unity.webrtc
       - ロードマップが増えてた
+  - Go / Python サンプルを検討中
+
+    - OpenAyame/ayame-go-samples
+     
+      - Pion を使ったサンプル
+    - OpenAyame/ayame-python-samples
+
+      - aiortc によるサンプル
+    - SDK は提供しない
   - @voluntas
 - React Native WebRTC Kit
 
@@ -179,8 +196,16 @@ Discord サーバには以下から参加可能です。
 - 時雨堂の今後の新規プロジェクト
 
   - Sora 向け負荷試験ツールの OSS 提供
+
+    - WebRTC Load Testing Tool Zakuro
+    - すでに開発を進めており 9 月末までにはアルファ版を公開する予定
+    - ファーストリリースでは Ubuntu 20.04 x86_64 でのみ動作
   - Sora 向け統計解析ツールの OSS 提供
+
+    - 名前まだ決めてない
   - Sora 向け録画合成ツールの OSS 提供
+
+    - 名前まだ決めてない
   - @voluntas
 
 
@@ -189,7 +214,7 @@ Discord サーバには以下から参加可能です。
 今後の予定
 =================
 
-今の所未定です。
+今の所は未定です。
 
 過去
 ================
@@ -330,4 +355,5 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 

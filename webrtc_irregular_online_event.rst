@@ -113,6 +113,8 @@ Discord サーバには以下から参加可能です。
 - WebRTC Native Client Momo 雑談
 
   - 破壊的変更のお知らせ --multistream true | false へ
+  - 破壊的変更のお知らせ --simulcast true | false へ
+  - SDL に利用したミュート/アンミュート対応
   - `Horo TsuyoshiさんはTwitterを使っています 「先日、病院にPCR検査を受けに行ったら、血液検査の結果の説明を隣の部屋にいる先生からのPCの画面越しに受けた際に、Momo WebRTC Native Clientが使われててちょっとびっくりした。ちなみに、PCR検査は陰性でした。とりあえず良かった。」 / Twitter <https://twitter.com/horo/status/1290113158426763265?s=20>`_
   - macOS 版での H.265 対応
 

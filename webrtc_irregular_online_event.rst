@@ -94,12 +94,30 @@ Discord サーバには以下から参加可能です。
 
 - WebRTC 雑談
 
+  - WebRTC M86 リリースノート
+
+    - https://groups.google.com/g/discuss-webrtc/c/pKCOpi9Llyc/m/QhZjyE02BgAJ
+  - Safari 14
+
+    - 開発者メニューで VP9 対応
   - WebCodecs
 
     - Chrome M86 から Origin Trial 開始
+    - https://wicg.github.io/web-codecs/
+    - https://www.chromestatus.com/feature/5669293909868544
+    - https://www.w3.org/2018/12/games-workshop/slides/21-webtransport-webcodecs.pdf
+  - Insertable Streams
+
+    - Chrome M86 からデフォルト搭載
+    - Origin Trial から少し仕組みが変わっている
+  - Azure Communication Services
+
+    - https://azure.microsoft.com/en-us/blog/build-rich-communication-experiences-at-scale-with-azure-communication-services/
 - WebRTC SFU Sora 雑談
 
   - 2020.2 リリース
+  - 新スポットライト
+  - 新デモ機能
   - 今後の予定
 
     - 次のリリースは 2020 年 12 月
@@ -116,23 +134,59 @@ Discord サーバには以下から参加可能です。
   - 2020.1 リリース
     
     - Blend2D の Fake 機能
+  - `WebRTC Load Testing Tool Zakuro を作った話 <https://dev.to/wandbox/webrtc-load-testing-tool-zakuro-p61>`_
   - 今後の予定
 
-    - InfluxDB 対応
-    - 複数チャネル ID 対応
+    - InfluxDB 対応検討
     - 複数シナリオ対応
+
+      - 複数コーデック
+      - 複数チャネル ID 対応
     - 設定ファイル対応
+
+      - YAML ベースで行く予定
   - @voluntas
-- 録画合成ツール Hisui 雑談
+- Sora Labo
 
+  - サンプルを一新する
+  - wasm 版 E2EE のサンプルを用意する
+  - さくらさんのサーバとは別に 4K 30fps のような高ビットレートを検証しやすい環境を用意するかもしれない
+  - @voluntas
+- Ayame
+
+  - Erlang/OTP で書き直し中
+
+    - Go で書いたのも残す
+    - 仕様はまったくおなじ
+    - パッケージを用意する
+    - スケールするように書いている
+  - 1:1 からは崩さない
+  - @voluntas
+- Ayame Labo
+
+  - Ayame 正式版
+  - アカウントを登録してなくても使えるのは維持する
+  
+    - TURN が利用できない
+    - ルームに認証をかけられない
+  - Sora Labo っぽい感じにする
+  - 10 月末リリースを目指す
+  - @voluntas
+- Recoridng Composition Tool Hisui
+
+  - 9 月から作り始めた
+  - Sora 専用の録画合成ツール
   - FFmpeg を利用しない独自ツール
+  - OpenH264 は自前で用意する必要あり
   - 1 バイナリで提供
-
-  - ``./hisui [OPTIONS] <recording.report メタデータ>.json
+  - ``./hisui [OPTIONS] <recording.report メタデータ>.json``
   - 2020 年 11 月 OSS 公開予定
 
     - Apache License 2.0 で公開
   - 2020 年 12 月 2020.1 リリース予定
+  - 今後の予定
+
+    - レイアウト指定
   - @voluntas
 
 質問については答えられる範囲で答えます。

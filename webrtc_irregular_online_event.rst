@@ -93,9 +93,47 @@ Discord サーバには以下から参加可能です。
 ----------------------------------------------------
 
 - WebRTC 雑談
+
+  - WebCodecs
+
+    - Chrome M86 から Origin Trial 開始
 - WebRTC SFU Sora 雑談
+
+  - 2020.2 リリース
+  - 今後の予定
+
+    - 次のリリースは 2020 年 12 月
+    - サイマルキャスト周りの強化
+
+      - 録画
+      - 転送
+    - E2EE 対応
+
+      - wasm 版
+  - @voluntas
 - WebRTC Load Testing Tool Zakuro 雑談
-- 録画合成ツール雑談
+
+  - 2020.1 リリース
+    
+    - Blend2D の Fake 機能
+  - 今後の予定
+
+    - InfluxDB 対応
+    - 複数チャネル ID 対応
+    - 複数シナリオ対応
+    - 設定ファイル対応
+  - @voluntas
+- 録画合成ツール Hisui 雑談
+
+  - FFmpeg を利用しない独自ツール
+  - 1 バイナリで提供
+
+  - ``./hisui [OPTIONS] <recording.report メタデータ>.json
+  - 2020 年 11 月 OSS 公開予定
+
+    - Apache License 2.0 で公開
+  - 2020 年 12 月 2020.1 リリース予定
+  - @voluntas
 
 質問については答えられる範囲で答えます。
 
@@ -371,5 +409,6 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 

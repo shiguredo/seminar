@@ -116,24 +116,43 @@ Discord サーバには以下から参加可能です。
 - WebRTC SFU Sora 雑談
 
   - 2020.2 リリース
-  - 新スポットライト
-  - 新デモ機能
+
+    - 新スポットライト
+    - 新デモ機能
+  - Safari サイマルキャスト対応
+
+    - 次の Sora JS SDK で対応
+  - Firefox サイマルキャスト対応
+
+    - 83 で対応
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1663368
+    - まだいくつか課題はあるが、すでにチケットになっている
   - 今後の予定
 
     - 次のリリースは 2020 年 12 月
+    - スポットライト 3 レイヤー
     - サイマルキャスト周りの強化
 
+      - レイヤーパラメータ指定可能
       - 録画
+
+        - 最初は最高画質でのみ録画する
       - 転送
+
+        - 最初は全部転送になる可能性あり
     - E2EE 対応
 
       - wasm 版
+      - X3DH / Double Ratchet / Sender Keys
   - @voluntas
 - WebRTC Load Testing Tool Zakuro 雑談
 
   - 2020.1 リリース
     
     - Blend2D の Fake 機能
+  - 2020.2 リリース
+
+    - 遅延確認用ゲーム
   - `WebRTC Load Testing Tool Zakuro を作った話 <https://dev.to/wandbox/webrtc-load-testing-tool-zakuro-p61>`_
   - 今後の予定
 
@@ -149,22 +168,28 @@ Discord サーバには以下から参加可能です。
 - Sora Labo
 
   - サンプルを一新する
-  - wasm 版 E2EE のサンプルを用意する
-  - さくらさんのサーバとは別に 4K 30fps のような高ビットレートを検証しやすい環境を用意するかもしれない
+
+    - 新スポットライトを提供
+    - wasm 版 E2EE のサンプルを用意する
+  - さくらさんから提供いただいているサーバとは別に転送速度制限がない環境を用意するかもしれない
   - @voluntas
-- Ayame
+- WebRTC Signaling Server Ayame
 
-  - Erlang/OTP で書き直し中
+  - Erlang/OTP で実装中
 
+    - 商用利用を意識して開発
     - Go で書いたのも残す
     - 仕様はまったくおなじ
-    - パッケージを用意する
+
+      - 商用向けにログやエラー周りを強化
+    - パッケージを用意
     - スケールするように書いている
   - 1:1 からは崩さない
   - @voluntas
 - Ayame Labo
 
   - Ayame 正式版
+  - Ayame Lite の利用規約追加版
   - アカウントを登録してなくても使えるのは維持する
   
     - TURN が利用できない
@@ -186,6 +211,8 @@ Discord サーバには以下から参加可能です。
   - 2020 年 12 月 2020.1 リリース予定
   - 今後の予定
 
+    - WebM 出力対応
+    - AV1 / Opus 出力対応
     - レイアウト指定
   - @voluntas
 
@@ -463,6 +490,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 
 

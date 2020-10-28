@@ -15,7 +15,7 @@
 参加者は一方向での雑談配信を視聴するという形です。そのためカメラやマイクは不要です。
 質問はすべて Discord にコメントを書いて頂く形を取ります。
 
-2020 年 9 月 29 日 (火) のイベントへの参加申込方法
+2020 年 11 月 10 日 (火) のイベントへの参加申込方法
 =====================================================
 
 まず ``Sora Labo / Sora SDK`` の Discord のサーバに参加している必要があります。
@@ -32,13 +32,13 @@ Discord サーバには以下から参加可能です。
 
 ::
 
-    2020 年 9 月 29 日 (火) 20:00~ のイベントに参加します
+    2020 年 11 月 10 日 (火) 20:00~ のイベントに参加します
 
 アイコンが設定済みであれば、 
 ロールが時雨堂のアカウントから参加宣言にリアクションが付き、
 その後イベント用のロールを付与されます。
 
-今回は ``2020-09-29`` というロールが付与されます。
+今回は ``2020-11-10`` というロールが付与されます。
 
 注意
 ----
@@ -88,6 +88,147 @@ Discord サーバには以下から参加可能です。
 
 開催
 ====
+
+2020 年 11 月 10 日 (火) 20:00~
+----------------------------------------------------
+
+- WebRTC 雑談
+
+  - WebRTC M87 リリースノート
+  - MediaStreamTrack for Insertable Streams of Media
+
+    - https://github.com/alvestrand/mediacapture-insertable-streams/blob/main/explainer.md
+  - Native E2E Encryption API
+
+    - https://github.com/youennf/webrtc-insertable-streams/blob/modif/modifications.md
+  - Firefox ダメダメ問題
+
+    - https://w3c.github.io/webrtc-interop-reports/webrtc-pc-report.html
+- WebRTC Native Client Momo
+
+  - 2020.10 リリースに向けて
+
+    - Jetson Nano VP8 HWA 対応
+    - libwebrtc M87 対応
+    - --use-native を --hw-mjpeg-decoder bool に名前変更
+    - Jetpack 4.4.1 に上げる
+- WebRTC SFU Sora 雑談
+
+  - 2020.3 リリースに向けて
+
+    - リリースは 2020 年 12 月
+    - サイマルキャスト録画対応
+    - スポットライト録画対応
+    - サイマルキャストカスタマイズ対応
+    - サイマルキャスト転送対応
+
+      - 入れ込みたい
+    - E2EE 対応
+
+      - WASM は公開済み
+      - TypeScript 化して Sora JS SDK へ取り込み中
+      - 11 月中には公開できそう
+  - iOS / Anroid / Unity SDK の E2EE 対応
+
+    - エンコード済みのフレームに触れる API は見つけてある
+
+  - @voluntas
+- WebRTC Load Testing Tool Zakuro 雑談
+
+  - @voluntas
+- WebRTC Signaling Server Ayame
+
+  - Erlang/OTP で実装中
+
+    - 商用利用を意識して開発
+    - Go で書いたのも残す
+    - 仕様はまったくおなじ
+
+      - 商用向けにログやエラー周りを強化
+    - パッケージを用意
+    - スケールするように書いている
+  - 1:1 からは崩さない
+  - @voluntas
+- Recoridng Composition Tool Hisui
+
+  - https://medium.com/shiguredo/%E9%8C%B2%E7%94%BB%E5%90%88%E6%88%90%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E9%96%8B%E7%99%BA%E4%B8%AD-a4c75445d4ce
+
+  ::
+
+     $ hisui --help 
+     hisui
+     Usage: release/hisui [OPTIONS]
+     Options:
+       -h,--help                   Print this help message and exit
+       -f,--in-metadata-file       Metadata filename (REQUIED)
+       --out-video-codec           Video codec (VP8 or VP9) default: VP9
+       --out-video-frame-rate      Video frame rate (INTEGER/RATIONAL) default: 25)
+       --out-webm-file             Output filename
+       --max-columns               Max columns (POSITIVE INTEGER) default: 3
+       --libvpx-cq-level           libvpx Constrained Quality level (NON NAGATIVE INTEGER) default: 10
+       --libvpx-min-q              libvpx minimum (best) quantizer (NON NEGATIVE INTEGER) default: 3
+       --libvpx-max-q              libvpx maximum (worst) quantizer (NON NEGATIVE INTEGER) default: 40
+       --verbose                   Verbose mode
+     Options for tuning:
+       -l,--log-level              Log level (trace/debug/info/warn/error/critical/off) default: info
+       --show-progress-bar         Toggle to show progress bar. default: true
+       --out-video-bit-rate        Video bit rate (kbps, POSITIVE INTEGER). default: 200 x (number of input webm files)
+     Options for developing:
+       --mp4-output                muxed mp4 output path
+       --webm-muxer                webm muxer
+       -v,--video-encoder          video encoder
+       --video-composer            video composer
+       --video-scaler              video scaler
+       --video-output              video output path
+       -a,--audio-encoder          audio encoder
+       --audio-output              audio output path
+  - 11 月から公開に向けて準備中
+  - Sora 専用の録画合成ツール
+  - FFmpeg を利用しない独自ツール
+  - 1 バイナリで提供
+  
+    - ``./hisui [OPTIONS] <recording.report メタデータ>.json``
+  - docker 経由での利用も想定
+  
+    - ``docker run ...``
+  - 最初は webm (複数) to webm のみ
+  - 2020 年 11 月 OSS 公開予定
+
+    - Apache License 2.0 で公開
+  - 2020 年 12 月 2020.1 リリース予定
+  - 今後の予定
+
+    - WebM 出力対応
+    - AV1 / Opus 出力対応
+    - レイアウト指定
+  - @voluntas
+- Sora Labo
+
+  - サンプルを一新したい
+
+    - サイマルキャスト録画
+    - サイマルキャスト API をさわれるようにしたい
+    - 新スポットライトを提供
+    - wasm 版 E2EE のサンプルを用意する
+  - さくらさんから提供いただいているサーバとは別に転送速度制限がない環境を用意するかもしれない
+
+    - 現在 Sora Labo リファクタリング中なので、それが終わったらチャレンジしたい
+  - @voluntas
+- Ayame Labo
+
+  - Ayame 正式版
+  - Ayame Lite の利用規約追加版
+  - アカウントを登録してなくても使えるのは維持する
+  
+    - STUN/TURN が利用できない
+    - ルームに認証をかけられない
+  - @voluntas
+
+質問については答えられる範囲で答えます。
+
+
+過去
+================
 
 2020 年 9 月 29 日 (火) 20:00~
 ----------------------------------------------------
@@ -218,9 +359,6 @@ Discord サーバには以下から参加可能です。
 
 質問については答えられる範囲で答えます。
 
-
-過去
-================
 
 2020 年 8 月 25 日 (火) 20:00~
 ----------------------------------------------------
@@ -490,6 +628,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 
 

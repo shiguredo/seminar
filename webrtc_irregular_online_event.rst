@@ -135,6 +135,8 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 - WebRTC Load Testing Tool Zakuro 雑談
 
+  - 複数チャンネル対応をしていく予定
+  - 設定ファイルの用意
   - @voluntas
 - WebRTC Signaling Server Ayame
 
@@ -158,6 +160,7 @@ Discord サーバには以下から参加可能です。
      $ hisui --help 
      hisui
      Usage: release/hisui [OPTIONS]
+
      Options:
        -h,--help                   Print this help message and exit
        -f,--in-metadata-file       Metadata filename (REQUIED)
@@ -169,10 +172,12 @@ Discord サーバには以下から参加可能です。
        --libvpx-min-q              libvpx minimum (best) quantizer (NON NEGATIVE INTEGER) default: 3
        --libvpx-max-q              libvpx maximum (worst) quantizer (NON NEGATIVE INTEGER) default: 40
        --verbose                   Verbose mode
+
      Options for tuning:
        -l,--log-level              Log level (trace/debug/info/warn/error/critical/off) default: info
        --show-progress-bar         Toggle to show progress bar. default: true
        --out-video-bit-rate        Video bit rate (kbps, POSITIVE INTEGER). default: 200 x (number of input webm files)
+
      Options for developing:
        --mp4-output                muxed mp4 output path
        --webm-muxer                webm muxer

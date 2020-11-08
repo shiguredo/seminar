@@ -165,6 +165,7 @@ Discord サーバには以下から参加可能です。
         │       ├── archive-DGSN3TC0E91RSCZT5KVPRWCDHR.json
         │       ├── archive-DGSN3TC0E91RSCZT5KVPRWCDHR.webm
         │       └── report-CZZ8A8KZB16A1DF5PKERBHGFNR.json
+
   - 録画ファイル分割
 
     - 2020.3 には含まれない
@@ -175,22 +176,21 @@ Discord サーバには以下から参加可能です。
     - ファイル名は *_0001.webm となる
 
       - _9999 の次は _10000 となる
+    ::
 
-      ::
-
-        ├── archive
-        │   ├── 1CS9QJ0XPN4C76HBGBN6MGMK5M
-        │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC_0001.json
-        │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC_0001.webm
-        │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC_0002.json
-        │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC_0002.webm
-        │   │   └── report-1CS9QJ0XPN4C76HBGBN6MGMK5M.json
-        │   └── CZZ8A8KZB16A1DF5PKERBHGFNR
-        │       ├── archive-3B7AFF8ZRX6VNEYV40B35Z9S2C_0001.json
-        │       ├── archive-3B7AFF8ZRX6VNEYV40B35Z9S2C_0001.webm
-        │       ├── archive-DGSN3TC0E91RSCZT5KVPRWCDHR_0001.json
-        │       ├── archive-DGSN3TC0E91RSCZT5KVPRWCDHR_0001.webm
-        │       └── report-CZZ8A8KZB16A1DF5PKERBHGFNR.json
+      ├── archive
+      │   ├── 1CS9QJ0XPN4C76HBGBN6MGMK5M
+      │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC_0001.json
+      │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC_0001.webm
+      │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC_0002.json
+      │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC_0002.webm
+      │   │   └── report-1CS9QJ0XPN4C76HBGBN6MGMK5M.json
+      │   └── CZZ8A8KZB16A1DF5PKERBHGFNR
+      │       ├── archive-3B7AFF8ZRX6VNEYV40B35Z9S2C_0001.json
+      │       ├── archive-3B7AFF8ZRX6VNEYV40B35Z9S2C_0001.webm
+      │       ├── archive-DGSN3TC0E91RSCZT5KVPRWCDHR_0001.json
+      │       ├── archive-DGSN3TC0E91RSCZT5KVPRWCDHR_0001.webm
+      │       └── report-CZZ8A8KZB16A1DF5PKERBHGFNR.json
   - iOS / Anroid / Unity SDK の E2EE 対応
 
     - エンコード済みのフレームに触れる API は見つけてある
@@ -223,7 +223,6 @@ Discord サーバには以下から参加可能です。
 - Recording Composition Tool Hisui 雑談
 
   - https://medium.com/shiguredo/%E9%8C%B2%E7%94%BB%E5%90%88%E6%88%90%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E9%96%8B%E7%99%BA%E4%B8%AD-a4c75445d4ce
-
   ::
 
      $ hisui --help 
@@ -708,3 +707,9 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
+
+
+
+
+

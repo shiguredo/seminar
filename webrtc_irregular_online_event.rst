@@ -108,6 +108,7 @@ Discord サーバには以下から参加可能です。
 
   - 2020.10 リリースに向けて
 
+    - 11 月末くらいにリリース予定
     - Jetson Nano VP8 HWA 対応
     - libwebrtc M87 対応
     - --use-native を --hw-mjpeg-decoder bool に名前変更
@@ -125,33 +126,53 @@ Discord サーバには以下から参加可能です。
       - 入れ込みたい
     - E2EE 対応
 
-      - WASM は公開済み
+      - Wasm は公開済み
+
+        - https://github.com/shiguredo/sora-e2ee
+
+          - https://sora-e2ee-wasm.shiguredo.jp/
       - TypeScript 化して Sora JS SDK へ取り込み中
-      - 11 月中には公開できそう
+      - Chrome M87 で Stream API が Web Worker で利用可能になる
+      
+        - Chrome M87 が 11/17 リリースなのでリリース後にサクッと出したい
+    - 録画フォルダ構成変更
+
+      ::
+
+        ├── archive
+        │   ├── 1CS9QJ0XPN4C76HBGBN6MGMK5M
+        │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC.json
+        │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC.webm
+        │   │   ├── archive-H2NDA2YCGH7S1E9CVMFMXMA34R.json
+        │   │   ├── archive-H2NDA2YCGH7S1E9CVMFMXMA34R.webm
+        │   │   ├── archive-PBVZQQN3JS3MQF8XHVFXDMCEEC.json
+        │   │   ├── archive-PBVZQQN3JS3MQF8XHVFXDMCEEC.webm
+        │   │   └── report-1CS9QJ0XPN4C76HBGBN6MGMK5M.json
+        │   └── CZZ8A8KZB16A1DF5PKERBHGFNR
+        │       ├── archive-3B7AFF8ZRX6VNEYV40B35Z9S2C.json
+        │       ├── archive-3B7AFF8ZRX6VNEYV40B35Z9S2C.webm
+        │       ├── archive-DGSN3TC0E91RSCZT5KVPRWCDHR.json
+        │       ├── archive-DGSN3TC0E91RSCZT5KVPRWCDHR.webm
+        │       └── report-CZZ8A8KZB16A1DF5PKERBHGFNR.json
+  - Sora iOS SDK 2020.7 リリース
+
+    - https://medium.com/shiguredo/sora-ios-sdk-2020-7-%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9-bc843773d75e
+    - libwebrtc M86 へアップデート
+    - 音声モードの音声出力先 API の追加
   - iOS / Anroid / Unity SDK の E2EE 対応
 
     - エンコード済みのフレームに触れる API は見つけてある
+    - 来年どこかで対応したい
+  - WebCodecs / WebTransport 
 
+    - 2021 年はこちらの対応を進めていく
   - @voluntas
 - WebRTC Load Testing Tool Zakuro 雑談
 
   - 複数チャンネル対応をしていく予定
   - 設定ファイルの用意
   - @voluntas
-- WebRTC Signaling Server Ayame
-
-  - Erlang/OTP で実装中
-
-    - 商用利用を意識して開発
-    - Go で書いたのも残す
-    - 仕様はまったくおなじ
-
-      - 商用向けにログやエラー周りを強化
-    - パッケージを用意
-    - スケールするように書いている
-  - 1:1 からは崩さない
-  - @voluntas
-- Recoridng Composition Tool Hisui
+- Recording Composition Tool Hisui 雑談
 
   - https://medium.com/shiguredo/%E9%8C%B2%E7%94%BB%E5%90%88%E6%88%90%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E9%96%8B%E7%99%BA%E4%B8%AD-a4c75445d4ce
 
@@ -173,21 +194,10 @@ Discord サーバには以下から参加可能です。
        --libvpx-max-q              libvpx maximum (worst) quantizer (NON NEGATIVE INTEGER) default: 40
        --verbose                   Verbose mode
 
-     Options for tuning:
-       -l,--log-level              Log level (trace/debug/info/warn/error/critical/off) default: info
-       --show-progress-bar         Toggle to show progress bar. default: true
-       --out-video-bit-rate        Video bit rate (kbps, POSITIVE INTEGER). default: 200 x (number of input webm files)
+  - OSS にて公開済み
 
-     Options for developing:
-       --mp4-output                muxed mp4 output path
-       --webm-muxer                webm muxer
-       -v,--video-encoder          video encoder
-       --video-composer            video composer
-       --video-scaler              video scaler
-       --video-output              video output path
-       -a,--audio-encoder          audio encoder
-       --audio-output              audio output path
-  - 11 月から公開に向けて準備中
+    - Apache License 2.0
+    - https://github.com/shiguredo/hisui
   - Sora 専用の録画合成ツール
   - FFmpeg を利用しない独自ツール
   - 1 バイナリで提供
@@ -195,20 +205,36 @@ Discord サーバには以下から参加可能です。
     - ``./hisui [OPTIONS] <recording.report メタデータ>.json``
   - docker 経由での利用も想定
   
-    - ``docker run ...``
+    - ``docker run `` で簡単に利用可能
   - 最初は webm (複数) to webm のみ
-  - 2020 年 11 月 OSS 公開予定
-
-    - Apache License 2.0 で公開
-  - 2020 年 12 月 2020.1 リリース予定
   - 今後の予定
 
-    - WebM 出力対応
-    - AV1 / Opus 出力対応
+    - MP4 対応
+    - OpenH264 対応
     - レイアウト指定
+    - 時間埋め込み
+    - 文字列埋め込み
+
+      - タイトル
+      - ConnectionID
+
+        - metadata で何かしら埋め込めるようにしたい
+  - @voluntas
+- WebRTC Signaling Server Ayame
+
+  - Erlang/OTP で実装してみた
+
+    - 商用利用を意識して開発
+    - Go で書いたのも残す
+    - シグナリングの仕組みはGo 版と完全互換
+
+      - 商用向けにログやエラー周りを強化
+    - パッケージを用意
+    - スケールするように書いている
   - @voluntas
 - Sora Labo
 
+  - https://sora-labo.shiguredo.jp/
   - サンプルを一新したい
 
     - サイマルキャスト録画
@@ -221,6 +247,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 - Ayame Labo
 
+  - https://ayame-labo.shiguredo.jp/
   - Ayame 正式版
   - Ayame Lite の利用規約追加版
   - アカウントを登録してなくても使えるのは維持する
@@ -633,6 +660,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 
 

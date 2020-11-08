@@ -104,11 +104,17 @@ Discord サーバには以下から参加可能です。
   - Firefox ダメダメ問題
 
     - https://w3c.github.io/webrtc-interop-reports/webrtc-pc-report.html
+
+  - 背景ぼやかし/バーチャル背景
+
+    - https://ai.googleblog.com/2020/10/background-features-in-google-meet.html
 - WebRTC Native Client Momo
 
   - 2020.10 リリースに向けて
 
     - 11 月末くらいにリリース予定
+
+      - 焦らずやっていってるのでゆるゆると行きます
     - Jetson Nano VP8 HWA 対応
     - libwebrtc M87 対応
     - --use-native を --hw-mjpeg-decoder bool に名前変更
@@ -119,11 +125,16 @@ Discord サーバには以下から参加可能です。
 
     - リリースは 2020 年 12 月
     - サイマルキャスト録画対応
+
+      - Sora Labo に設定済み
+      - H.264 の録画は課題あり
     - スポットライト録画対応
     - サイマルキャストカスタマイズ対応
+
+      - それぞれのストリームを自由に変更できる
     - サイマルキャスト転送対応
 
-      - 入れ込みたい
+      - なんとか入れ込みたい
     - E2EE 対応
 
       - Wasm は公開済み
@@ -154,18 +165,55 @@ Discord サーバには以下から参加可能です。
         │       ├── archive-DGSN3TC0E91RSCZT5KVPRWCDHR.json
         │       ├── archive-DGSN3TC0E91RSCZT5KVPRWCDHR.webm
         │       └── report-CZZ8A8KZB16A1DF5PKERBHGFNR.json
+  - 録画ファイル分割
+
+    - 2020.3 には含まれない
+    - 分割しないという選択をできなくする予定あり
+    - デフォルトは 180 分単位で分割していく
+    - API で分割時間を指定可能、最大 1440 分 (24 時間) まで指定可能
+    - ウェブフックも分割録画単位で発火する予定
+    - ファイル名は *_0001.webm となる
+
+      - _9999 の次は _10000 となる
+
+      ::
+
+        ├── archive
+        │   ├── 1CS9QJ0XPN4C76HBGBN6MGMK5M
+        │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC_0001.json
+        │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC_0001.webm
+        │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC_0002.json
+        │   │   ├── archive-A4756MXP914ZB265E92JE3ZMWC_0002.webm
+        │   │   └── report-1CS9QJ0XPN4C76HBGBN6MGMK5M.json
+        │   └── CZZ8A8KZB16A1DF5PKERBHGFNR
+        │       ├── archive-3B7AFF8ZRX6VNEYV40B35Z9S2C_0001.json
+        │       ├── archive-3B7AFF8ZRX6VNEYV40B35Z9S2C_0001.webm
+        │       ├── archive-DGSN3TC0E91RSCZT5KVPRWCDHR_0001.json
+        │       ├── archive-DGSN3TC0E91RSCZT5KVPRWCDHR_0001.webm
+        │       └── report-CZZ8A8KZB16A1DF5PKERBHGFNR.json
+  - iOS / Anroid / Unity SDK の E2EE 対応
+
+    - エンコード済みのフレームに触れる API は見つけてある
+    - 来年どこかで対応したい
+  - 2021 年の主な対応
+
+    - DataChannel シグナリング
+      
+      - コストが高すぎて 2020.3 間に合わず
+      - ゆっくりやっていきたい
+    - WebCodecs / WebTransport 
+
+      - ただ Chrome / Edge 限定なので焦らなくていい
+    - Sora 同士の相互通信機能
+
+      - わかりやすく言えばクラスタリング
+      - Client -> Sora -> Sora -> Client が可能になる
+      - Sora <-> Sora はインターナルネットワークを利用する
   - Sora iOS SDK 2020.7 リリース
 
     - https://medium.com/shiguredo/sora-ios-sdk-2020-7-%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9-bc843773d75e
     - libwebrtc M86 へアップデート
     - 音声モードの音声出力先 API の追加
-  - iOS / Anroid / Unity SDK の E2EE 対応
-
-    - エンコード済みのフレームに触れる API は見つけてある
-    - 来年どこかで対応したい
-  - WebCodecs / WebTransport 
-
-    - 2021 年はこちらの対応を進めていく
   - @voluntas
 - WebRTC Load Testing Tool Zakuro 雑談
 
@@ -237,10 +285,10 @@ Discord サーバには以下から参加可能です。
   - https://sora-labo.shiguredo.jp/
   - サンプルを一新したい
 
-    - サイマルキャスト録画
+    - サイマルキャスト録画を導入済み
     - サイマルキャスト API をさわれるようにしたい
     - 新スポットライトを提供
-    - wasm 版 E2EE のサンプルを用意する
+    - E2EE (Wasm 版) のサンプルを用意する
   - さくらさんから提供いただいているサーバとは別に転送速度制限がない環境を用意するかもしれない
 
     - 現在 Sora Labo リファクタリング中なので、それが終わったらチャレンジしたい
@@ -249,11 +297,11 @@ Discord サーバには以下から参加可能です。
 
   - https://ayame-labo.shiguredo.jp/
   - Ayame 正式版
-  - Ayame Lite の利用規約追加版
   - アカウントを登録してなくても使えるのは維持する
   
     - STUN/TURN が利用できない
     - ルームに認証をかけられない
+  - すでに Ayame Labo へ移動していただいている
   - @voluntas
 
 質問については答えられる範囲で答えます。
@@ -660,9 +708,3 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
-
-
-
-
-
-

@@ -191,15 +191,16 @@ Discord サーバには以下から参加可能です。
   - スポットライト対応
   - 音声のみの配信を検討
   - @voluntas
-- WebRTC Native Client Momo
-  - 今後
+- Sora Labo
 
-    - Apple Silicon hWA 対応
-  - 基本的にはメンテナンスモードで libwebrtc のアップデートが中心
-
-    - これだけでも結構重い
+  - さくらインターネット様のさくらクラウドから Vutlr の Dedicated Server に置き換えた
+  - 申請前の最大接続時間を 100 分に制限した
+  - 申請前の最大連続接続時間を 10 分に制限した
+  - 申請後の最大連続接続時間を 60 分に制限した
+  - ビットレート制限を 15Mbps まで上げた
   - @voluntas
 - WebRTC Load Testing Tool Zakuro
+
   - 今後の予定
   
     - CentOS 8 非対応
@@ -207,7 +208,8 @@ Discord サーバには以下から参加可能です。
     - YAML によるシナリオ設定対応
     - Apple Silicon 対応検討
   - @voluntas
-- Recording Composition Tool Hisui
+- Recording Composition Tool Hisui / cpp-mp4
+
   - 現状
 
     - MP4 出力対応
@@ -217,17 +219,18 @@ Discord サーバには以下から参加可能です。
     - 接続 ID 埋め込み機能
     - メタデータ埋め込み機能
   - @voluntas
+- WebRTC Native Client Momo
+
+  - 今後
+
+    - Apple Silicon hWA 対応
+  - 基本的にはメンテナンスモードで libwebrtc のアップデートが中心
+
+    - これだけでも結構重い
+  - @voluntas
 - WebRTC Signaling Server Ayame
 
   - メンテナンスモードで更新はない
-  - @voluntas
-- Sora Labo
-
-  - さくらインターネット様のさくらクラウドから Vutlr の Dedicated Server に置き換えた
-  - 申請前の最大接続時間を 100 分に制限した
-  - 申請前の最大連続接続時間を 10 分に制限した
-  - 申請後の最大連続接続時間を 60 分に制限した
-  - ビットレート制限を 15Mbps まで上げた
   - @voluntas
 - Ayame Labo
 

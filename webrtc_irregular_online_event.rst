@@ -114,7 +114,7 @@ Discord サーバには以下から参加可能です。
   - `Signal >> Blog >> Adding Encrypted Group Calls to Signal <https://signal.org/blog/group-calls/>`_
   - `Solutions - Zero-Trust Security for Webex White Paper - Cisco <https://www.cisco.com/c/en/us/solutions/collateral/collaboration/white-paper-c11-744553.html>`_
   - `10Gbps Unmetered Dedicated Servers | DataPacket.com <https://www.datapacket.com/>`_
-- Zenn Scrop
+- Zenn scrap
 
   - `Clubhouse リアルタイム配信の仕組みについて <https://zenn.dev/voluntas/scraps/9403b803320d6f>`_
   - `WebRTC を今から学ぶ人に向けて <https://zenn.dev/voluntas/scraps/82b9e111f43ab3>`_

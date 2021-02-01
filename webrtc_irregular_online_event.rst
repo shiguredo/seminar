@@ -123,6 +123,7 @@ Discord サーバには以下から参加可能です。
   - `Solutions - Zero-Trust Security for Webex White Paper - Cisco <https://www.cisco.com/c/en/us/solutions/collateral/collaboration/white-paper-c11-744553.html>`_
   - `10Gbps Unmetered Dedicated Servers | DataPacket.com <https://www.datapacket.com/>`_
   - `xflagstudio/requiem: QuicTransport (WebTransport over QUIC) framework for Elixir <https://github.com/xflagstudio/requiem>`_
+  - @voluntas
 - Zenn
 
   - `iOS 14.3 で Chrome などで getUserMedia が利用できるようになった <https://zenn.dev/voluntas/articles/ios143-wkwebview-getusermedia>`_

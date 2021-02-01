@@ -92,7 +92,7 @@ Discord サーバには以下から参加可能です。
 2020 年 2 月 16 日 (火) 20:00~ の予定
 ----------------------------------------------------
 
-**今回は WebRTC 雑談中心のイベントです**
+**雑談中心のイベントです**
 
 - WebRTC
 
@@ -104,23 +104,16 @@ Discord サーバには以下から参加可能です。
     - `AV1 Encoder - Chrome Platform Status <https://www.chromestatus.com/feature/6206321818861568>`_
     - `The AV1 video codec comes to Webex! <https://blog.webex.com/engineering/the-av1-video-codec-comes-to-webex/>`_
   - `Project Zero: The State of State Machines <https://googleprojectzero.blogspot.com/2021/01/the-state-of-state-machines.html>`_
-
   - `Details about CVE-2020-26262, bypass of Coturn's default access control protection | Communication Breakdown - real-time communications security <https://www.rtcsec.com/post/2021/01/details-about-cve-2020-26262-bypass-of-coturns-default-access-control-protection/>`_
-
   - `Release Notes for Safari Technology Preview 118 | WebKit <https://webkit.org/blog/11439/release-notes-for-safari-technology-preview-118/>`_
   - `Release Notes for Safari Technology Preview 117 | WebKit <https://webkit.org/blog/11364/release-notes-for-safari-technology-preview-117/>`_
-  - `Signal >> Blog >> Adding Encrypted Group Calls to Signal <https://signal.org/blog/group-calls/>`_
-
   - `PSA: WebRTC M88 Release Notes <https://groups.google.com/g/discuss-webrtc/c/A0FjOcTW2c0/m/UAv-veyPCAAJ>`_
-
-  -`PSA: usage of rtp payload types in the range 35-65 in webrtc.org/chrome <https://groups.google.com/g/discuss-webrtc/c/w1SY3bozdvs/m/jX5KhuF4AwAJ>`_
-
-  -`WebRTC Today & Tomorrow: Interview with W3C WebRTC Chair Bernard Aboba - webrtcHacks <https://webrtchacks.com/webrtc-today-tomorrow-bernard-aboba-qa/>`_
-
-  - `Update: Discord confirms raising $100M at a valuation of $7B | TechCrunch <https://techcrunch.com/2020/12/17/filing-discord-is-raising-up-to-140m-at-a-valuation-of-up-to-7b/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29>`_
-
+  - `PSA: usage of rtp payload types in the range 35-65 in webrtc.org/chrome <https://groups.google.com/g/discuss-webrtc/c/w1SY3bozdvs/m/jX5KhuF4AwAJ>`_
+  - `WebRTC Today & Tomorrow: Interview with W3C WebRTC Chair Bernard Aboba - webrtcHacks <https://webrtchacks.com/webrtc-today-tomorrow-bernard-aboba-qa/>`_
+  - `Update: Discord confirms raising $100M at a valuation of $7B | TechCrunch <https://techcrunch.com/2020/12/17/filing-discord-is-raising-up-to-140m-at-a-valuation-of-up-to-7b/>`_
+  - `Signal >> Blog >> Adding Encrypted Group Calls to Signal <https://signal.org/blog/group-calls/>`_
   - `Solutions - Zero-Trust Security for Webex White Paper - Cisco <https://www.cisco.com/c/en/us/solutions/collateral/collaboration/white-paper-c11-744553.html>`_
-
+  - `10Gbps Unmetered Dedicated Servers | DataPacket.com <https://www.datapacket.com/>`_
 - Zenn Scrop
 
   - `Clubhouse リアルタイム配信の仕組みについて <https://zenn.dev/voluntas/scraps/9403b803320d6f>`_
@@ -129,25 +122,57 @@ Discord サーバには以下から参加可能です。
   - `2021 年に出た WebRTC 関連 RFC 一覧 <https://zenn.dev/voluntas/scraps/0dee6d1e838ee8>`_
   - `"Real time communication at scale with Elixir at Discord" の解説と感想を雑に書いていく <https://zenn.dev/voluntas/scraps/2c534189771710>`_
   - `ブラウザにおける VP9 の現状 <https://zenn.dev/voluntas/scraps/8743ceef1a701a>`_
-
-  - `10Gbps Unmetered Dedicated Servers | DataPacket.com <https://www.datapacket.com/>`_
-
-    - `サーバ転送料金まとめ <https://zenn.dev/voluntas/scraps/2650bc3e6b4ea6>`_
+  - `サーバ転送料金まとめ <https://zenn.dev/voluntas/scraps/2650bc3e6b4ea6>`_
   - @voluntas
 - WebRTC SFU Sora
+  - 2020.3 リリース
+
+    - https://sora-doc.shiguredo.jp/release_note#v2020-3
+  - 2021.1 に向けて
+
+    - DataChannel によるシグナリング
+    - DataChannel によるシグナリング通知
+
   - @voluntas
+- Sora デモ
+- Sora JavaScript SDK
+
+  - Helper 機能の充実
+  - テストの充実
+  - リファクタリング
+- Sora iOS SDK
+- Sora Android SDK
+- Sora Unity SDK
 - WebRTC Native Client Momo
+  - 今後
+
+    - Apple Silicon hWA 対応
+  - 基本的にはメンテナンスモードで libwebrtc のアップデートが中心
+
+    - これだけでも結構重い
   - @voluntas
 - WebRTC Load Testing Tool Zakuro
+  - 今後の予定
+  
+    - マルチチャネル対応
+    - YAML によるシナリオ設定対応
   - @voluntas
 - Recording Composition Tool Hisui
+  - 現状
+
+    - MP4 出力対応
+  - 今後
+
+    - AV1 対応
   - @voluntas
 - WebRTC Signaling Server Ayame
+  - メンテナンスモードで更新はない
   - @voluntas
 - Sora Labo
-  - さくらインターネット様のさくらクラウドから Vutlr の Dedicated Server に置き換えました
+  - さくらインターネット様のさくらクラウドから Vutlr の Dedicated Server に置き換えた
   - @voluntas
 - Ayame Labo
+  - メンテナンスモードで更新はない
   - @voluntas
 
 質問については答えられる範囲で答えます。

@@ -141,7 +141,7 @@ Discord サーバには以下から参加可能です。
   - ドキュメント強化
 
     - 独自ドキュメントテーマ用意
-    - 検索機能強化
+    - 検索機能対応
   - SDK 強化
 
     - 開発体制増強
@@ -161,6 +161,7 @@ Discord サーバには以下から参加可能です。
     - DataChannel によるシグナリング通知
     - スポットライト改善
 
+      - ブロックノイズ対策
       - 遅延フォーカス機能
       - 一定時間発話がない場合アンフォーカス機能
       - シグナリング時にフォーカス/アンフォーカスの rid 指定機能
@@ -170,6 +171,8 @@ Discord サーバには以下から参加可能です。
       - ファンフォーカス時でも音声を配信する割合を指定する機能
       - フォーカルからアンフォーカスに切り替わった後でも音声を配信し続ける機能
     - インターコネクト検討
+    - リファクタリング
+    - E2E テスト強化
   - @voluntas
 - Sora E2EE
 
@@ -182,6 +185,7 @@ Discord サーバには以下から参加可能です。
     - サーバも Go 
     - 全て Apache Liecnse 2.0 にて公開予定
   - SFrame 署名調査
+  - SFrame セキュリティ検証
   - MLS 調査
 - Sora デモ
 
@@ -206,6 +210,7 @@ Discord サーバには以下から参加可能です。
 - Sora Android SDK
 
   - 開発メンバー追加
+  - API v2 追加
   - サイマルキャスト対応
   - スポットライト対応
   - libwebrtc M89 対応
@@ -232,6 +237,7 @@ Discord サーバには以下から参加可能です。
     - マルチチャネル対応
     - YAML によるシナリオ設定対応
     - Apple Silicon 対応検討
+    - exporter_zakuro 検討
   - @voluntas
 - Recording Composition Tool Hisui / cpp-mp4
 
@@ -243,6 +249,7 @@ Discord サーバには以下から参加可能です。
     - AV1 対応
     - 接続 ID 埋め込み機能
     - メタデータ埋め込み機能
+    - exporter_hisui 検討
   - @voluntas
 - WebRTC Native Client Momo
 

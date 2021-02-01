@@ -15,7 +15,7 @@
 参加者は一方向での雑談配信を視聴するという形です。そのためカメラやマイクは不要です。
 質問はすべて Discord にコメントを書いて頂く形を取ります。
 
-2020 年 11 月 10 日 (火) のイベントへの参加申込方法
+2021 年 2 月 16 日 (火) のイベントへの参加申込方法
 =====================================================
 
 まず ``Sora Labo / Sora SDK`` の Discord のサーバに参加している必要があります。
@@ -32,22 +32,22 @@ Discord サーバには以下から参加可能です。
 
 ::
 
-    2020 年 11 月 10 日 (火) 20:00~ のイベントに参加します
+    2021 年 2 月 16 日 (火) 20:00~ のイベントに参加します
 
 アイコンが設定済みであれば、 
 ロールが時雨堂のアカウントから参加宣言にリアクションが付き、
 その後イベント用のロールを付与されます。
 
-今回は ``2020-11-10`` というロールが付与されます。
+今回は ``2021-02-16`` というロールが付与されます。
 
 注意
 ----
 
 - 雑談なので話は発散します
 - 開始時間に 1 人でも集まればやります
-- 弊社が競合他社と判断した方の参加は禁止します
+- 競合他社の参加は禁止します
 - 撮影や配信などは全て禁止します
-- 今の所 SNS への共有などは禁止します
+- SNS への共有などは禁止します
 - このセミナーは開発者向けです
 - 申し込み締切は前日の 23:59 とします
 - 視聴用 URL は当日の 19:45 に共有します
@@ -89,21 +89,70 @@ Discord サーバには以下から参加可能です。
 開催
 ====
 
-2020 年 12 月 22 日 (火) 14:00~ の予定
+2020 年 2 月 16 日 (火) 20:00~ の予定
 ----------------------------------------------------
 
-**日程が決定次第共有します**
+**今回は WebRTC 雑談中心のイベントです**
 
-いつもと違い、今回は WebRTC SFU Sora に特化したイベントになります
+- WebRTC
 
-Sora を実際に開発しているメンバーと自由に意見交換ができるイベントです。
+  - `WebRTC 1.0: Real-Time Communication Between Browsers <https://www.w3.org/TR/webrtc/>`_
 
-2021 年 1 月 19 or 26 日 (火) 20:00~  の予定
-----------------------------------------------------
+    - `Web Real-Time Communications (WebRTC) transforms the communications landscape as it becomes a World Wide Web Consortium (W3C) Recommendation and Internet Engineering Task Force (IETF) standards <https://www.w3.org/2021/01/pressrelease-webrtc-rec.html>`_
+  - `Chrome 89 Preparing To Ship With AV1 Encoder For WebRTC Usage - Phoronix <https://www.phoronix.com/scan.php?page=news_item&px=Chrome-89-AV1-Encoding>`_
 
-**日程が決定次第共有します**
+    - `AV1 Encoder - Chrome Platform Status <https://www.chromestatus.com/feature/6206321818861568>`_
+    - `The AV1 video codec comes to Webex! <https://blog.webex.com/engineering/the-av1-video-codec-comes-to-webex/>`_
+  - `Project Zero: The State of State Machines <https://googleprojectzero.blogspot.com/2021/01/the-state-of-state-machines.html>`_
 
-いつもと違い、今回は DataChannel / QUIC / WebTransport に特化したイベントになります。
+  - `Details about CVE-2020-26262, bypass of Coturn's default access control protection | Communication Breakdown - real-time communications security <https://www.rtcsec.com/post/2021/01/details-about-cve-2020-26262-bypass-of-coturns-default-access-control-protection/>`_
+
+  - `Release Notes for Safari Technology Preview 118 | WebKit <https://webkit.org/blog/11439/release-notes-for-safari-technology-preview-118/>`_
+  - `Release Notes for Safari Technology Preview 117 | WebKit <https://webkit.org/blog/11364/release-notes-for-safari-technology-preview-117/>`_
+  - `Signal >> Blog >> Adding Encrypted Group Calls to Signal <https://signal.org/blog/group-calls/>`_
+
+  - `PSA: WebRTC M88 Release Notes <https://groups.google.com/g/discuss-webrtc/c/A0FjOcTW2c0/m/UAv-veyPCAAJ>`_
+
+  -`PSA: usage of rtp payload types in the range 35-65 in webrtc.org/chrome <https://groups.google.com/g/discuss-webrtc/c/w1SY3bozdvs/m/jX5KhuF4AwAJ>`_
+
+  -`WebRTC Today & Tomorrow: Interview with W3C WebRTC Chair Bernard Aboba - webrtcHacks <https://webrtchacks.com/webrtc-today-tomorrow-bernard-aboba-qa/>`_
+
+  - `Update: Discord confirms raising $100M at a valuation of $7B | TechCrunch <https://techcrunch.com/2020/12/17/filing-discord-is-raising-up-to-140m-at-a-valuation-of-up-to-7b/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29>`_
+
+  - `Solutions - Zero-Trust Security for Webex White Paper - Cisco <https://www.cisco.com/c/en/us/solutions/collateral/collaboration/white-paper-c11-744553.html>`_
+
+- Zenn Scrop
+
+  - `Clubhouse リアルタイム配信の仕組みについて <https://zenn.dev/voluntas/scraps/9403b803320d6f>`_
+  - `WebRTC を今から学ぶ人に向けて <https://zenn.dev/voluntas/scraps/82b9e111f43ab3>`_
+  - `Chrome Canary で WebRTC の AV1 が利用できるようになった <https://zenn.dev/voluntas/scraps/a19680d1d349b4>`_
+  - `2021 年に出た WebRTC 関連 RFC 一覧 <https://zenn.dev/voluntas/scraps/0dee6d1e838ee8>`_
+  - `"Real time communication at scale with Elixir at Discord" の解説と感想を雑に書いていく <https://zenn.dev/voluntas/scraps/2c534189771710>`_
+  - `ブラウザにおける VP9 の現状 <https://zenn.dev/voluntas/scraps/8743ceef1a701a>`_
+
+  - `10Gbps Unmetered Dedicated Servers | DataPacket.com <https://www.datapacket.com/>`_
+
+    - `サーバ転送料金まとめ <https://zenn.dev/voluntas/scraps/2650bc3e6b4ea6>`_
+  - @voluntas
+- WebRTC SFU Sora
+  - @voluntas
+- WebRTC Native Client Momo
+  - @voluntas
+- WebRTC Load Testing Tool Zakuro
+  - @voluntas
+- Recording Composition Tool Hisui
+  - @voluntas
+- WebRTC Signaling Server Ayame
+  - @voluntas
+- Sora Labo
+  - さくらインターネット様のさくらクラウドから Vutlr の Dedicated Server に置き換えました
+  - @voluntas
+- Ayame Labo
+  - @voluntas
+
+質問については答えられる範囲で答えます。
+
+
 
 過去
 ================
@@ -724,11 +773,3 @@ Sora を実際に開発しているメンバーと自由に意見交換ができ
   - @voluntas
 
 質問については答えられる範囲で答えます。
-
-
-
-
-
-
-
-

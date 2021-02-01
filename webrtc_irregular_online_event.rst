@@ -15,6 +15,11 @@
 参加者は一方向での雑談配信を視聴するという形です。そのためカメラやマイクは不要です。
 質問はすべて Discord にコメントを書いて頂く形を取ります。
 
+Discord サーバーブースト
+========================
+
+Discord で Sora Lab / Sora SDK の Discord サーバへサーバブーストをしてくれているユーザは申請なしで全てのイベントに参加可能です。
+
 2021 年 2 月 16 日 (火) のイベントへの参加申込方法
 =====================================================
 
@@ -98,6 +103,7 @@ Discord サーバには以下から参加可能です。
 
   - `WebRTC 1.0: Real-Time Communication Between Browsers <https://www.w3.org/TR/webrtc/>`_
 
+    - `WebRTC is now a W3C and IETF standard <https://web.dev/webrtc-standard-announcement/>`_
     - `Web Real-Time Communications (WebRTC) transforms the communications landscape as it becomes a World Wide Web Consortium (W3C) Recommendation and Internet Engineering Task Force (IETF) standards <https://www.w3.org/2021/01/pressrelease-webrtc-rec.html>`_
   - `Chrome 89 Preparing To Ship With AV1 Encoder For WebRTC Usage - Phoronix <https://www.phoronix.com/scan.php?page=news_item&px=Chrome-89-AV1-Encoding>`_
 
@@ -106,6 +112,8 @@ Discord サーバには以下から参加可能です。
   - `Project Zero: The State of State Machines <https://googleprojectzero.blogspot.com/2021/01/the-state-of-state-machines.html>`_
   - `Details about CVE-2020-26262, bypass of Coturn's default access control protection | Communication Breakdown - real-time communications security <https://www.rtcsec.com/post/2021/01/details-about-cve-2020-26262-bypass-of-coturns-default-access-control-protection/>`_
   - `Release Notes for Safari Technology Preview 118 | WebKit <https://webkit.org/blog/11439/release-notes-for-safari-technology-preview-118/>`_
+
+    - Fixed ICE not resolving for turns relay candidates rooted in LetsEncrypt CA (r270626)
   - `Release Notes for Safari Technology Preview 117 | WebKit <https://webkit.org/blog/11364/release-notes-for-safari-technology-preview-117/>`_
   - `PSA: WebRTC M88 Release Notes <https://groups.google.com/g/discuss-webrtc/c/A0FjOcTW2c0/m/UAv-veyPCAAJ>`_
   - `PSA: usage of rtp payload types in the range 35-65 in webrtc.org/chrome <https://groups.google.com/g/discuss-webrtc/c/w1SY3bozdvs/m/jX5KhuF4AwAJ>`_
@@ -114,8 +122,11 @@ Discord サーバには以下から参加可能です。
   - `Signal >> Blog >> Adding Encrypted Group Calls to Signal <https://signal.org/blog/group-calls/>`_
   - `Solutions - Zero-Trust Security for Webex White Paper - Cisco <https://www.cisco.com/c/en/us/solutions/collateral/collaboration/white-paper-c11-744553.html>`_
   - `10Gbps Unmetered Dedicated Servers | DataPacket.com <https://www.datapacket.com/>`_
-- Zenn scrap
+  - `xflagstudio/requiem: QuicTransport (WebTransport over QUIC) framework for Elixir <https://github.com/xflagstudio/requiem>`_
+- Zenn
 
+  - `iOS 14.3 で Chrome などで getUserMedia が利用できるようになった <https://zenn.dev/voluntas/articles/ios143-wkwebview-getusermedia>`_
+  - `WebRTC Insertable Media using Streams <https://zenn.dev/voluntas/articles/webrtc-insertable-streams>`_
   - `Clubhouse リアルタイム配信の仕組みについて <https://zenn.dev/voluntas/scraps/9403b803320d6f>`_
   - `WebRTC を今から学ぶ人に向けて <https://zenn.dev/voluntas/scraps/82b9e111f43ab3>`_
   - `Chrome Canary で WebRTC の AV1 が利用できるようになった <https://zenn.dev/voluntas/scraps/a19680d1d349b4>`_
@@ -131,18 +142,55 @@ Discord サーバには以下から参加可能です。
     - https://sora-doc.shiguredo.jp/release_note#v2020-3
   - 2021.1 に向けて
 
+    - AV1 正式対応
+
+      - `RTP Payload Format For AV1 <https://aomediacodec.github.io/av1-rtp-spec/>`_
     - DataChannel によるシグナリング
     - DataChannel によるシグナリング通知
   - @voluntas
+- Sora E2EE
+
+  - ACME-SSO 調査＆プロトタイプ開発中
+
+    - `E2E Encryption + Identity <https://zenn.dev/voluntas/articles/e2e-encryption-identity>`_
+    - `Automated Certificate Management Environment (ACME) Extension for Single Sign On Challenges <https://zenn.dev/voluntas/scraps/abd108a9626b92>`_
+    - ブラウザからの利用を想定
+    - クライアントは Go で WebAssembly 
+    - サーバも Go 
+    - 全て Apache Liecnse 2.0 にて公開予定
 - Sora デモ
+
+  - マイク/カメラオフを Sora JavaScript SDK のヘルパー機能を利用
+  - 映像枠の追加
+  - recoil の利用検討
+
+    - `Recoil <https://recoiljs.org/>`_
+  - リファクタリング
 - Sora JavaScript SDK
 
   - Helper 機能の充実
   - テストの充実
   - リファクタリング
 - Sora iOS SDK
+
+  - 開発メンバー追加
+  - サイマルキャスト対応
+  - スポットライト対応
+  - libwebrtc M89 対応
+  - @voluntas
 - Sora Android SDK
+
+  - 開発メンバー追加
+  - サイマルキャスト対応
+  - スポットライト対応
+  - libwebrtc M89 対応
+  - @voluntas
 - Sora Unity SDK
+
+  - サイマルキャスト対応
+  - スポットライト対応
+  - 音声のみの配信を検討
+  - @voluntas
 - WebRTC Native Client Momo
   - 今後
 
@@ -154,8 +202,10 @@ Discord サーバには以下から参加可能です。
 - WebRTC Load Testing Tool Zakuro
   - 今後の予定
   
+    - CentOS 8 非対応
     - マルチチャネル対応
     - YAML によるシナリオ設定対応
+    - Apple Silicon 対応検討
   - @voluntas
 - Recording Composition Tool Hisui
   - 現状
@@ -164,6 +214,8 @@ Discord サーバには以下から参加可能です。
   - 今後
 
     - AV1 対応
+    - 接続 ID 埋め込み機能
+    - メタデータ埋め込み機能
   - @voluntas
 - WebRTC Signaling Server Ayame
 
@@ -172,6 +224,10 @@ Discord サーバには以下から参加可能です。
 - Sora Labo
 
   - さくらインターネット様のさくらクラウドから Vutlr の Dedicated Server に置き換えた
+  - 申請前の最大接続時間を 100 分に制限した
+  - 申請前の最大連続接続時間を 10 分に制限した
+  - 申請後の最大連続接続時間を 60 分に制限した
+  - ビットレート制限を 15Mbps まで上げた
   - @voluntas
 - Ayame Labo
 
@@ -179,7 +235,6 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
-
 
 過去
 ================

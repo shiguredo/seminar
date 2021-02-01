@@ -97,7 +97,7 @@ Discord サーバには以下から参加可能です。
 2020 年 2 月 16 日 (火) 20:00~ の予定
 ----------------------------------------------------
 
-**@voluntas がいろいろ WebRTC や時雨堂製品の雑談をするイベントです**
+**雑談中心のイベントです**
 
 - WebRTC
 
@@ -135,6 +135,16 @@ Discord サーバには以下から参加可能です。
   - `ブラウザにおける VP9 の現状 <https://zenn.dev/voluntas/scraps/8743ceef1a701a>`_
   - `サーバ転送料金まとめ <https://zenn.dev/voluntas/scraps/2650bc3e6b4ea6>`_
   - @voluntas
+
+- 時雨堂製品全体的方針
+
+  - ドキュメント強化
+
+    - 独自ドキュメントテーマ用意
+    - 検索機能強化
+  - SDK 強化
+
+    - 開発体制増強
 - WebRTC SFU Sora
 
   - 2020.3 リリース
@@ -142,11 +152,24 @@ Discord サーバには以下から参加可能です。
     - https://sora-doc.shiguredo.jp/release_note#v2020-3
   - 2021.1 に向けて
 
-    - AV1 正式対応
+    - AV1 対応
 
       - `RTP Payload Format For AV1 <https://aomediacodec.github.io/av1-rtp-spec/>`_
+    - VP9 Simulcast 対応
+    - AV1 Simulcast 対応
     - DataChannel によるシグナリング
     - DataChannel によるシグナリング通知
+    - スポットライト改善
+
+      - 遅延フォーカス機能
+      - 一定時間発話がない場合アンフォーカス機能
+      - シグナリング時にフォーカス/アンフォーカスの rid 指定機能
+
+        - アンフォーカス時でも r2 を受信するなどが可能になる
+        - フォーカス時も映像を受信しないなどが可能になる
+      - ファンフォーカス時でも音声を配信する割合を指定する機能
+      - フォーカルからアンフォーカスに切り替わった後でも音声を配信し続ける機能
+    - インターコネクト検討
   - @voluntas
 - Sora E2EE
 
@@ -158,6 +181,8 @@ Discord サーバには以下から参加可能です。
     - クライアントは Go で WebAssembly 
     - サーバも Go 
     - 全て Apache Liecnse 2.0 にて公開予定
+  - SFrame 署名調査
+  - MLS 調査
 - Sora デモ
 
   - マイク/カメラオフを Sora JavaScript SDK のヘルパー機能を利用

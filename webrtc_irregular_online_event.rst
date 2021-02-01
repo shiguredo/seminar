@@ -125,6 +125,7 @@ Discord サーバには以下から参加可能です。
   - `サーバ転送料金まとめ <https://zenn.dev/voluntas/scraps/2650bc3e6b4ea6>`_
   - @voluntas
 - WebRTC SFU Sora
+
   - 2020.3 リリース
 
     - https://sora-doc.shiguredo.jp/release_note#v2020-3
@@ -132,7 +133,6 @@ Discord サーバには以下から参加可能です。
 
     - DataChannel によるシグナリング
     - DataChannel によるシグナリング通知
-
   - @voluntas
 - Sora デモ
 - Sora JavaScript SDK
@@ -166,17 +166,19 @@ Discord サーバには以下から参加可能です。
     - AV1 対応
   - @voluntas
 - WebRTC Signaling Server Ayame
+
   - メンテナンスモードで更新はない
   - @voluntas
 - Sora Labo
+
   - さくらインターネット様のさくらクラウドから Vutlr の Dedicated Server に置き換えた
   - @voluntas
 - Ayame Labo
+
   - メンテナンスモードで更新はない
   - @voluntas
 
 質問については答えられる範囲で答えます。
-
 
 
 過去

@@ -252,10 +252,17 @@ Discord サーバには以下から参加可能です。
     - MP4 出力対応
   - 今後
 
-    - AV1 対応
-    - 接続 ID 埋め込み機能
-    - メタデータ埋め込み機能
-    - exporter_hisui 検討
+    - 音声のみ合成出力対応
+    - AV1 入力対応
+    - AV1 出力対応
+    - 接続情報埋め込み機能
+    - アイコン埋め込み機能
+    - タイトル埋め込み機能
+    - 時間埋め込み機能
+    - JSON によるレイアウト指定対応
+    - 複数チャネル対応
+    - エンコード時間の改善
+    - Prometheus exporter_hisui 検討
   - @voluntas
 - WebRTC Native Client Momo
 

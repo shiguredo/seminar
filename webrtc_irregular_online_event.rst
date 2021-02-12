@@ -125,6 +125,7 @@ Discord サーバには以下から参加可能です。
   - `Solutions - Zero-Trust Security for Webex White Paper - Cisco <https://www.cisco.com/c/en/us/solutions/collateral/collaboration/white-paper-c11-744553.html>`_
   - `10Gbps Unmetered Dedicated Servers | DataPacket.com <https://www.datapacket.com/>`_
   - `xflagstudio/requiem: QuicTransport (WebTransport over QUIC) framework for Elixir <https://github.com/xflagstudio/requiem>`_
+  - `PSA: Timeline for Plan B SDP Deprecation and Removal - Please Migrate to Unified Plan <https://groups.google.com/g/discuss-webrtc/c/UBtZfawdIAA/m/-UVQQcubBQAJ>`_
   - @voluntas
 - Zenn
 
@@ -187,6 +188,7 @@ Discord サーバには以下から参加可能です。
     - クライアントは Go で WebAssembly 
     - サーバも Go 
     - 全て Apache Liecnse 2.0 にて公開予定
+  - WebRTC の DTLS 利用する証明書を ACME-SSO で発行する仕組みを検討中
   - SFrame 署名調査
   - SFrame セキュリティ検証
   - MLS 調査
@@ -196,6 +198,7 @@ Discord サーバには以下から参加可能です。
   - 映像枠の追加
   - recoil の利用検討
 
+    - 今のところ保留になった
     - `Recoil <https://recoiljs.org/>`_
   - リファクタリング
 - Sora JavaScript SDK
@@ -240,7 +243,7 @@ Discord サーバには以下から参加可能です。
     - マルチチャネル対応
     - YAML によるシナリオ設定対応
     - Apple Silicon 対応検討
-    - exporter_zakuro 検討
+    - Prometheus exporter_zakuro 検討
   - @voluntas
 - Recording Composition Tool Hisui / cpp-mp4
 

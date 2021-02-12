@@ -118,6 +118,7 @@ Discord サーバには以下から参加可能です。
     - Fixed ICE not resolving for turns relay candidates rooted in LetsEncrypt CA (r270626)
   - `Release Notes for Safari Technology Preview 117 | WebKit <https://webkit.org/blog/11364/release-notes-for-safari-technology-preview-117/>`_
   - `PSA: WebRTC M88 Release Notes <https://groups.google.com/g/discuss-webrtc/c/A0FjOcTW2c0/m/UAv-veyPCAAJ>`_
+  - `PSA: WebRTC M89 Release Notes <https://groups.google.com/g/discuss-webrtc/c/Zrsn2hi8FV0/m/KIbn0EZPBQAJ>`_
   - `PSA: usage of rtp payload types in the range 35-65 in webrtc.org/chrome <https://groups.google.com/g/discuss-webrtc/c/w1SY3bozdvs/m/jX5KhuF4AwAJ>`_
   - `WebRTC Today & Tomorrow: Interview with W3C WebRTC Chair Bernard Aboba - webrtcHacks <https://webrtchacks.com/webrtc-today-tomorrow-bernard-aboba-qa/>`_
   - `Update: Discord confirms raising $100M at a valuation of $7B | TechCrunch <https://techcrunch.com/2020/12/17/filing-discord-is-raising-up-to-140m-at-a-valuation-of-up-to-7b/>`_

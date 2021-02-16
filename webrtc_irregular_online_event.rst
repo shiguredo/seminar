@@ -113,6 +113,9 @@ Discord サーバには以下から参加可能です。
     - `The AV1 video codec comes to Webex! <https://blog.webex.com/engineering/the-av1-video-codec-comes-to-webex/>`_
   - `Project Zero: The State of State Machines <https://googleprojectzero.blogspot.com/2021/01/the-state-of-state-machines.html>`_
   - `Details about CVE-2020-26262, bypass of Coturn's default access control protection | Communication Breakdown - real-time communications security <https://www.rtcsec.com/post/2021/01/details-about-cve-2020-26262-bypass-of-coturns-default-access-control-protection/>`_
+  - `Release Notes for Safari Technology Preview 120 | WebKit <https://webkit.org/blog/11548/release-notes-for-safari-technology-preview-120/>`_
+  
+    - Enabled WebRTC VP9 profile 0 by default
   - `Release Notes for Safari Technology Preview 118 | WebKit <https://webkit.org/blog/11439/release-notes-for-safari-technology-preview-118/>`_
 
     - Fixed ICE not resolving for turns relay candidates rooted in LetsEncrypt CA (r270626)
@@ -132,7 +135,8 @@ Discord サーバには以下から参加可能です。
 
   - `iOS 14.3 で Chrome などで getUserMedia が利用できるようになった <https://zenn.dev/voluntas/articles/ios143-wkwebview-getusermedia>`_
   - `WebRTC Insertable Media using Streams <https://zenn.dev/voluntas/articles/webrtc-insertable-streams>`_
-  - `Clubhouse リアルタイム配信の仕組みについて <https://zenn.dev/voluntas/scraps/9403b803320d6f>`_
+  - `Clubhouse リアルタイム配信の仕組みについて (妄想編) <https://zenn.dev/voluntas/scraps/9403b803320d6f>`_
+  - `Clubhouse リアルタイム配信の仕組みについて (解説編) <https://zenn.dev/voluntas/scraps/8f35e80a5b5427>`_
   - `WebRTC を今から学ぶ人に向けて <https://zenn.dev/voluntas/scraps/82b9e111f43ab3>`_
   - `Chrome Canary で WebRTC の AV1 が利用できるようになった <https://zenn.dev/voluntas/scraps/a19680d1d349b4>`_
   - `2021 年に出た WebRTC 関連 RFC 一覧 <https://zenn.dev/voluntas/scraps/0dee6d1e838ee8>`_

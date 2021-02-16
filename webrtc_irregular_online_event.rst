@@ -149,10 +149,17 @@ Discord サーバには以下から参加可能です。
 
   - SDK 強化
   - コミュニティ強化
+  
+    - 5 月からコミュニティマネージャ増強
   - ドキュメント強化
 
     - 独自ドキュメントテーマ用意
+    
+      - https://github.com/shiguredo/sphinx_shiguredo_theme
     - 検索機能対応
+      
+      - Sphinx が検索は頑張らないということなので
+      - https://www.algolia.com/ 利用予定
 - WebRTC SFU Sora
 
   - 2020.3 リリース
@@ -196,6 +203,8 @@ Discord サーバには以下から参加可能です。
   - SFrame 署名調査
   - SFrame セキュリティ検証
   - MLS 調査
+  
+    - Cisco / Google / Wire / Cloudflare が協力的
 - Sora デモ
 
   - マイク/カメラオフを Sora JavaScript SDK のヘルパー機能を利用

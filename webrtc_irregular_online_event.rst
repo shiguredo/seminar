@@ -2,7 +2,7 @@
 時雨堂 WebRTC 不定期オンライン雑談配信 (SHIGURADIO)
 #######################################################
 
-:日時: 平日の 19:30~20:00 あたりから 1-2 時間
+:日時: どこかの火曜日 19:30~20:00 あたりから
 :場所: Discord https://discord.gg/TJg5DR4
 
 .. image:: https://i.gyazo.com/0a6b81c59054c9a2d1918df5b6da110d.jpg
@@ -112,13 +112,18 @@ Discord サーバには以下から参加可能です。
 - Sora iOS SDK
 - Sora Android SDK
 - Sora Unity SDK
-- Sora Labo
+
+  - サイマルキャスト対応
+  - スポットライト対応
+  - AV1 対応
+  - libwebrtc M90 アップデート
 - WebRTC Load Testing Tool Zakuro
 - Recording Composition Tool Hisui
 - Quality Management Tool Kohaku
 - WebRTC Native Client Momo
 
   - libwebrtc M90 アップデート
+- Sora Labo
 
 過去
 ================

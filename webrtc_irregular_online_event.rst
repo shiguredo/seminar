@@ -105,7 +105,17 @@ Discord サーバには以下から参加可能です。
 今回は 19:30 スタート 21:00 終了の 1.5 時間バージョンです。
 
 - WebRTC
+    - [PSA: TURN server ports \- intent to limit](https://groups.google.com/g/discuss-webrtc/c/dPklFzpRd9Q/m/d67VDiK0AgAJ?pli=1)
+    - [バーチャルイベントプラットフォームのユニコーンHopinがさらに2社を買収しビデオ事業に3倍賭け \| TechCrunch Japan](https://jp.techcrunch.com/2021/03/25/2021-03-23-hopin-buys-two-more-companies-as-it-triples-down-on-video-focus/)
+    - [Chromium Blog: Chrome 90 Beta: AV1 Encoder for WebRTC, New Origin Trials, and More](https://blog.chromium.org/2021/03/chrome-90-beta-av1-encoder-for-webrtc.html)
+    - [8133 \- OPUS stereo audio over RTP is muxed to mono \- webrtc](https://bugs.chromium.org/p/webrtc/issues/detail?id=8133#c61)
+    - Twitterのスペースについて
+        - https://help.twitter.com/ja/using-twitter/spaces
+        - [Twitter is using Janus WebRTC for Twitter Spaces \#TwitterSpaces \#ReverseEngineering : twitterspaces](https://www.reddit.com/r/twitterspaces/comments/lz5ls1/twitter_is_using_janus_webrtc_for_twitter_spaces/)
 - WebRTC SFU Sora
+    - リップシンク改善
+    - Erlang VM JIT 対応
+        - Ubuntu 限定で RHEL は非対応 ...
 - Sora E2EE
 - Sora デモ
 - Sora JavaScript SDK
@@ -945,4 +955,5 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 

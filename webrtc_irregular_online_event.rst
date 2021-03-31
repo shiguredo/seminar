@@ -117,7 +117,8 @@ Discord サーバには以下から参加可能です。
 - WebRTC SFU Sora
 
   - Erlang VM JIT 対応
-      - Ubuntu 限定で RHEL は非対応 ...
+
+    - Ubuntu 限定で RHEL は非対応 ...
   - リップシンク改善
   - DataChannel 対応
   - AV1 対応

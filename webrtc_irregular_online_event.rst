@@ -137,19 +137,22 @@ Discord サーバには以下から参加可能です。
 - Sora iOS SDK
 
   - 2021.1 に向けて開発進めてます
-  - サイマルキャスト対応
-  - スポットライト対応
+  - サイマルキャスト対応予定
+  - スポットライト対応予定
+  - libwebrtc M90 アップデート予定
 - Sora Android SDK
 
   - 2021.1 出ました
   - サイマルキャスト対応
   - スポットライト対応
+  - libwebrtc M90 アップデート予定
 - Sora Unity SDK
 
+  - 2021.1 出ました
   - サイマルキャスト対応
   - スポットライト対応
-  - AV1 対応
-  - libwebrtc M90 アップデート
+  - AV1 対応予定
+  - libwebrtc M90 アップデート予定
 - WebRTC Load Testing Tool Zakuro
 
   - 2021.1 出ました

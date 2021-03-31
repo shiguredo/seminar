@@ -113,14 +113,32 @@ Discord サーバには以下から参加可能です。
         - https://help.twitter.com/ja/using-twitter/spaces
         - [Twitter is using Janus WebRTC for Twitter Spaces \#TwitterSpaces \#ReverseEngineering : twitterspaces](https://www.reddit.com/r/twitterspaces/comments/lz5ls1/twitter_is_using_janus_webrtc_for_twitter_spaces/)
 - WebRTC SFU Sora
-    - リップシンク改善
-    - Erlang VM JIT 対応
-        - Ubuntu 限定で RHEL は非対応 ...
+
+  - Erlang VM JIT 対応
+      - Ubuntu 限定で RHEL は非対応 ...
+  - リップシンク改善
+  - DataChannel 対応
+  - AV1 対応
+  - スポットライト対応
 - Sora E2EE
+
+  - 現状共有
 - Sora デモ
+
+  - DataChannel 対応
 - Sora JavaScript SDK
+
+  - DataChannel 対応
 - Sora iOS SDK
+
+  - 2021.1 に向けて開発進めてます
+  - サイマルキャスト対応
+  - スポットライト対応
 - Sora Android SDK
+
+  - 2021.1 出ました
+  - サイマルキャスト対応
+  - スポットライト対応
 - Sora Unity SDK
 
   - サイマルキャスト対応
@@ -128,12 +146,37 @@ Discord サーバには以下から参加可能です。
   - AV1 対応
   - libwebrtc M90 アップデート
 - WebRTC Load Testing Tool Zakuro
+
+  - 2021.1 出ました
+  - スポットライト機能
+  - YAML 対応
+  - libwebrtc M89 対応
+  - AV1 対応予定
+  - libwebrtc M90 対応予定
 - Recording Composition Tool Hisui
+
+  - audio のみ合成対応
+  - 変換パラメータチューニング
+  - 合成レポート出力対応
+  - マルチチャネル合成対応
 - Quality Management Tool Kohaku
+
+  - Python にてプロトタイプ開発中
+  - プロダクション用の Go 版も並行して開発中
+  - TimescaleDB を採用
+  - Grafana を採用
+  - getStats データのフィルタリングなどに対応 
+  - W3C に準拠しつつ Firefox/Safari などにもうまくやっていく
+  - 最初は JavaScript SDK
+  - iOS / Android / Unity SDK にも対応予定
+  - Momo にも対応予定
 - WebRTC Native Client Momo
 
+  - バグフィックス版リリース
   - libwebrtc M90 アップデート
 - Sora Labo
+
+  - 利用の仕組みを変更予定
 
 過去
 ================
@@ -955,5 +998,6 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 

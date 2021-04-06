@@ -123,17 +123,22 @@ Discord サーバには以下から参加可能です。
   - DataChannel 対応
   - AV1 対応
   - スポットライト対応
+
+    - 遅延フォーカス機能対応中
 - Sora E2EE
 
   - 現状共有
   - 今後の予定
+  - SFrame 分析論文
+
+    - https://eprint.iacr.org/2021/424
   - LINE の E2EE について
 - Sora デモ
 
-  - DataChannel 対応
+  - DataChannel 対応中
 - Sora JavaScript SDK
 
-  - DataChannel 対応
+  - DataChannel 対応中
 - Sora iOS SDK
 
   - 2021.1 に向けて開発進めてます
@@ -159,6 +164,7 @@ Discord サーバには以下から参加可能です。
   - スポットライト機能
   - YAML 対応
   - libwebrtc M89 対応
+  - DataChannel 対応予定
   - AV1 対応予定
   - libwebrtc M90 対応予定
 - Recording Composition Tool Hisui
@@ -181,10 +187,12 @@ Discord サーバには以下から参加可能です。
 - WebRTC Native Client Momo
 
   - バグフィックス版リリース
-  - libwebrtc M90 アップデート
+  - Sora モードでの DataChannel 対応予定
+  - libwebrtc M90 アップデート予定
 - Sora Labo
 
   - 利用の仕組みを変更の紹介
+
 
 過去
 ================
@@ -1006,6 +1014,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 
 

@@ -22,7 +22,7 @@ Discord で Sora Lab / Sora SDK の Discord サーバへサーバブーストを
 
 `サーバーブースト 💨 – Discord <https://support.discord.com/hc/ja/articles/360028038352>`_
 
-2021 年 4 月 6 日 (火) のイベントへの参加申込方法
+2021 年 5 月 18 日 (火) のイベントへの参加申込方法
 =====================================================
 
 まず ``Sora Labo / Sora SDK`` の Discord のサーバに参加している必要があります。

@@ -104,23 +104,24 @@ Discord サーバには以下から参加可能です。
 
 今回は 19:30 スタート 21:00 終了の 1.5 時間バージョンです。
 
-ゲストに WebTransport や QUIC に明るい @flano-yuki と @neko-suki を招いて雑談するイベントです。
+ゲストに WebTransport や QUIC に詳しい @flano-yuki と @neko-suki を招いて雑談するイベントです。
 
-- WebRTC
+- WebSocket
 
-  - DataChannel
+  - CONNECT メソッド
+  - HTTP/2
 - WebTransport
 
   - HTTP/3
   - QUIC
   - HTTP/2
-- WebSocket
+- WebRTC
 
-  - HTTP/2
+  - DataChannel
 - QUIC
 
   - Unreliable Datagram Extension
-- @voluntas @flano-yuki @neko-suki
+- @flano-yuki @neko-suki @voluntas
 
 
 過去
@@ -1042,9 +1043,3 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
-
-
-
-
-
-

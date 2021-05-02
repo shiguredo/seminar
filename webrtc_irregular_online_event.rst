@@ -108,20 +108,59 @@ Discord サーバには以下から参加可能です。
 
 - WebSocket
 
-  - CONNECT メソッド
-  - HTTP/2
+  - `RFC 8441 - Bootstrapping WebSockets with HTTP/2 日本語訳 <https://tex2e.github.io/rfc-translater/html/rfc8441.html>`_
+  - `RFC 7838 - HTTP Alternative Services 日本語訳 <https://tex2e.github.io/rfc-translater/html/rfc7838.html>`_
+  - `RFC 7639 - The ALPN HTTP Header Field 日本語訳 <https://tex2e.github.io/rfc-translater/html/rfc7639.html>`_
+  - `RFC 8740 - Using TLS 1.3 with HTTP/2 日本語訳 <https://tex2e.github.io/rfc-translater/html/rfc8740.html>`_
 - WebTransport
 
-  - HTTP/3
-  - QUIC
-  - HTTP/2
-- WebRTC
+  - `The WebTransport Protocol Framework <https://tools.ietf.org/id/draft-ietf-webtrans-overview-01.html>`_
+  - `WebTransport <https://w3c.github.io/webtransport/>`_
+  - `WebTransport over HTTP/3 <https://www.ietf.org/archive/id/draft-ietf-webtrans-http3-00.html>`_
+  - `WebTransport using HTTP/2 <https://tools.ietf.org/id/draft-kinnear-webtransport-http2-02.html>`_
+- HTTP/3
 
-  - DataChannel
+  - `Hypertext Transfer Protocol Version 3 (HTTP/3) <https://quicwg.org/base-drafts/draft-ietf-quic-http.html>`_
+  - `QPACK: Header Compression for HTTP/3 <https://quicwg.org/base-drafts/draft-ietf-quic-qpack.html>`_
+  - `Using QUIC Datagrams with HTTP/3 <https://tools.ietf.org/id/draft-ietf-masque-h3-datagram-00.html>`_
+  - `Existing HTTP/2 Extensions in HTTP/3 <https://tools.ietf.org/id/draft-bishop-httpbis-altsvc-quic-01.html>`_
+    
+    - 期限切れ
 - QUIC
 
-  - Unreliable Datagram Extension
+  - `QUIC: A UDP-Based Multiplexed and Secure Transport <https://quicwg.org/base-drafts/draft-ietf-quic-transport.html>`_
+  - `Version-Independent Properties of QUIC <https://quicwg.org/base-drafts/draft-ietf-quic-invariants.html>`_
+  - `Using TLS to Secure QUIC <https://quicwg.org/base-drafts/draft-ietf-quic-tls.html>`_
+  - `QUIC Loss Detection and Congestion Control <https://quicwg.org/base-drafts/draft-ietf-quic-recovery.html>`_
+  - `An Unreliable Datagram Extension to QUIC <https://quicwg.org/datagram/draft-ietf-quic-datagram.html>`_
+  - `Main logging schema for qlog <https://quiclog.github.io/internet-drafts/draft-marx-qlog-main-schema.html>`_
+- WebRTC DataChannel
+
+  - `RFC 8831 - WebRTC Data Channels 日本語訳 <https://tex2e.github.io/rfc-translater/html/rfc8831.html>`_
+  - `RFC 8832 - WebRTC Data Channel Establishment Protocol 日本語訳 <https://tex2e.github.io/rfc-translater/html/rfc8832.html>`_
+  - `RFC 4960 - Stream Control Transmission Protocol 日本語訳 <https://tex2e.github.io/rfc-translater/html/rfc4960.html>`_
+  - `RFC 6083 - Datagram Transport Layer Security (DTLS) for Stream Control Transmission Protocol (SCTP) 日本語訳 <https://tex2e.github.io/rfc-translater/html/rfc6083.html>`_
+  - `RFC 6525 - Stream Control Transmission Protocol (SCTP) Stream Reconfiguration 日本語訳 <https://tex2e.github.io/rfc-translater/html/rfc6525.html>`_
+
+- 実装
+
+  - `mozilla/neqo <https://github.com/mozilla/neqo>`_
+  - `cloudflare/quiche: 🥧 Savoury implementation of the QUIC transport protocol and HTTP/3 <https://github.com/cloudflare/quiche>`_
+  - `ngtcp2/nghttp3: HTTP/3 library written in C <https://github.com/ngtcp2/nghttp3>`_
+  - `ngtcp2/ngtcp2: ngtcp2 project is an effort to implement IETF QUIC protocol <https://github.com/ngtcp2/ngtcp2>`_
+  - `h2o/h2o: H2O - the optimized HTTP/1, HTTP/2, HTTP/3 server <https://github.com/h2o/h2o>`_
+  - `lucas-clemente/quic-go: A QUIC implementation in pure go <https://github.com/lucas-clemente/quic-go>`_
+  - `aiortc/aioquic: QUIC and HTTP/3 implementation in Python <https://github.com/aiortc/aioquic>`_
+  - `microsoft/msquic: Cross-platform, C implementation of the IETF QUIC protocol. <https://github.com/microsoft/msquic>`_
+  - `quinn-rs/quinn: Futures-based QUIC implementation in Rust <https://github.com/quinn-rs/quinn>`_
+  - `litespeedtech/lsquic: LiteSpeed QUIC and HTTP/3 Library <https://github.com/litespeedtech/lsquic>`_
+  - `quiche - Git at Google <https://quiche.googlesource.com/quiche/>`_
+  - `xflagstudio/requiem: QuicTransport (WebTransport over QUIC) framework for Elixir <https://github.com/xflagstudio/requiem>`_
+- 参考資料
+
+  - `WebTransport over HTTP/3のプロトコル仕様 - ASnoKaze blog <https://asnokaze.hatenablog.com/entry/2021/04/18/235837>`_
 - @flano-yuki @neko-suki @voluntas
+
 
 
 過去

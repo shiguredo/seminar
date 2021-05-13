@@ -114,6 +114,7 @@ Discord サーバには以下から参加可能です。
   - `RFC 8740 - Using TLS 1.3 with HTTP/2 日本語訳 <https://tex2e.github.io/rfc-translater/html/rfc8740.html>`_
 - WebTransport
 
+  - `BlinkOn 14 WebTransport Slides  <https://docs.google.com/presentation/d/1sXofJ8oHRu0IstC6sy6C5uYUsK_4aa3a7vwjHkHfdaI/edit#slide=id.g9b625fefb3_0_4>`_
   - `The WebTransport Protocol Framework <https://tools.ietf.org/id/draft-ietf-webtrans-overview-01.html>`_
   - `WebTransport <https://w3c.github.io/webtransport/>`_
   - `WebTransport over HTTP/3 <https://www.ietf.org/archive/id/draft-ietf-webtrans-http3-00.html>`_

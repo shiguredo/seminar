@@ -2,7 +2,7 @@
 時雨堂 WebRTC 不定期オンライン雑談配信 (SHIGURADIO)
 #######################################################
 
-:日時: どこかの火曜日 19:30 から
+:日時: どこかの火曜日 19:00 ~ 20:00 あたりから
 :場所: Discord https://discord.gg/TJg5DR4
 
 .. image:: https://i.gyazo.com/0a6b81c59054c9a2d1918df5b6da110d.jpg
@@ -105,17 +105,82 @@ Discord サーバには以下から参加可能です。
 - WebRTC
 - WebRTC Native Client Momo
 - WebRTC SFU Sora
+
+  - Sora 2021.1 について
+
+    - DataChannel シグナリング
+    - スポットライト機能
+    - AV1 対応
+  - 2021 年 12 月リリースに向けて
+
+    - SDP 再利用対応
+    - AV1 録画対応
+    - サイマルキャスト復号負荷対策
+    - DataChannel メッセージング
+    - DataChannel 順不同対応
+    - DataChannel 部分信頼対応
+    - DataChannel 巨大メッセージサイズ対応
+  - 2022 年に向けて
+    - QUIC 対応検討
+    - インターコネクト検討
 - Sora Demo
 - Sora JavaScript SDK
+
+  - DataChannel シグナリング対応
+  - re-offer 対応
 - Sora iOS SDK
+
+  - サイマルキャスト対応
+  - スポットライト対応
+  - カメラ周り取り扱い対応
+  - 音声/カメラ on/off API
+  - TURN-TLS 証明書対応
+  - AV1 対応
+  - DataChannel シグナリング対応
+  - re-offer 対応
 - Sora Android SDK
+
+  - DataChannel シグナリング対応
+  - re-offer 対応
+  - TURN-TLS 証明書対応
+  - AV1 対応
 - Sora Unity SDK
+
+  - DataChannel シグナリング対応
+  - re-offer 対応
+  - スポットライト対応
+  - プッシュ通知対応
+  - Android / iOS AV1 対応
+- Sora C++ SDK
+
+  - Momo のノウハウを詰め込む
+  - HWA 対応でプラットフォーム事のバイナリを用意
+  - 名前は検討中 libsorasdk
+
+    - または libsora
+  - iOS / Android / Unity SDK は libsorasdk ベースに切り替える
 - Sora E2EE
+
+  - 1 ページ複数接続対応
+  - ACME-SSO 対応
+  - Safari 対応
+  - MLS 検討
+  - Rust 化検討
 - WebRTC Load Testing Tool Zakuro
+
+  - DataChannel シグナリング対応
+  - YAML 設定ファイル対応強化
+  - メトリクス機能強化
 - Recording Composition Tool Hisui
+
+  - AV1 対応
+  - 解像度指定対応
+  - 合成のフィルタ機能
 - Quality Management Tool Kohaku
-- Sora Labo
-- WebRTC Signaling Server Ayame
+- 新サービス検討中
+
+  - Canaria
+  - 負荷試験サービス
 
 
 過去

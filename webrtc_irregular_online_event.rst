@@ -109,18 +109,25 @@ Discord サーバには以下から参加可能です。
   - Sora 2021.1 について
 
     - DataChannel シグナリング
+
+      - WebSocket からの切り替わり
+      - パケロスに強くなった
     - スポットライト機能
+
+      - 遅延フォーカス
+      - 自動アンフォーカス
     - AV1 対応
   - 2021 年 12 月リリースに向けて
 
     - SDP 再利用対応
     - AV1 録画対応
-    - サイマルキャスト復号負荷対策
+    - サイマルキャスト復号負荷削減
     - DataChannel メッセージング
     - DataChannel 順不同対応
     - DataChannel 部分信頼対応
     - DataChannel 巨大メッセージサイズ対応
   - 2022 年に向けて
+
     - QUIC 対応検討
     - インターコネクト検討
 - Sora Demo
@@ -151,13 +158,12 @@ Discord サーバには以下から参加可能です。
   - スポットライト対応
   - プッシュ通知対応
   - Android / iOS AV1 対応
+  - DataChannel メッセージング対応
 - Sora C++ SDK
 
   - Momo のノウハウを詰め込む
   - HWA 対応でプラットフォーム事のバイナリを用意
   - 名前は検討中 libsorasdk
-
-    - または libsora
   - iOS / Android / Unity SDK は libsorasdk ベースに切り替える
 - Sora E2EE
 
@@ -177,9 +183,13 @@ Discord サーバには以下から参加可能です。
   - 解像度指定対応
   - 合成のフィルタ機能
 - Quality Management Tool Kohaku
+
+  - Sora の StatsWebhook
+  - Grafana
+  - TimescaleDB
 - 新サービス検討中
 
-  - Canaria
+  - Canaria (仮)
   - 負荷試験サービス
 
 
@@ -1171,4 +1181,5 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 

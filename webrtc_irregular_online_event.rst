@@ -103,7 +103,16 @@ Discord サーバには以下から参加可能です。
 今回は 19:30 スタート 21:00 終了の 90 分バージョンです。
 
 - WebRTC
-- WebRTC Native Client Momo
+
+  - `Intent to Ship: WebCodecs <https://groups.google.com/a/chromium.org/g/blink-dev/c/7UlTzFMbTFs/m/Rib4ca4-BQAJ>`_
+
+  - `Accelerate networking with HTTP/3 and QUIC - WWDC 2021 - Videos - Apple Developer <https://developer.apple.com/videos/play/wwdc2021/10094/>`_
+  - `FaceTime is coming to Android and Windows via the web - The Verge <https://www.theverge.com/2021/6/7/22522889/apple-facetime-android-windows-web-ios-15-wwdc>`_
+  - `FaceTime finally faces WebRTC - implementation deep dive - webrtcHacks <https://webrtchacks.com/facetime-finally-faces-webrtc-implementation-deep-dive/>`_
+  - `Audio redundancy in Janus via RED | Meetecho Blog <https://www.meetecho.com/blog/opus-red/>`_
+  - `Clubhouse hires longtime Google engineer Justin Uberti - The Verge <https://www.theverge.com/2021/5/26/22455357/clubhouse-google-engineer-webrtc-justin-uberti-stadia>`_
+  - `PSA: dcSCTP Library <https://groups.google.com/g/discuss-webrtc/c/hY3VkIw2-20/m/Gd2O0Q4aCQAJ>`_
+  - `Project Starline: Feel like you're there, together - YouTube <https://www.youtube.com/watch?v=Q13CishCKXY>`_
 - WebRTC SFU Sora
 
   - Sora 2021.1 について
@@ -191,6 +200,9 @@ Discord サーバには以下から参加可能です。
 
   - Canaria (仮)
   - 負荷試験サービス
+- WebRTC Native Client Momo
+
+  - DataChannel 対応
 
 
 過去

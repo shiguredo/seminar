@@ -128,18 +128,25 @@ Discord サーバには以下から参加可能です。
     - AV1 対応
   - 2021 年 12 月リリースに向けて
 
+    - CPU 負荷削減
     - SDP 再利用対応
     - AV1 録画対応
     - サイマルキャスト復号負荷削減
     - DataChannel メッセージング
     - DataChannel 順不同対応
     - DataChannel 部分信頼対応
-    - DataChannel 巨大メッセージサイズ対応
+    - 音声 RED
+    - 音声 RTX
   - 2022 年に向けて
 
+    - DataChannel 巨大メッセージサイズ対応
     - QUIC 対応検討
     - インターコネクト検討
 - Sora Demo
+
+  - DataChannel シグナリング対応
+  - re-offer 対応
+  - DataChannel メッセージング対応
 - Sora JavaScript SDK
 
   - DataChannel シグナリング対応
@@ -170,10 +177,12 @@ Discord サーバには以下から参加可能です。
   - DataChannel メッセージング対応
 - Sora C++ SDK
 
+  - 名前は検討中
+
+    - libsoraclient or libsorasdk
   - Momo のノウハウを詰め込む
   - HWA 対応でプラットフォーム事のバイナリを用意
-  - 名前は検討中 libsorasdk
-  - iOS / Android / Unity SDK は libsorasdk ベースに切り替える
+  - iOS / Android / Unity SDK は libsora ベースに切り替える
 - Sora E2EE
 
   - 1 ページ複数接続対応
@@ -183,9 +192,12 @@ Discord サーバには以下から参加可能です。
   - Rust 化検討
 - WebRTC Load Testing Tool Zakuro
 
+  - WebRTC フェイクネットワーク
   - DataChannel シグナリング対応
   - YAML 設定ファイル対応強化
   - メトリクス機能強化
+
+    - TimescaleDB 対応検討中
 - Recording Composition Tool Hisui
 
   - AV1 対応
@@ -196,13 +208,22 @@ Discord サーバには以下から参加可能です。
   - Sora の StatsWebhook
   - Grafana
   - TimescaleDB
-- 新サービス検討中
+- 新サービス Lemon 検討中
 
-  - Canaria (仮)
-  - 負荷試験サービス
+  - https://gist.github.com/voluntas/ef9b064e5832a784e0b5e654fee832a8
+  - Sora Labo の新しい版みたいなポジション
+
+    - 無料と有料プランがある
+  - Sora キャパシティプランニングサービス
+
+    - Zakuro Web GUI
+  - Sora つなぎ放題サービス
+
+  - Kohaku も組み込む
 - WebRTC Native Client Momo
 
   - DataChannel 対応
+  - Sora C++ SDK に伴い外部やりとり拡張は pending
 
 
 過去
@@ -1193,5 +1214,6 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 

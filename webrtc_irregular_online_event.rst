@@ -22,7 +22,7 @@ Discord で Sora Lab / Sora SDK の Discord サーバへサーバブーストを
 
 `サーバーブースト 💨 – Discord <https://support.discord.com/hc/ja/articles/360028038352>`_
 
-2021 年 7 月 6 日 (火) のイベントへの参加申込方法
+2021 年 9 月 14 日 (火) のイベントへの参加申込方法
 =====================================================
 
 まず ``Sora Labo / Sora SDK`` の Discord のサーバに参加している必要があります。
@@ -39,13 +39,13 @@ Discord サーバには以下から参加可能です。
 
 ::
 
-    2021 年 7 月 6 日 (火) 19:30~ のイベントに参加します
+    2021 年 9 月 14 日 (火) 19:30~ のイベントに参加します
 
 アイコンが設定済みであれば、 
 ロールが時雨堂のアカウントから参加宣言にリアクションが付き、
 その後イベント用のロールを付与されます。
 
-今回は ``2021-07-06`` というロールが付与されます。
+今回は ``2021-09-14`` というロールが付与されます。
 
 注意
 ----
@@ -84,7 +84,7 @@ Discord サーバには以下から参加可能です。
 事前準備
 ========
 
-- Chrome か Edge の最新版が必須です
+- Chrome または Edge の最新版が必須です
 - 当日は繋がらないなどに対して個別の対応は一切行いません
 - WebRTC の基本的な話などは一切しません
 
@@ -94,6 +94,47 @@ Discord サーバには以下から参加可能です。
 
 開催
 ====
+
+2021 年 9 月 14 日 (火) 19:30~
+------------------------------
+
+**雑談中心のイベントです**
+
+今回は 19:30 スタート 21:00 終了の 90 分バージョンです。
+
+- WebRTC
+
+- WebRTC SFU Sora
+
+  - Sora 2021.2 について
+- Sora Demo
+- Sora JavaScript SDK
+- Sora iOS SDK
+- Sora Android SDK
+- Sora Unity SDK
+- Sora C++ SDK
+- Sora E2EE
+- WebRTC Load Testing Tool Zakuro
+- Recording Composition Tool Hisui
+- Quality Management Tool Kohaku
+- WebRTC SFU Unmetered Service Tobi 準備中
+
+  - `時雨堂 WebRTC SFU Unmetered Service Tobi 開発ログ <https://gist.github.com/voluntas/ef9b064e5832a784e0b5e654fee832a8>`_
+- Lemon 検討中
+
+  - https://gist.github.com/voluntas/ef9b064e5832a784e0b5e654fee832a8
+- WebRTC Native Client Momo
+
+  - DataChannel 対応
+  - Sora C++ SDK に伴い外部やりとり拡張は pending
+- WebRTC Build
+
+  - Patch を本家に送っていく
+  - 協力者募集中
+
+
+過去
+================
 
 2021 年 7 月 6 日 (火) 19:30~
 ------------------------------
@@ -226,8 +267,7 @@ Discord サーバには以下から参加可能です。
   - Sora C++ SDK に伴い外部やりとり拡張は pending
 
 
-過去
-================
+
 
 2021 年 5 月 18 日 (火) 19:30~
 ------------------------------
@@ -1214,6 +1254,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 
 

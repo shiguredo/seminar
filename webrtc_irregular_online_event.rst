@@ -106,7 +106,11 @@ Discord サーバには以下から参加可能です。
 
 - WebRTC SFU Sora
 
-  - Sora 2021.2 について
+  - 2021 年 12 月リリースの Sora について
+  - クラスター機能
+  - DataChannel メッセージング機能
+  - 統計エクスポーター機能
+  - スポットライト API 追加
 - Sora Demo
 - Sora JavaScript SDK
 - Sora iOS SDK

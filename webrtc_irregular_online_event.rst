@@ -103,34 +103,76 @@ Discord サーバには以下から参加可能です。
 今回は 19:30 スタート 21:00 終了の 90 分バージョンです。
 
 - WebRTC
-
 - WebRTC SFU Sora
 
-  - 2021 年 12 月リリースの Sora について
-  - クラスター機能
-  - DataChannel メッセージング機能
-  - 統計エクスポーター機能
-  - スポットライト API 追加
+  - 2021 年 9 月リリースの Sora 2021.1.1 について
+
+    - 切断理由をログに追加
+    - 切断理由をウェブフックに追加
+    - バグフィックス
+  - 2021 年 12 月リリースの Sora 20201.2 について
+
+    - クラスター機能
+    - DataChannel メッセージング機能
+
+      - DataChannel 非順序
+      - DataChannel 部分的信頼性
+    - 統計エクスポーター機能
+    - スポットライト API 追加
+
+      - フォーカス/アンフォーカス rid 切り替え API
+    - AV1 録画対応
+    - 音声冗長化対応
+    - WebSocket 圧縮拡張
+    - ICE コネクションステート
 - Sora Demo
 - Sora JavaScript SDK
+
+  - クラスター機能対応
+  - DataChannel メッセージング機能対応
 - Sora iOS SDK
+
+  - ハードウェア on/off
+  - DataChannel シグナリング
+  - DataChannel メッセージング
+  - クラスタリング対応
 - Sora Android SDK
+
+  - DataChannel メッセージ
+  - クラスタリング対応
 - Sora Unity SDK
+
+  - クラスタリング対応
 - Sora C++ SDK
+
+  - 10 月から開発スタート予定
 - Sora E2EE
+
+  - MLS や SFrame (SPacket) が落ち着くまで休憩中
+  - 情報は追いかけています
 - WebRTC Load Testing Tool Zakuro
+
+  - DataChannel メッセージ対応
+  - クラスタリング対応
 - Recording Composition Tool Hisui
-- Quality Management Tool Kohaku
+- WebRTC Stats Collector Kohaku
+
+  - `時雨堂 WebRTC Stats Collector Kohaku 開発ログ <https://gist.github.com/voluntas/f162f7f513ef83051e46dc405cad6a04>`_
+  - 9 月中の公開を目指して準備中
+  - まずは統計をため込む部分のみ
+  - Sora 2021.2 で統計エクスポーター機能が追加されるのでそれに対応
 - WebRTC SFU Unmetered Service Tobi 準備中
 
   - `時雨堂 WebRTC SFU Unmetered Service Tobi 開発ログ <https://gist.github.com/voluntas/ef9b064e5832a784e0b5e654fee832a8>`_
+  - ウェブサイト準備中
 - Lemon 検討中
 
-  - https://gist.github.com/voluntas/ef9b064e5832a784e0b5e654fee832a8
+  - `時雨堂 WebRTC SFU Sora Capasity Planing Service Lemon 開発ログ <https://gist.github.com/voluntas/d317aa0880787b2b4bd630339f85d46b>`_
 - WebRTC Native Client Momo
 
-  - DataChannel 対応
-  - Sora C++ SDK に伴い外部やりとり拡張は pending
+  - DataChannel シグナリング対応
+  - libwebrtc アップデート
+  - バグフィックス
 - WebRTC Build
 
   - Patch を本家に送っていく
@@ -1258,6 +1300,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 
 

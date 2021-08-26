@@ -126,6 +126,12 @@ Discord サーバには以下から参加可能です。
     - WebSocket 圧縮拡張
     - ICE コネクションステート
 - Sora Demo
+
+  - テスト追加中
+
+    - クローズドソースです
+  - クラスター機能対応
+  - DataChannel メッセージング機能対応
 - Sora JavaScript SDK
 
   - クラスター機能対応
@@ -136,13 +142,17 @@ Discord サーバには以下から参加可能です。
   - DataChannel シグナリング
   - DataChannel メッセージング
   - クラスタリング対応
+  - SwiftPM 対応
+  - libwebrtc アップデート
 - Sora Android SDK
 
   - DataChannel メッセージ
   - クラスタリング対応
+  - libwebrtc アップデート
 - Sora Unity SDK
 
   - クラスタリング対応
+  - libwebrtc アップデート
 - Sora C++ SDK
 
   - 10 月から開発スタート予定
@@ -155,6 +165,8 @@ Discord サーバには以下から参加可能です。
   - DataChannel メッセージ対応
   - クラスタリング対応
 - Recording Composition Tool Hisui
+
+  - 10 月あたりから重めのタスクに着手予定
 - WebRTC Stats Collector Kohaku
 
   - `時雨堂 WebRTC Stats Collector Kohaku 開発ログ <https://gist.github.com/voluntas/f162f7f513ef83051e46dc405cad6a04>`_

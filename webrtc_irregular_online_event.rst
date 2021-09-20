@@ -103,6 +103,23 @@ Discord サーバには以下から参加可能です。
 今回は 19:30 スタート 21:00 終了の 90 分バージョンです。
 
 - WebRTC
+
+  - `PSA: AV1X will be replaced with AV1 <https://groups.google.com/g/discuss-webrtc/c/ACmDgZEAooc>`_
+  - `PSA: Enabling DcSCTP in Chrome M95 <https://groups.google.com/g/discuss-webrtc/c/YIMS2WdKeM0>`_
+  - `PSA: Plan B throwing is limited to Canary in M93 (not throwing in Stable) <https://groups.google.com/g/discuss-webrtc/c/DRRAnej3BTE/m/EqIhrLleBgAJ?utm_medium=email&utm_source=footer>`_
+  - `PSA: WebRTC M93 Release Notes <https://groups.google.com/g/discuss-webrtc/c/ws0_MYHIBOw/m/HZGn07uIAwAJ?utm_medium=email&utm_source=footer>`_
+  - `1232649 - the "too many WebMediaPlayers" intervention is breaking WebRTC functionality - chromium <https://bugs.chromium.org/p/chromium/issues/detail?id=1232649#c1>`_
+  - `Google AI Blog: SoundStream: An End-to-End Neural Audio Codec <https://ai.googleblog.com/2021/08/soundstream-end-to-end-neural-audio.html>`_
+  - `SoftBank Solves Key Mobile Edge Computing Challenges Using NVIDIA Maxine | NVIDIA Developer Blog <https://developer.nvidia.com/blog/softbank-solves-key-mobile-edge-computing-challenges-using-nvidia-maxine/>`_
+
+    - Momo !!!
+  - `Messenger Updates End-to-End Encrypted Chats with New Features – Messenger News <https://messengernews.fb.com/2021/08/13/messenger-updates-end-to-end-encrypted-chats-with-new-features/>`_
+  - `Building Microsoft-powered native video meetings on LinkedIn | LinkedIn Engineering <https://engineering.linkedin.com/blog/2021/building-microsoft-powered-native-video-meetings-on-linkedin>`_
+  - `Roblox acquires Discord competitor Guilded | TechCrunch <https://techcrunch.com/2021/08/16/roblox-acquires-discord-competitor-guilded/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29>`_
+  - `Microsoft Acquires Peer5 to Enhance Live Video Streaming in Microsoft Teams - Microsoft Tech Community <https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-acquires-peer5-to-enhance-live-video-streaming-in/ba-p/2628950>`_
+  - `Krisp - Virtual Background <https://krisp.ai/virtual-background/>`_
+  - `Tinkering with AV1-SVC support in Janus | Meetecho Blog <https://www.meetecho.com/blog/av1-svc/>`_
+  - `Saying Goodbye to Houseparty! | Houseparty <https://houseparty.com/blog/saying-goodbye-to-houseparty/>`_
 - WebRTC SFU Sora
 
   - 2021 年 9 月リリースの Sora 2021.1.2 について

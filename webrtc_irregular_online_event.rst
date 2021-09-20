@@ -105,11 +105,11 @@ Discord サーバには以下から参加可能です。
 - WebRTC
 - WebRTC SFU Sora
 
-  - 2021 年 9 月リリースの Sora 2021.1.1 について
+  - 2021 年 9 月リリースの Sora 2021.1.2 について
 
     - 切断理由をログに追加
     - 切断理由をウェブフックに追加
-    - バグフィックス
+    - バグ修正
   - 2021 年 12 月リリースの Sora 20201.2 について
 
     - クラスター機能
@@ -117,7 +117,10 @@ Discord サーバには以下から参加可能です。
 
       - DataChannel 非順序
       - DataChannel 部分的信頼性
+      - DataChannel 方向
     - 統計エクスポーター機能
+
+      - HTTP/2 (h2/h2c)
     - スポットライト API 追加
 
       - フォーカス/アンフォーカス rid 切り替え API
@@ -130,66 +133,96 @@ Discord サーバには以下から参加可能です。
   - テスト追加中
 
     - クローズドソースです
+  - コンテンツヒント対応
+
+    - https://www.w3.org/TR/mst-content-hint/
   - クラスター機能対応
   - DataChannel メッセージング機能対応
 - Sora JavaScript SDK
 
   - クラスター機能対応
+
+    - type: redirect, location: wss://node1.example.com/singaling
+    - type: connect, redirect: true
   - DataChannel メッセージング機能対応
+- JavaScript @shiguredo/media-processors
+
+  - 仮想背景 / 背景ぼかし
+  - 音声ノイズリダクション
+  - SDK から独立した仕組み
+  - まずは年内に動くものを
 - Sora iOS SDK
 
   - ハードウェア on/off
   - DataChannel シグナリング
   - DataChannel メッセージング
-  - クラスタリング対応
+  - クラスター機能対応
   - SwiftPM 対応
   - libwebrtc アップデート
 - Sora Android SDK
 
   - DataChannel メッセージ
-  - クラスタリング対応
+  - クラスター機能対応
   - libwebrtc アップデート
 - Sora Unity SDK
 
-  - クラスタリング対応
+  - クラスター機能対応
   - libwebrtc アップデート
 - Sora C++ SDK
 
   - 10 月から開発スタート予定
+  - まずは年内に動くものを
 - Sora E2EE
 
+  - ACME-SSO
   - MLS や SFrame (SPacket) が落ち着くまで休憩中
   - 情報は追いかけています
 - WebRTC Load Testing Tool Zakuro
 
   - DataChannel メッセージ対応
   - クラスタリング対応
+  - コンテンツヒント対応
+  - --use-dcsctp 削除
+  - MJPEG 対応
+  - --audio-device 対応
 - Recording Composition Tool Hisui
 
-  - 10 月あたりから重めのタスクに着手予定
+  - レイアウト指定機能
+
+    - https://medium.com/shiguredo/webrtc-sfu-sora-%E3%81%AE%E4%BB%8A%E5%BE%8C-4a466f18216f
+  - AV1 入力 / 出力
+  - タイトル入力
+  - 時間表示
+  - コメント表示
 - WebRTC Stats Collector Kohaku
 
   - `時雨堂 WebRTC Stats Collector Kohaku 開発ログ <https://gist.github.com/voluntas/f162f7f513ef83051e46dc405cad6a04>`_
-  - 9 月中の公開を目指して準備中
-  - まずは統計をため込む部分のみ
   - Sora 2021.2 で統計エクスポーター機能が追加されるのでそれに対応
-- WebRTC SFU Unmetered Service Tobi 準備中
+  - 10 月ファーストリリースに向けて開発中
+  
+    - https://github.com/shiguredo/kohaku/tree/feature/prototype
+  - まずは統計をため込む部分のみ
+- WebRTC SFU Sora as a Service Tobi 準備中
 
-  - `時雨堂 WebRTC SFU Unmetered Service Tobi 開発ログ <https://gist.github.com/voluntas/ef9b064e5832a784e0b5e654fee832a8>`_
+  - `時雨堂 WebRTC SFU Sora as a Service Tobi 開発ログ <https://gist.github.com/voluntas/ef9b064e5832a784e0b5e654fee832a8>`_
   - ウェブサイト準備中
+  - サービスプロトタイプ開発中
 - Lemon 検討中
 
   - `時雨堂 WebRTC SFU Sora Capasity Planing Service Lemon 開発ログ <https://gist.github.com/voluntas/d317aa0880787b2b4bd630339f85d46b>`_
 - WebRTC Native Client Momo
 
-  - DataChannel シグナリング対応
   - libwebrtc アップデート
   - バグフィックス
+  - 4K 60fps 対応
+  - DELL カメラ対応
+
+    - MJPEG ヘッダーが無いファイルに対応
 - WebRTC Build
 
   - Patch を本家に送っていく
   - 協力者募集中
-
+  - M95 までビルド済み
 
 過去
 ================
@@ -1312,6 +1345,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 
 

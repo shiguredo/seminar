@@ -29,7 +29,7 @@ Discord で Sora Lab / Sora SDK の Discord サーバへサーバブーストを
 
 Discord サーバには以下から参加可能です。
 
-- https://discord.gg/TJg5DR4
+- https://discord.gg/shiguredo
 
 その後、新規参加者は 10 分ほど書き込みを待って頂く必要があります。
 その間に **アイコンの設定** をお願いします。

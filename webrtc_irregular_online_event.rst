@@ -3,7 +3,7 @@
 #######################################################
 
 :日時: どこかの火曜日 19:00 ~ 20:00 あたりから
-:場所: Discord https://discord.gg/TJg5DR4
+:場所: Discord https://discord.gg/shiguredo
 
 .. image:: https://i.gyazo.com/0a6b81c59054c9a2d1918df5b6da110d.jpg
 

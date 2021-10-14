@@ -7,6 +7,8 @@
 
 .. image:: https://i.gyazo.com/0a6b81c59054c9a2d1918df5b6da110d.jpg
 
+この絵は @sassembla が書いてくれました。
+
 概要
 ====
 
@@ -22,10 +24,10 @@ Discord で Sora Lab / Sora SDK の Discord サーバへサーバブーストを
 
 `サーバーブースト 💨 – Discord <https://support.discord.com/hc/ja/articles/360028038352>`_
 
-2021 年 9 月 21 日 (火) のイベントへの参加申込方法
+2021 年 11 月 30 日 (火) のイベントへの参加申込方法
 =====================================================
 
-まず ``Sora Labo / Sora SDK`` の Discord のサーバに参加している必要があります。
+まず ``時雨堂コミュニティ`` の Discord のサーバに参加している必要があります。
 
 Discord サーバには以下から参加可能です。
 
@@ -39,13 +41,13 @@ Discord サーバには以下から参加可能です。
 
 ::
 
-    2021 年 9 月 21 日 (火) 19:30~ のイベントに参加します
+    2021 年 11 月 30 日 (火) 19:30~ のイベントに参加します
 
 アイコンが設定済みであれば、 
 ロールが時雨堂のアカウントから参加宣言にリアクションが付き、
 その後イベント用のロールを付与されます。
 
-今回は ``2021-09-21`` というロールが付与されます。
+今回は ``2021-11-30`` というロールが付与されます。
 
 注意
 ----
@@ -94,6 +96,133 @@ Discord サーバには以下から参加可能です。
 
 開催
 ====
+
+2021 年 11 月 30 日 (火) 19:30~
+------------------------------
+
+**雑談中心のイベントです**
+
+今回は 19:30 スタート 21:00 終了の 90 分バージョンです。
+
+- WebRTC
+- WebTransport
+- WebRTC SFU Sora
+
+  - 2021 年 12 月リリースの Sora 20201.2 について
+
+    - クラスター機能
+    - セッションウェブフック機能
+    - DataChannel メッセージング機能
+
+      - DataChannel 非順序
+      - DataChannel 部分的信頼性
+      - DataChannel 方向
+    - 統計エクスポーター機能
+
+      - HTTP/2 (h2/h2c)
+    - スポットライト API 追加
+
+      - フォーカス/アンフォーカス rid 切り替え API
+    - AV1 録画対応
+    - 音声冗長化対応
+    - WebSocket 圧縮拡張
+    - ICE コネクションステート
+- Sora Demo
+
+  - デバッグ機能改善
+  - デザイン改善
+  - コンテンツヒント対応
+
+    - https://www.w3.org/TR/mst-content-hint/
+  - クラスター機能対応
+  - DataChannel メッセージング機能対応
+- Sora JavaScript SDK
+
+  - クラスター機能対応
+
+    - type: redirect, location: wss://node1.example.com/singaling
+    - type: connect, redirect: true
+  - DataChannel メッセージング機能対応
+- JavaScript @shiguredo/media-processors
+
+  - 仮想背景 / 背景ぼかし
+  - 音声ノイズリダクション
+  - 露出自動調整
+  - 自分の音声がおかしいときに通知する
+  - SDK から独立した仕組み
+- Sora iOS SDK
+
+  - ハードウェア on/off
+  - DataChannel シグナリング
+  - DataChannel メッセージング
+  - クラスター機能対応
+  - libwebrtc アップデート
+- Sora Android SDK
+
+  - DataChannel メッセージ
+  - クラスター機能対応
+  - libwebrtc アップデート
+- Sora Unity SDK
+
+  - 音声周り改善
+  - libwebrtc アップデート
+- Sora C++ SDK
+
+  - 10 月から開発スタート
+  - 最初はシグナリング機能の統一
+  - まずは年内に動くものを
+- Sora E2EE
+
+  - ACME-SSO
+  - MLS や SFrame (SPacket) が落ち着くまで休憩中
+  - 情報は追いかけています
+- WebRTC Load Testing Tool Zakuro
+
+  - コンテンツヒント対応
+  - --use-dcsctp 削除
+  - MJPEG 対応
+  - --audio-device 対応
+- Recording Composition Tool Hisui
+
+  - レイアウト指定機能
+
+    - https://medium.com/shiguredo/webrtc-sfu-sora-%E3%81%AE%E4%BB%8A%E5%BE%8C-4a466f18216f
+  - AV1 入力 / 出力
+  - タイトル入力
+  - 時間表示
+  - コメント表示
+- WebRTC Stats Collector Kohaku
+
+  - `時雨堂 WebRTC Stats Collector Kohaku 開発ログ <https://gist.github.com/voluntas/f162f7f513ef83051e46dc405cad6a04>`_
+  - https://github.com/shiguredo/kohaku
+  - Sora 2021.2 で統計エクスポーター機能が追加されるのでそれに対応
+  - まずは統計をため込む部分のみ
+  - ダッシュボードサンプル提供予定
+- WebRTC SFU Sora as a Service Tobi 準備中
+
+  - `時雨堂 WebRTC SFU Sora as a Service Tobi 開発ログ <https://gist.github.com/voluntas/ef9b064e5832a784e0b5e654fee832a8>`_
+  - ウェブサイト準備中
+  - サービスプロトタイプ開発中
+- Lemon 検討中
+
+  - `時雨堂 WebRTC SFU Sora Capasity Planing Service Lemon 開発ログ <https://gist.github.com/voluntas/d317aa0880787b2b4bd630339f85d46b>`_
+- WebRTC Native Client Momo
+
+  - libwebrtc アップデート
+  - バグフィックス
+  - 4K 60fps 対応
+  - DELL カメラ対応
+
+    - MJPEG ヘッダーが無いファイルに対応
+- WebRTC Build
+
+  - Patch を本家に送っていく
+  - 協力者募集中
+  - M96 ビルドに向けて進める
+  - M95 までビルド済み
+
+過去
+================
 
 2021 年 9 月 21 日 (火) 19:30~
 ------------------------------
@@ -241,8 +370,6 @@ Discord サーバには以下から参加可能です。
   - 協力者募集中
   - M95 までビルド済み
 
-過去
-================
 
 2021 年 7 月 6 日 (火) 19:30~
 ------------------------------
@@ -1362,9 +1489,3 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
-
-
-
-
-
-

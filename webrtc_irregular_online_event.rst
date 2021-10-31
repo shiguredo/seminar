@@ -104,8 +104,32 @@ Discord サーバには以下から参加可能です。
 
 今回は 19:30 スタート 21:00 終了の 90 分バージョンです。
 
-- WebRTC
-- WebTransport
+- WebRTC / WebTransport
+
+  - `Kranky Geek – RTC Events <https://www.krankygeek.com/>`_
+
+    - Developing a cross-platform WebRTC API using Rust and WebAssembly
+    - Managing CPU and network resources in the browser for large video grids
+    - Implementing WebTransport and WebCodecs in an Open Source Media Server
+    - Extending Matrix’s E2EE calls to multiparty
+    - Best practices in Electron-based desktop development for WebRTC
+    - WebRTC annual update 2021
+    - Implementing a custom media processing pipeline using WebAssembly
+  - `WebTransport - Chrome Platform Status <https://chromestatus.com/feature/4854144902889472>`_
+  - `Media Source Extensions for WebCodecs - Chrome Platform Status <https://chromestatus.com/feature/5649291471224832>`_
+  - `WebCodecs - Chrome Platform Status <https://chromestatus.com/feature/5669293909868544>`_
+  - `MediaStreamTrack Insertable Streams (a.k.a. Breakout Box) - Chrome Platform Status <https://chromestatus.com/feature/5499415634640896>`_
+  - `ImageDecoder API extension for WebCodecs - Chrome Platform Status <https://chromestatus.com/feature/4561928577875968>`_
+  - `New API: Smart Connectivity Notifications <https://www.callstats.io/blog/announcing-smart-connectivity-notifications>`_
+  - `WISH, WHIP and Janus: Part II | Meetecho Blog <https://www.meetecho.com/blog/whip-janus-part-ii/>`_
+  - `How does WebRTC End-to-End Encryption work? Matrix.org example (Dave Baker) - webrtcHacks <https://webrtchacks.com/how-does-webrtc-end-to-end-encryption-work-matrix-org-example-dave-baker/>`_
+  - `Zoom in to WebRTC | Hacker Noon <https://hackernoon.com/zoom-in-to-webrtc>`_
+  - `Real-Time Communications at Scale <https://blog.cloudflare.com/announcing-our-real-time-communications-platform/>`_
+  - `PSA: WebRTC M95 Release Notes <https://groups.google.com/g/discuss-webrtc/c/SfzpFc-dH-E/m/JHlMpLO1AAAJ?utm_medium=email&utm_source=footer>`_
+  - `DMMはAWS“から”オンプレミス“に”切り替える　サーバーとネットワークのコストから見直す適切な環境選び - ログミーTech <https://logmi.jp/tech/articles/325309>`_
+  - https://2021.demuxed.com/index.html
+
+    - https://www.youtube.com/c/Demuxed/playlists
 - WebRTC SFU Sora
 
   - 2021 年 12 月リリースの Sora 20201.2 について
@@ -127,8 +151,11 @@ Discord サーバには以下から参加可能です。
     - 音声冗長化対応
     - WebSocket 圧縮拡張
     - ICE コネクションステート
-- Sora Demo
+- Sora Labo
+- Sora DevTools
 
+  - 名前変更
+  - npm 7
   - デバッグ機能改善
   - デザイン改善
   - コンテンツヒント対応
@@ -175,9 +202,9 @@ Discord サーバには以下から参加可能です。
 
   - ACME-SSO
   - MLS や SFrame (SPacket) が落ち着くまで休憩中
-  - 情報は追いかけています
 - WebRTC Load Testing Tool Zakuro
 
+  - libwebrtc m96 対応
   - コンテンツヒント対応
   - --use-dcsctp 削除
   - MJPEG 対応
@@ -218,8 +245,8 @@ Discord サーバには以下から参加可能です。
 
   - Patch を本家に送っていく
   - 協力者募集中
-  - M96 ビルドに向けて進める
-  - M95 までビルド済み
+  - M97 ビルドに向けて進める
+  - M96 までビルド済み
 
 過去
 ================
@@ -1489,3 +1516,4 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+

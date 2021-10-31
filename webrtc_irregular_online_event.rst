@@ -152,6 +152,10 @@ Discord サーバには以下から参加可能です。
     - WebSocket 圧縮拡張
     - ICE コネクションステート
 - Sora Labo
+
+  - sqlc + TimescaleDB 化
+  - Sora DevTools 対応
+  - クラスター版 Sora 提供開始
 - Sora DevTools
 
   - 名前変更

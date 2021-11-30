@@ -106,8 +106,13 @@ Discord サーバには以下から参加可能です。
 
 - WebRTC / WebTransport
 
+  - `Ericsson to acquire Vonage for USD 6.2 billion to spearhead the creation of a global network and communication platform for open innovation <https://ir.vonage.com/news-releases/news-release-details/ericsson-acquire-vonage-usd-62-billion-spearhead-creation-global>`_
+  - `PSA: WebRTC M96 Release Notes <https://groups.google.com/g/discuss-webrtc/c/Bp8OzBzipSc/m/0AC4OGhdAgAJ?utm_medium=email&utm_source=footer>`_
+  - `PSA: Firefox 96 contains major libwebrtc update. Please test! <https://groups.google.com/g/discuss-webrtc/c/pkAtJEF_unM/m/P5RpoumeBwAJ?utm_medium=email&utm_source=footer>`_
+  - `Release Notes for Safari Technology Preview 135 | WebKit <https://webkit.org/blog/12040/release-notes-for-safari-technology-preview-135/>`_
   - `Kranky Geek – RTC Events <https://www.krankygeek.com/>`_
 
+    - https://zenn.dev/voluntas/scraps/33c12918a4aa24
     - Developing a cross-platform WebRTC API using Rust and WebAssembly
     - Managing CPU and network resources in the browser for large video grids
     - Implementing WebTransport and WebCodecs in an Open Source Media Server
@@ -150,6 +155,7 @@ Discord サーバには以下から参加可能です。
     - AV1 録画対応
     - 音声冗長化対応
     - WebSocket 圧縮拡張
+    - シグナリング通知: 録画
     - ICE コネクションステート
   - 2022 年 の Sora について
 
@@ -160,6 +166,7 @@ Discord サーバには以下から参加可能です。
 
       - libwebrtc のランプアップが早くなったので対応していきたい
       - https://gyazo.com/bfc4012a8a3551dfebd2e6c707a6c9ea
+    - DataChannel メッセージングの改善
     - DataChannel メッセージングの改善
     - Media over QUIC
   - 2022 年 6 月リリースの Sora 2022.1 について
@@ -184,6 +191,7 @@ Discord サーバには以下から参加可能です。
     - https://www.w3.org/TR/mst-content-hint/
   - クラスター機能対応
   - DataChannel メッセージング機能対応
+  - リトライ機能
 - Sora JavaScript SDK
 
   - クラスター機能対応
@@ -256,7 +264,7 @@ Discord サーバには以下から参加可能です。
   - `時雨堂 WebRTC SFU Sora Capasity Planing Service Lemon 開発ログ <https://gist.github.com/voluntas/d317aa0880787b2b4bd630339f85d46b>`_
 - WebRTC Native Client Momo
 
-  - libwebrtc アップデート
+  - libwebrtc M97 アップデート
   - バグフィックス
   - 4K 60fps 対応
   - DELL カメラ対応
@@ -1537,5 +1545,6 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 

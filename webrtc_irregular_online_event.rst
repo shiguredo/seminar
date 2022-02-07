@@ -105,6 +105,10 @@ Discord サーバには以下から参加可能です。
 今回は 19:30 スタート 21:00 終了の 90 分バージョンです。
 
 - WebRTC / WebTransport
+
+  - aioquic が WebTransport へ対応
+
+    - https://github.com/aiortc/aioquic/releases/tag/0.9.19
 - WebRTC SFU Sora
 
   - 2022 年 6 月リリースの Sora について
@@ -113,6 +117,11 @@ Discord サーバには以下から参加可能です。
     - スポットライトやサイマルキャスト利用時の負荷削減
 
       - 利用していないパケットは復号しない
+    - スポットライト機能の強化
+
+      - アンフォーカス音声の通知
+      - active_video_number の追加
+    - データチャネルを利用した音量通知
   - 2022 年 の Sora について
 - Sora Labo
 
@@ -130,25 +139,64 @@ Discord サーバには以下から参加可能です。
   - Sora を利用した簡易的なミーティングサイト
   - 認証機能などは一切無い
 - Sora JavaScript SDK
+
+  - Sora からの通知により動的にストリームを止めるという機能を検討中
 - JavaScript @shiguredo/media-processors
+
+  - 仮想背景、背景ぼかし、ノイズ抑制で一段落
+  - 自動ホワイトバランス調整などはいれたい
 - Sora iOS SDK
 - Sora Android SDK
 - Sora Unity SDK
+
+  - ARM 版 Windows へ対応予定
+  - 音声や映像無効での接続へ対応
+  - デバイスをつかまない仕組みへも対応
+  - 証明書検証を無効にする機能を追加
 - Sora C++ SDK
+
+  - 3-4 月から進めていく予定
 - Sora E2EE
+
+  - Tobi が落ち着くまで更新なし、ライブラリアップデートのみ
 - WebRTC Load Testing Tool Zakuro
+
+  - クライアント認証追加
+  - ミュート接続機能追加
 - Recording Composition Tool Hisui
+
+  - レイアウト機能が入ってやりたい放題になった
+  - まずはこれで一段落
+  - 細かい機能はそのうち
 - WebRTC Stats Collector Kohaku
+
+  - 一段落してリリース済み
+  - これから Sora Labo / Tobi で実戦投入へ
 - Suzu (仮)
-- Sora labo
+
+  - 音声から文字列へ
+
+    - AWS と GCP へ対応
+  - 検証段階
+  - コマンドラインベースをゲートウェイベースへ変更
 - WebRTC SFU Sora as a Service Tobi 準備中
 
   - `時雨堂 WebRTC SFU Sora as a Service Tobi 開発ログ <https://gist.github.com/voluntas/ef9b064e5832a784e0b5e654fee832a8>`_
+  - 全力で Sora Labo で素振り中
+  - Sora Labo の商用版が Tobi という立ち位置
+  - Sora Labo から Tobi へは気軽に移行できるようにしたい
 - WebRTC Native Client Momo
+
+  - M99 へアップデート
+  - JetPack 4.6 へ
+  - Raspberry Pi OS 最新版へ対応
 - Ayame Labo
 
   - Ayame アップデート
 - WebRTC Build
+
+  - M99 対応リリース
+  - 運用方針新しいブランチが切られたら master へマージする
 
 
 過去

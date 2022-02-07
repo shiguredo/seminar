@@ -24,7 +24,7 @@ Discord で Sora Lab / Sora SDK の Discord サーバへサーバブーストを
 
 `サーバーブースト 💨 – Discord <https://support.discord.com/hc/ja/articles/360028038352>`_
 
-2021 年 11 月 30 日 (火) のイベントへの参加申込方法
+2022 年 2 月 15 日 (火) のイベントへの参加申込方法
 =====================================================
 
 まず ``時雨堂コミュニティ`` の Discord のサーバに参加している必要があります。
@@ -41,13 +41,13 @@ Discord サーバには以下から参加可能です。
 
 ::
 
-    2021 年 11 月 30 日 (火) 19:30~ のイベントに参加します
+    2022 年 2 月 15 日 (火) 19:30~ のイベントに参加します
 
 アイコンが設定済みであれば、 
 ロールが時雨堂のアカウントから参加宣言にリアクションが付き、
 その後イベント用のロールを付与されます。
 
-今回は ``2021-11-30`` というロールが付与されます。
+今回は ``2022-02-15`` というロールが付与されます。
 
 注意
 ----
@@ -97,8 +97,65 @@ Discord サーバには以下から参加可能です。
 開催
 ====
 
+2022 年 2 月 15 日 (火) 19:30~
+---------------------------------------
+
+**雑談中心のイベントです**
+
+今回は 19:30 スタート 21:00 終了の 90 分バージョンです。
+
+- WebRTC / WebTransport
+- WebRTC SFU Sora
+
+  - 2022 年 6 月リリースの Sora について
+
+    - 録画状態のクラスター共有
+    - スポットライトやサイマルキャスト利用時の負荷削減
+
+      - 利用していないパケットは復号しない
+  - 2022 年 の Sora について
+- Sora Labo
+
+  - リニューアル
+  - ドメインを https://sora-labo.shiguredo.app/ へ変更
+  - 利用時間を直近 30 日 1000 分へ拡大
+  - 安定版と開発版二つの Sora を検証できるように
+  - 限定的だが API / Webhook を検証できるように
+  - 統計情報を増やしていく
+- Sora DevTools
+
+  - 今のところは新機能の予定はない
+- Sora Prebuild UI
+
+  - Sora を利用した簡易的なミーティングサイト
+  - 認証機能などは一切無い
+- Sora JavaScript SDK
+- JavaScript @shiguredo/media-processors
+- Sora iOS SDK
+- Sora Android SDK
+- Sora Unity SDK
+- Sora C++ SDK
+- Sora E2EE
+- WebRTC Load Testing Tool Zakuro
+- Recording Composition Tool Hisui
+- WebRTC Stats Collector Kohaku
+- Suzu (仮)
+- Sora labo
+- WebRTC SFU Sora as a Service Tobi 準備中
+
+  - `時雨堂 WebRTC SFU Sora as a Service Tobi 開発ログ <https://gist.github.com/voluntas/ef9b064e5832a784e0b5e654fee832a8>`_
+- WebRTC Native Client Momo
+- Ayame Labo
+
+  - Ayame アップデート
+- WebRTC Build
+
+
+過去
+================
+
 2021 年 11 月 30 日 (火) 19:30~
-------------------------------
+---------------------------------------
 
 **雑談中心のイベントです**
 
@@ -276,9 +333,6 @@ Discord サーバには以下から参加可能です。
   - 協力者募集中
   - M98 ビルドに向けて進める
   - M97 までビルド済み
-
-過去
-================
 
 2021 年 9 月 21 日 (火) 19:30~
 ------------------------------

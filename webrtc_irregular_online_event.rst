@@ -107,6 +107,7 @@ Discord サーバには以下から参加可能です。
 
 - WebRTC / WebTransport
 
+  - `Video: implement D3D11VA HEVC decode accelerator on Windows. <https://chromium.googlesource.com/chromium/src/+/9ba430334856381bf868e7b4c692c8a3e3d066b4>`_
   - aioquic が WebTransport へ対応
 
     - https://github.com/aiortc/aioquic/releases/tag/0.9.19

@@ -106,7 +106,7 @@ Discord サーバには以下から参加可能です。
 今回は 19:30 スタート 21:00 終了の 90 分バージョンです。
 
 - WebRTC / WebTransport
-
+  - `メディア・コミュニケーション | 好奇心旺盛な人のためのWebRTC <https://webrtcforthecurious.com/ja/docs/06-media-communication/#%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e7%8a%b6%e6%b3%81%e3%81%ae%e6%8a%8a%e6%8f%a1%e3%81%a8%e4%bc%9d%e9%81%94>`_
   - `Video: implement D3D11VA HEVC decode accelerator on Windows. <https://chromium.googlesource.com/chromium/src/+/9ba430334856381bf868e7b4c692c8a3e3d066b4>`_
   - aioquic が WebTransport へ対応
 
@@ -222,6 +222,7 @@ Discord サーバには以下から参加可能です。
   - 音声から文字列へ
 
     - AWS と GCP へ対応
+    - `Deepgram - Automated Speech Recognition (ASR) <https://1p70r33dscm81ov8jv3f36b5-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/constellation-ai-178x160@2x.png>`_
   - 検証段階
   - コマンドラインベースをゲートウェイベースへ変更
 - WebRTC SFU Sora as a Service Tobi 準備中

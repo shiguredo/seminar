@@ -20,7 +20,8 @@
 Discord サーバーブースト
 ========================
 
-Discord で Sora Lab / Sora SDK の Discord サーバへサーバブーストをしてくれているユーザは申請なしで全てのイベントに参加可能です。また、イベントの過去ログを見ることができるようになります。締め切りを過ぎたイベントでも参加が可能です。
+Discord で Sora Lab / Sora SDK の Discord サーバへサーバブーストをしてくれているユーザは申請なしで全てのイベントに参加可能です。
+また、イベントの過去ログを見ることができるようになります。締め切りを過ぎたイベントでも参加が可能です。
 
 `サーバーブースト 💨 – Discord <https://support.discord.com/hc/ja/articles/360028038352>`_
 
@@ -109,20 +110,50 @@ Discord サーバには以下から参加可能です。
   - aioquic が WebTransport へ対応
 
     - https://github.com/aiortc/aioquic/releases/tag/0.9.19
+  - `Dolby acquires low-latency streaming platform Millicast | TechCrunch <https://techcrunch.com/2022/02/03/dolby-acquires-low-latency-streaming-platform-millicast/>`_
+  - `Add live transcription to a Daily call with our newest API <https://www.daily.co/blog/add-live-transcription-to-a-daily-call-with-our-newest-api/>`_
+  - `IMPORTANT: Multistream merge date, and 0.x branch · Issue #2855 · meetecho/janus-gateway <https://github.com/meetecho/janus-gateway/issues/2855>`_
+
+  - `PSA: WebRTC M97 Release Notes <https://groups.google.com/g/discuss-webrtc/c/-M808zqlSRE/m/vMZ1q1N9AgAJ?utm_medium=email&utm_source=footer>`_
+  - 仮想背景
+
+    - `Build background blur into Daily calls with our newest API <https://www.daily.co/blog/add-background-blur-to-a-daily-call-with-our-newest-api/>`_
+    - `Virtual Background in Android with WebRTC | Blog 100mslive <https://www.100ms.live/blog/virtual-background-in-android-with-webrtc>`_
+  - `Using Amazon Voice Focus AMI to reduce noise in audio | Business Productivity <https://aws.amazon.com/jp/blogs/business-productivity/using-amazon-voice-focus-ami-to-reduce-noise-in-audio/>`_
+  - `PSA: The default value of sdp_semantics is about to change. <https://groups.google.com/g/discuss-webrtc/c/SdoVP02eUIk/m/5D5cXdxlBQAJ?utm_medium=email&utm_source=footer>`_
+  - `Signal >> Blog >> How to build large-scale end-to-end encrypted group video calls <https://signal.org/blog/how-to-build-encrypted-group-calls/>`_
+  - `Why WebRTC? <https://pion.ly/blog/why-webrtc/>`_
+
+  - Warp
+
+    - `Warp - Segmented Live Video Transport <https://www.ietf.org/archive/id/draft-lcurley-warp-00.html>`_
+    - `Twitchの QUICを用いたライブストリーミングプロトコル Warp - ASnoKaze blog <https://asnokaze.hatenablog.com/entry/2022/02/12/005150>`_
+    - `[Moq] Warp <https://mailarchive.ietf.org/arch/msg/moq/0ZNlt5SvEzH3mroPOHjlAFpfHDI/>`_
 - WebRTC SFU Sora
 
   - 2022 年 6 月リリースの Sora について
 
-    - 録画状態のクラスター共有
+    - クラスター機能改善
+
+      - 録画状態のクラスター共有
     - スポットライトやサイマルキャスト利用時の負荷削減
 
-      - 利用していないパケットは復号しない
+      - 誰も視聴していないストリームは復号しない
     - スポットライト機能の強化
 
-      - アンフォーカス音声の通知
-      - active_video_number の追加
+      - 最大アクティブビデオの追加
     - データチャネルを利用した音量通知
+    - FEC 対応
+    - 帯域推定改善
+    - DataChannel 統計機能
+    - sora.log の JSON 化
+    - Ubuntu 22.04 対応
+    - /metrics
+
+      - Prometheus 対応
   - 2022 年 の Sora について
+
+    - ディザスターリカバリー機能
 - Sora Labo
 
   - リニューアル
@@ -131,6 +162,8 @@ Discord サーバには以下から参加可能です。
   - 安定版と開発版二つの Sora を検証できるように
   - 限定的だが API / Webhook を検証できるように
   - 統計情報を増やしていく
+
+    - Kohaku 連携
 - Sora DevTools
 
   - 今のところは新機能の予定はない
@@ -146,23 +179,34 @@ Discord サーバには以下から参加可能です。
   - 仮想背景、背景ぼかし、ノイズ抑制で一段落
   - 自動ホワイトバランス調整などはいれたい
 - Sora iOS SDK
+
+  - Sora 追従
 - Sora Android SDK
+
+  - Sora 追従
 - Sora Unity SDK
 
   - ARM 版 Windows へ対応予定
+
+    - ビルドまでは成功
   - 音声や映像無効での接続へ対応
+
+    - 対応済み
   - デバイスをつかまない仕組みへも対応
-  - 証明書検証を無効にする機能を追加
+  - 証明書検証を無効にする機能
+
+    - 対応済み
 - Sora C++ SDK
 
-  - 3-4 月から進めていく予定
-- Sora E2EE
-
-  - Tobi が落ち着くまで更新なし、ライブラリアップデートのみ
+  - 遅れていて申し訳ない 4 月から進めていく予定
 - WebRTC Load Testing Tool Zakuro
 
-  - クライアント認証追加
-  - ミュート接続機能追加
+  - クライアント認証
+
+    - 対応済み
+  - ミュート接続機能
+
+    - 対応済み
 - Recording Composition Tool Hisui
 
   - レイアウト機能が入ってやりたい放題になった
@@ -190,6 +234,7 @@ Discord サーバには以下から参加可能です。
   - M99 へアップデート
   - JetPack 4.6 へ
   - Raspberry Pi OS 最新版へ対応
+  - 3 月か 4 月にバグ退治月間をやる予定
 - Ayame Labo
 
   - Ayame アップデート
@@ -1647,6 +1692,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 
 

@@ -102,12 +102,21 @@ Discord サーバには以下から参加可能です。
 2022 年 ４ 月 末 19:00-20:00
 ---------------------------------------
 
-**WebRTC Native Client Momo 特化型の雑談中心イベントです**
+**WebRTC Native Client Momo メインの雑談中心イベントです**
 
 今回は 19:30 スタート 20:30 終了の 60 分バージョンです。
 
-- Momo 2022.2.0
+- Momo 
+  
+  - 2022.2.0
+  - Intel Media SDK 対応
+  - 数々のバグ対応
+  - libwebrtc M100
 - Sora C++ SDK
+
+  - Momo が対応しているすべての ＨＷＡ に対応
+  - Sora 追従
+  - Windows / macOS / Linux 対応
 
 
 2022 年 2 月 15 日 (火) 19:30~

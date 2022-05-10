@@ -163,6 +163,18 @@ Discord サーバには以下から参加可能です。
   - Momo が対応しているすべての HWA に対応
   - Sora シグナリング機能
   - Windows / macOS / Linux / iOS / Android 対応
+- Sora SDK
+
+  - JavaScript
+
+    - 特に変更なし
+  - iOS & Android
+
+    - 細かいエラーや問題潰し
+  - Unity
+
+    - Sora C++ SDK を利用したモデルに置き換え
+    - Linux 対応予定
 - Ultra Low-Latency Streaming Server (仮)
 
   - WebTransport を採用
@@ -1810,3 +1822,12 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
+
+
+
+
+
+
+
+

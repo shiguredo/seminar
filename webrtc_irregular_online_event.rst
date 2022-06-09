@@ -119,6 +119,8 @@ Discord サーバには以下から参加可能です。
     - 統計可視化機能
   - DataPacket 感想
 
+    - メール対応も凄い丁寧で早くて不満なし
+    - 帯域プール機能 (Bandwidth Pool) 便利
     - DataPacket 以外の選択肢
 - Sora C++ SDK
 

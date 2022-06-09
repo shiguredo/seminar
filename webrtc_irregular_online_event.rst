@@ -112,9 +112,29 @@ Discord サーバには以下から参加可能です。
 
   - アーリーアクセス開始
   - 今後の展望
+
+    - 制限解除プランの用意
+    - 録画機能
+    - 録画合成機能
+    - 統計可視化機能
+  - DataPacket 感想
+
+    - DataPacket 以外の選択肢
+- Sora C++ SDK
+
+  - oneVPL 対応
+  - 認証付き HTTP Proxy 対応
+  - NVIDIA Jetson Orin AV1 対応
+- Sora Andorid SDK
+
+  - 認証付き HTTP Proxy 対応
+- Sora iOS SDK
+
+  - 認証付き HTTP Proxy 対応
 - Sora Unity SDK
 
   - Sora C++ SDK ベースに置き換え
+  - Linux x86_64 / arm64 対応
 - WebRTC Native Client Momo
 
   - NVIDIA Jetson Orin 対応
@@ -1843,13 +1863,3 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
-
-
-
-
-
-
-
-
-
-

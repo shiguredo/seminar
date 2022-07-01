@@ -108,9 +108,15 @@ Discord サーバには以下から参加可能です。
 
   - Sora 2022.1.0 リリース
   - 次のリリースに向けて
+
+    - ノード間転送機能
+    - 帯域推定
+    - AV1 / VP9 Simulcsat 対応
 - Sora as a Service Tobi
 
   - アーリーアクセス開始
+
+    - 9 月末までは無料で利用できるので是非
   - 今後の展望
 
     - 制限解除プランの用意
@@ -127,19 +133,31 @@ Discord サーバには以下から参加可能です。
   - oneVPL 対応
   - 認証付き HTTP Proxy 対応
   - NVIDIA Jetson Orin AV1 対応
+  - MediaPipe サンプル
 - Sora Andorid SDK
 
   - 認証付き HTTP Proxy 対応
+  - MediaPipe サンプル
 - Sora iOS SDK
 
   - 認証付き HTTP Proxy 対応
+  - MediaPipe サンプル
 - Sora Unity SDK
 
   - Sora C++ SDK ベースに置き換え
+  - 認証付き HTTP Proxy 対応
   - Linux x86_64 / arm64 対応
+  - Hololens2 対応
 - WebRTC Native Client Momo
 
   - NVIDIA Jetson Orin 対応
+  - 認証付き HTTP Proxy 対応
+- Sora Flutter SDK
+
+  - 開発中
+- Sora CLI
+
+  - 開発中
 
 過去
 ================
@@ -1865,3 +1883,4 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+

@@ -137,8 +137,15 @@ Discord サーバには以下から参加可能です。
   - 次のリリースに向けて
 
     - ノード間転送機能
+
+      - https://develop.shiguredo-sora-doc.pages.dev/INTER_NODE_TRANSFER
     - 帯域推定
+
+      - https://bugs.chromium.org/p/webrtc/issues/detail?id=12707&sort=-modified
+      - https://webrtc.googlesource.com/src/+/refs/heads/main/docs/native-code/rtp-hdrext/transport-wide-cc-02
     - AV1 / VP9 Simulcsat 対応
+
+      - https://bugs.chromium.org/p/webrtc/issues/detail?id=11607
 - Sora as a Service Tobi
 
   - https://tobi.shiguredo.jp/
@@ -160,17 +167,23 @@ Discord サーバには以下から参加可能です。
 - Sora C++ SDK
 
   - oneVPL 対応
+
+    - https://github.com/oneapi-src/oneVPL
   - 認証付き HTTP Proxy 対応
   - NVIDIA Jetson Orin AV1 対応
   - MediaPipe サンプル
 - Sora Andorid SDK
 
   - 認証付き HTTP Proxy 対応
+
+    - https://github.com/shiguredo-webrtc-build/webrtc-build/commit/495792ea0544a15ddf6ae3a98aa367f22e933af3
   - TLS 証明書対応
   - MediaPipe サンプル
 - Sora iOS SDK
 
   - 認証付き HTTP Proxy 対応
+
+    - https://github.com/shiguredo-webrtc-build/webrtc-build/commit/7e7a776f2394bdef100de8a6db62be502f743508
   - TLS 証明書対応
   - MediaPipe サンプル
 - Sora Unity SDK
@@ -179,7 +192,11 @@ Discord サーバには以下から参加可能です。
   - 認証付き HTTP Proxy 対応
   - TLS 証明書対応
   - Linux x86_64 / arm64 対応
+
+    - C++ SDK ベースへの置き換えによるメリット
   - Hololens2 対応
+
+    - 有償メンテナンス
 - WebRTC Native Client Momo
 
   - NVIDIA Jetson Orin 対応
@@ -187,9 +204,6 @@ Discord サーバには以下から参加可能です。
 - Sora Flutter SDK
 
   - Sora C++ SDK ベースで開発中
-- Sora CLI
-
-  - 検討中
 - TLS Proxy (仮)
 
   - 検討中

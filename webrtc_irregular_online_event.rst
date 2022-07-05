@@ -104,9 +104,32 @@ Discord サーバには以下から参加可能です。
 
 **今回も WebRTC 雑談は省略**
 
+
+- 雑談
+
+  - `New look at WebRTC usage in Google Meet <http://www.rtcbits.com/2022/06/webrtc-google-meet.html>`_
+  - `Meet vs. Duo - 2 faces of Google's WebRTC - webrtcHacks <https://webrtchacks.com/meet-vs-duo-2-faces-of-googles-webrtc/>`_
+  - `Subspace | Dedicated Network For Real-Time Applications <https://www.datocms-assets.com/41207/1638477122-finance-2-with-element.png?fm=webp&h=850&q=90>`_
+    
+    - https://gyazo.com/ad718ac3a3185a4c0bf4f1963cbb46dc
+
+::
+
+    2022年5月13日をもって、Subspaceはグローバルネットワークと事業運営を停止することになりましたので、お知らせいたします。私たちのチーム、お客様、投資家、支持者の皆様のご支援に感謝申し上げます。
+
+    当社の技術は驚くほどユニークで高度なものですが、ここ数カ月で市場環境が変化し、お客様のご要望に応えるために必要な規模で実行することが困難になってしまいました。
+
+    2018年の創業と2020年3月のサービス開始以来、Subspaceは、インターネットの天候、混雑＆ボトルネックに関係なく、データリッチで遅延に敏感なアプリケーションがグローバルに繁栄する未来を思い描いてきました。
+
+    このビジョンを実行する能力は、財政的な制約により挫折しましたが、私たちは、Web 3.0とメタバースの約束には、公衆インターネットよりも優れた接続性が必要であり、Subspaceのビジョンが将来的に証明されると信じています。
+
+
+
 - WebRTC SFU Sora
 
   - Sora 2022.1.0 リリース
+
+    - https://sora-doc.shiguredo.jp/
   - 次のリリースに向けて
 
     - ノード間転送機能
@@ -114,6 +137,8 @@ Discord サーバには以下から参加可能です。
     - AV1 / VP9 Simulcsat 対応
 - Sora as a Service Tobi
 
+  - https://tobi.shiguredo.jp/
+  - https://doc.tobi.shiguredo.app/
   - アーリーアクセス開始
 
     - 9 月末までは無料で利用できるので是非
@@ -123,7 +148,7 @@ Discord サーバには以下から参加可能です。
     - 録画機能
     - 録画合成機能
     - 統計可視化機能
-  - DataPacket 感想
+  - DataPacket 雑感
 
     - メール対応も凄い丁寧で早くて不満なし
     - 帯域プール機能 (Bandwidth Pool) 便利
@@ -137,15 +162,18 @@ Discord サーバには以下から参加可能です。
 - Sora Andorid SDK
 
   - 認証付き HTTP Proxy 対応
+  - TLS 証明書対応
   - MediaPipe サンプル
 - Sora iOS SDK
 
   - 認証付き HTTP Proxy 対応
+  - TLS 証明書対応
   - MediaPipe サンプル
 - Sora Unity SDK
 
   - Sora C++ SDK ベースに置き換え
   - 認証付き HTTP Proxy 対応
+  - TLS 証明書対応
   - Linux x86_64 / arm64 対応
   - Hololens2 対応
 - WebRTC Native Client Momo
@@ -154,10 +182,10 @@ Discord サーバには以下から参加可能です。
   - 認証付き HTTP Proxy 対応
 - Sora Flutter SDK
 
-  - 開発中
+  - Sora C++ SDK ベースで開発中
 - Sora CLI
 
-  - 開発中
+  - 検討中
 - TLS Proxy (仮)
 
   - 検討中
@@ -1886,4 +1914,5 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 

@@ -205,6 +205,12 @@ Discord サーバには以下から参加可能です。
 - Sora Flutter SDK
 
   - Sora C++ SDK ベースで開発中
+- WebTransport Server (仮)
+
+  - Quiche (Rust) + Erlang VM による大規模配信システムを目指す
+
+    - ノード間転送機能を利用
+  - 設計中
 - TLS Proxy (仮)
 
   - 検討中
@@ -1933,5 +1939,6 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 

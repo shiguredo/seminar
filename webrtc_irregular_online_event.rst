@@ -25,7 +25,7 @@ Discord で Sora Lab / Sora SDK の Discord サーバへサーバブーストを
 
 `サーバーブースト 💨 – Discord <https://support.discord.com/hc/ja/articles/360028038352>`_
 
-2022 年 7 月 5 日 (火) のイベントへの参加申込方法
+2022 年 12 月 6 日 (火) のイベントへの参加申込方法
 =====================================================
 
 まず ``時雨堂コミュニティ`` の Discord のサーバに参加している必要があります。
@@ -37,17 +37,13 @@ Discord サーバには以下から参加可能です。
 電話番号認証と **アイコンの設定** をお願いします。
 
 ``時雨堂コミュニュティ`` サーバの ``#event`` チャンネルで、
-以下のメッセージを **コピペして** 参加を表明してください。
-
-::
-
-    2022 年 7 月 5 日 (火) 19:00~ のイベントに参加します
+イベントの投稿に **参加します** とメッセージを残してください。
 
 アイコンが設定済みであれば、 
 ロールが時雨堂のアカウントから参加宣言にリアクションが付き、
 その後イベント用のロールを付与されます。
 
-今回は ``2022-07-05`` というロールが付与されます。
+今回は ``2022-12-06`` というロールが付与されます。
 
 注意
 ----
@@ -96,6 +92,59 @@ Discord サーバには以下から参加可能です。
 
 開催
 ====
+
+2022 年 12 月 6 日 19:00-20:30
+---------------------------------------
+
+今回は 19:00 スタート 20:30 終了の 90 分バージョンです。
+
+- 雑談
+
+  - `WebRTC M104 Release Notes <https://groups.google.com/g/discuss-webrtc/c/PZxgk-aUFhw/m/5CkxzxUMAgAJ>`_
+  - `New look at WebRTC usage in Google Meet <http://www.rtcbits.com/2022/06/webrtc-google-meet.html>`_
+  - `Meet vs. Duo - 2 faces of Google's WebRTC - webrtcHacks <https://webrtchacks.com/meet-vs-duo-2-faces-of-googles-webrtc/>`_
+  - `Subspace | Dedicated Network For Real-Time Applications <https://www.datocms-assets.com/41207/1638477122-finance-2-with-element.png?fm=webp&h=850&q=90>`_
+    
+    - https://gyazo.com/ad718ac3a3185a4c0bf4f1963cbb46dc
+
+- WebRTC SFU Sora
+
+  - Sora 2022.2.0 リリースに向けて
+
+    - https://sora-doc-canary.shiguredo.jp/
+    - クラスター改善
+    - Lyra 対応
+  - 次のリリースに向けて
+
+    - ノード間転送機能
+
+      - https://develop.shiguredo-sora-doc.pages.dev/INTER_NODE_TRANSFER
+    - AV1 / VP9 Simulcsat 対応
+
+      - https://bugs.chromium.org/p/webrtc/issues/detail?id=11607
+- Sora Cloud
+
+  - https://sora-cloud.shiguredo.jp/
+  - https://doc.sora-cloud.shiguredo.app/
+  - 正式リリース
+  - 今後の展望
+
+    - トラフィック可視化機能
+    - ログ検索機能
+    - 文字起こし機能
+    - 録画合成機能
+    - 統計可視化機能
+- Sora C++ SDK
+- Sora Andorid SDK
+- Sora iOS SDK
+- Sora Unity SDK
+- Sora Flutter SDK
+- Lyra
+- Audio Stremaing Gateway Suzu
+
+
+過去
+================
 
 2022 年 7 月 5 日 19:00-20:30
 ---------------------------------------
@@ -215,8 +264,6 @@ Discord サーバには以下から参加可能です。
 
   - 検討中
 
-過去
-================
 
 2022 年 5 月 10 日 19:00-20:30
 ---------------------------------------
@@ -1939,6 +1986,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 
 

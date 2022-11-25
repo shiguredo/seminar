@@ -99,14 +99,6 @@ Discord サーバには以下から参加可能です。
 今回は 19:00 スタート 20:30 終了の 90 分バージョンです。
 
 - 雑談
-
-  - `WebRTC M104 Release Notes <https://groups.google.com/g/discuss-webrtc/c/PZxgk-aUFhw/m/5CkxzxUMAgAJ>`_
-  - `New look at WebRTC usage in Google Meet <http://www.rtcbits.com/2022/06/webrtc-google-meet.html>`_
-  - `Meet vs. Duo - 2 faces of Google's WebRTC - webrtcHacks <https://webrtchacks.com/meet-vs-duo-2-faces-of-googles-webrtc/>`_
-  - `Subspace | Dedicated Network For Real-Time Applications <https://www.datocms-assets.com/41207/1638477122-finance-2-with-element.png?fm=webp&h=850&q=90>`_
-    
-    - https://gyazo.com/ad718ac3a3185a4c0bf4f1963cbb46dc
-
 - WebRTC SFU Sora
 
   - Sora 2022.2.0 リリースに向けて

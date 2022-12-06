@@ -55,13 +55,8 @@ Discord サーバには以下から参加可能です。
 - SNS への共有などは禁止します
 - このセミナーは開発者向けです
 - 申し込み締切は当日開始 30 分前までとします
-- 視聴用 URL は当日の 18:45 に共有します
-- 当日の 18:55 からテストも込めて配信を開始します
-
-資料などの公開
-==================
-
-参加者限定で公開します。
+- 視聴用 URL は当日の開始 15 分前に共有します
+- 当日の 5 分前からテストも込めて配信を開始します
 
 キャンセル
 ==========
@@ -82,8 +77,7 @@ Discord サーバには以下から参加可能です。
 事前準備
 ========
 
-- Chrome または Edge の最新版が必須です
-- 当日は繋がらないなどに対して個別の対応は一切行いません
+- Chrome の最新版が必須です
 - WebRTC の基本的な話などは一切しません
 
   - 以下は読んでる前提です
@@ -106,14 +100,20 @@ Discord サーバには以下から参加可能です。
     - https://sora-doc-canary.shiguredo.jp/
     - クラスター改善
     - Lyra 対応
+    - 音声ストリーミング機能
+    - センシティブデータ
+    - ウェブフック統計
+    - クラスターアルゴリズム変更 (Raft 採用)
+    - JSONL 形式ログ対応
+    - 録画関連ウェブフック追加
+    - ウェブフック mTLS 対応
+    - クラッシュログ出力 API
   - 次のリリースに向けて
 
-    - ノード間転送機能
+    - **ノード間転送機能**
 
       - https://develop.shiguredo-sora-doc.pages.dev/INTER_NODE_TRANSFER
-    - AV1 / VP9 Simulcsat 対応
-
-      - https://bugs.chromium.org/p/webrtc/issues/detail?id=11607
+    - 接続時にストリーム受信しない機能
 - Sora Cloud
 
   - https://sora-cloud.shiguredo.jp/
@@ -121,18 +121,39 @@ Discord サーバには以下から参加可能です。
   - 正式リリース
   - 今後の展望
 
+    - とにかく安く安定して提供するがテーマ
     - トラフィック可視化機能
-    - ログ検索機能
+    - ログ全部検索機能
     - 文字起こし機能
     - 録画合成機能
     - 統計可視化機能
 - Sora C++ SDK
+
+  - Lyra 対応
+  - iOS が課題
 - Sora Andorid SDK
+
+  - メンテナンスモード
+  - Sora 最新版に追従予定
+  - C++ SDK 化するか検討中
 - Sora iOS SDK
+
+  - Sora 最新版に追従予定
+  - メンテナンスモード
 - Sora Unity SDK
+
+  - https://github.com/shiguredo/sora-unity-sdk
+  - ソフトウェアミュート対応
+  - HoloLens2 ソフトウェアミュート対応
 - Sora Flutter SDK
+
+  - https://github.com/shiguredo/sora-flutter-sdk/
 - Lyra
+
+   - https://github.com/shiguredo/lyra-wasm/
 - Audio Stremaing Gateway Suzu
+
+   - https://github.com/shiguredo/suzu
 
 
 過去
@@ -1978,6 +1999,7 @@ Discord サーバには以下から参加可能です。
   - @voluntas
 
 質問については答えられる範囲で答えます。
+
 
 
 

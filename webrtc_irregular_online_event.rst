@@ -284,4 +284,6 @@ Discord サーバには以下から参加可能です。
 
   - https://github.com/shiguredo/suzu
 
+これ以前のイベント内容は以下からどうぞ。
+https://github.com/shiguredo/seminar/blob/master/old_webrtc_irregular_online_event.rst
 

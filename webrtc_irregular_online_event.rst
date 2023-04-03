@@ -157,19 +157,19 @@ Discord サーバには以下から参加可能です。
     - https://github.com/shiguredo/media-processors/tree/develop/packages/light-adjustment
 - Audio Stremaing Gateway Suzu
 
-   - https://github.com/shiguredo/suzu
-   - AWS / GCP に対応
-   - 無限リトライ対応
+  - https://github.com/shiguredo/suzu
+  - AWS / GCP に対応
+  - 無限リトライ対応
 - Recording Composition Tool Hisui
 
-   - https://github.com/shiguredo/hisui
-   - いくつかのバグ対応
-   - Ubuntu 22.04 対応
-   - ARM64 対応
-   - MP4 (VP9/AAC) が Safari や Win アプリで再生可能に
+  - https://github.com/shiguredo/hisui
+  - いくつかのバグ対応
+  - Ubuntu 22.04 対応
+  - ARM64 対応
+  - MP4 (VP9/AAC) が Safari や Win アプリで再生可能に
 - WebRTC Signaling Server Ayame
 
-   - https://github.com/OpenAyame/ayame
+  - https://github.com/OpenAyame/ayame
 
 
 過去

@@ -90,11 +90,29 @@ Discord サーバには以下から参加可能です。
 2023 年 4 月 18 日 19:00-20:30
 ---------------------------------------
 
-今回は 19:00 スタート 20:30 終了の 90 分バージョンです。
+今回は 19:00 スタート 20:30 終了の 90 分バージョンです。少し延長戦があるかも知れません。
 
 - 雑談
 
-  - 
+  - `WebRTC 110 Release notes <https://groups.google.com/g/discuss-webrtc/c/fe567r-UUrA>`_
+  - `WebRTC 111 Release Notes <https://groups.google.com/g/discuss-webrtc/c/qo2-96L5jEw>`_
+  - `WebRTC 112 Release Notes <https://groups.google.com/g/discuss-webrtc/c/V-XFau9W9gY>`_
+  - `PSA: wildcard rtcp-fb is coming to Chromium M112+ <https://groups.google.com/g/discuss-webrtc/c/Y_h2B-NOzW0>`_
+  - `PSA: VP9/AV1 simulcast support in M113 <https://groups.google.com/g/discuss-webrtc/c/-QQ3pxrl-fw?pli=1>`_
+  - `Neural encoding enables more-efficient recovery of lost audio packets - Amazon Science <https://www.amazon.science/blog/neural-encoding-enables-more-efficient-recovery-of-lost-audio-packets>`_
+
+  - `Use of TURN in WebRTC Revisited: It may be more useful than you thought | by Gabor Retvari | L7mp Technologies | Mar, 2023 | Medium <https://medium.com/l7mp-technologies/use-of-turn-in-webrtc-revisited-it-may-be-more-useful-than-you-thought-856059fd27a3>`_
+  - `Amazon Chime SDK で 250 本のウェブカム動画ストリームのサポートを開始 <https://aws.amazon.com/jp/about-aws/whats-new/2023/01/amazon-chime-sdk-250-webcam-video-streams/>`_
+  - `Safari Technology Preview で WebRTC AV1 が利用可能になった <https://zenn.dev/shiguredo/articles/safari-webrtc-av1>`_
+  - `RTC @Scale 2023 | At Scale Conferences <https://atscaleconference.com/events/rtc-scale-2023/>`_
+  - `EZDRM debuts WebRTC-DRM for low-latency streaming - Digital TV Europe <https://www.digitaltveurope.com/2023/03/10/ezdrm-debuts-webrtc-drm-for-low-latency-streaming/>`_
+  - `Breaking changes in getStats | WebRTC for Developers <https://www.webrtc-developers.com/breaking-changes-in-getstats/>`_
+  - `Video Frame Processing on the Web - WebAssembly, WebGPU, WebGL, WebCodecs, WebNN, and WebTransport - webrtcHacks <https://webrtchacks.com/video-frame-processing-on-the-web-webassembly-webgpu-webgl-webcodecs-webnn-and-webtransport/>`_
+  - `coturn: No Time to Die - Q&A with new project leads - webrtcHacks <https://webrtchacks.com/coturn-no-time-to-die-qa-with-new-project-leads/>`_
+  - `Real-Time Video Processing with WebCodecs and Streams: Processing Pipelines (Part 1) - webrtcHacks <https://webrtchacks.com/real-time-video-processing-with-webcodecs-and-streams-processing-pipelines-part-1/>`_
+  - `Cyara Acquires Spearline <https://www.spearline.com/news/cyara-acquires-spearline-to-deliver-worlds-most-comprehensive-customer-experience-assurance-platform/>`_
+  - `agones 上に作る QUIC を使った音声通信機能【MIXI TECH CONFERENCE 2023】 - Speaker Deck <https://speakerdeck.com/mixi_engineers/voice-communication-function-using-quic-which-created-on-agones>`_
+
 - WebRTC SFU Sora
 
   - Sora 2023.1.0 リリースに向けて
@@ -105,10 +123,14 @@ Discord サーバには以下から参加可能です。
     - OBS (WHIP) 対応
 
       - https://develop.shiguredo-sora-doc.pages.dev/OBS_WHIP
+      - `draft-ietf-wish-whip-08 <https://datatracker.ietf.org/doc/html/draft-ietf-wish-whip-08>`_
     - サイマルキャスト VP9/AV1 対応
     - Lyra 録音
 
       - そのままでは再生できないので Hisui を使って変換して
+    - シグナリング通知に timestamp
+    - SDP 再利用
+    - クラスターディスク障害強化
     - OpenSSL 3.1.0
 
       - AVX512 対応
@@ -170,7 +192,25 @@ Discord サーバには以下から参加可能です。
 - WebRTC Signaling Server Ayame
 
   - https://github.com/OpenAyame/ayame
+  - スタンドアローンモード
+- 時雨堂の今後の取り組み
 
+  - WebCodecs + WebTransport + Warp による片方向配信
+
+    - Zig + Erlang で開発していく予定
+    - 仕様が安定してからで十分と判断している
+  - WebAssembly (Wasm) や WASI を利用したポータビリティを持たせたメディア処理
+  
+    - MediaProcessors のブラウザ以外の適用
+    - MediaAnalyzers の開発
+
+      - 送受信するメディアの品質をブラウザなどでスコアリングする仕組み
+      - ベンダーロックフリーの仕組み
+      - Sora は送信部分に DataChannel を利用する
+    - Sora から Audio/Video を HTTP/2 で受け取って RTMP or RTMP+ で配信する機能
+
+      - CGO 避けたい
+      - Go + Wasmtime + Opus to MP3 (WASI) で検討中
 
 過去
 ================

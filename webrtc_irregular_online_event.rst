@@ -239,9 +239,9 @@ Discord サーバには以下から参加可能です。
   - https://github.com/shiguredo/sora-flutter-sdk/
 - Lyra
 
-   - https://github.com/shiguredo/lyra-wasm/
+  - https://github.com/shiguredo/lyra-wasm/
 - Audio Stremaing Gateway Suzu
 
-   - https://github.com/shiguredo/suzu
+  - https://github.com/shiguredo/suzu
 
 

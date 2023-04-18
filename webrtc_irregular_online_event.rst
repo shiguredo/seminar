@@ -140,15 +140,31 @@ Discord サーバには以下から参加可能です。
     - **ノード間転送機能**
 
       - https://develop.shiguredo-sora-doc.pages.dev/INTER_NODE_TRANSFER
-    - 接続時にストリーム受信しない機能
+    - セッション単位録画機能
 - Sora Cloud
 
   - https://sora-cloud.shiguredo.jp/
   - https://doc.sora-cloud.shiguredo.app/
+  - シグナリング URL の一本化
   - 次のリリースに向けて
 
+    - Sora 2023.1 へのアップデート
     - 録画合成機能
     - 文字起こし機能
+  - 今後
+
+     - 録画合成エディター
+     - Suzu を利用したリアルタイム文字起こし
+     - Kohaku を利用した解析
+- Sora Labo
+
+  - シグナリング URL の一本化
+  - ipv6 専用サーバーの準備
+  - WHIP 対応
+  - チャネル ID 破壊的変更  
+
+    - # 区切りを _ 区切りに変更する
+    - まさか チャネル ID が URL を使う事になると思っていなかった
 - Sora Andorid SDK
 
   - メンテナンスモード
@@ -162,15 +178,19 @@ Discord サーバには以下から参加可能です。
 - Sora C++ SDK
 
   - libwebrtc M113
+  - バグ退治
 - Sora Unity SDK
 
   - https://github.com/shiguredo/sora-unity-sdk
+  - バグ退治
 - Sora Python SDK
 
   - https://github.com/shiguredo/sora-python-sdk/
+  - 急いでないのでゆっくり
 - Sora Flutter SDK
 
   - https://github.com/shiguredo/sora-flutter-sdk/
+  - 急いでないのでゆっくり
 - MediaProcessors
 
   - https://github.com/shiguredo/media-processors
@@ -182,6 +202,7 @@ Discord サーバには以下から参加可能です。
   - https://github.com/shiguredo/suzu
   - AWS / GCP に対応
   - 無限リトライ対応
+  - メッセージ選択機能
 - Recording Composition Tool Hisui
 
   - https://github.com/shiguredo/hisui
@@ -189,12 +210,26 @@ Discord サーバには以下から参加可能です。
   - Ubuntu 22.04 対応
   - ARM64 対応
   - MP4 (VP9/AAC) が Safari や Win アプリで再生可能に
+  - OpenH264 エンコード
+  - AV1 デコード/エンコード
+  - Lyra デコード
+  - 分割録画対応
+  - oneVPL による HWA 対応
+  
+    - `oneapi-src/oneVPL: oneAPI Video Processing Library (oneVPL) dispatcher, tools, and examples <https://github.com/oneapi-src/oneVPL>`_
+- WebRTC Stats Collector Kohaku
+
+  - https://github.com/shiguredo/kohaku
+  - https://github.com/shiguredo/kohaku/pull/69
+
+    - リライト
 - WebRTC Signaling Server Ayame
 
   - https://github.com/OpenAyame/ayame
   - スタンドアローンモード
 - 時雨堂の今後の取り組み
 
+  - ノード間転送による大規模対応
   - WebCodecs + WebTransport + Warp による片方向配信
 
     - Zig + Erlang で開発していく予定
@@ -287,3 +322,4 @@ Discord サーバには以下から参加可能です。
 これ以前のイベント内容は以下からどうぞ。
 https://github.com/shiguredo/seminar/blob/master/old_webrtc_irregular_online_event.rst
 
+http://66.42.39.71:5000/whip/shiguradio

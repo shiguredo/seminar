@@ -247,6 +247,7 @@ Discord サーバには以下から参加可能です。
 
       - CGO 避けたい
       - Go + Wasmtime + Opus to MP3 (WASI) で検討中
+- https://roadmap.shiguredo.jp/
 
 過去
 ================

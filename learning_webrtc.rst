@@ -118,14 +118,14 @@ WebRTC の正しい知識を学ぶ機会を提供する必要があると考え�
 
 - NAPT 関連
 
-  - 時間がかかるのではしょります、学びたい人は Tailscale の記事を読んでください
+  - 時間がかかるので割愛します、学びたい人は Tailscale の記事を読んでください
   - `How NAT traversal works · Tailscale <https://tailscale.com/blog/how-nat-traversal-works/>`_
 - libwebrtc 関連
 
-  - 講師が明るくないので
+  - 講師が明るくないので話しません
 - ハードウェア関連
 
-  - 講師が明るくないので
+  - 講師が明るくないので話しません
 
 参考資料
 ==========

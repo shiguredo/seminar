@@ -12,7 +12,13 @@
 
 実際に利用されている WebRTC 製品を 1 から開発している企業の中の人が WebRTC について説明します。
 できるだけわかりやすく説明しますし、その場での質問を積極的に受け付けます。
-ただし、コードを書くと言ったハンズオン系は一切やりません。
+
+ただし、コードを書くなどのハンズオン系は一切やりません。
+
+WebRTC を理解している人を増やすことが目的であり、
+自社製品を売ることが目的ではないので、自社製品の宣伝などは行いません。
+
+3-4 ヶ月に一回、自社製品の宣伝イベントをやっているのでそちらにご参加ください。
 
 目的
 ====
@@ -84,7 +90,27 @@ Discord でリアルタイムにコメントでの質問を拾いつつ説明し
 ==========
 
 - WebRTC 関連 RFC
+
+  - `RFC 8825: Overview: Real-Time Protocols for Browser-Based Applications <https://www.rfc-editor.org/rfc/rfc8825.html>`_
+  - `RFC 8835: Transports for WebRTC <https://www.rfc-editor.org/rfc/rfc8835.html>`_
+  - `RFC 8853: Using Simulcast in Session Description Protocol (SDP) and RTP Sessions <https://www.rfc-editor.org/rfc/rfc8853>`_
+- WebRTC 関連 RFC ドラフト
+
+  - `draft-uberti-rtcweb-rfc8829bis-04 <https://datatracker.ietf.org/doc/html/draft-uberti-rtcweb-rfc8829bis-04>`_
 - WebRTC 関連 W3C
+
+  - `WebRTC: Real-Time Communication in Browsers <https://www.w3.org/TR/webrtc/>`_
+  - `Identifiers for WebRTC's Statistics API <https://www.w3.org/TR/webrtc-stats/>`_
+  - `Scalable Video Coding (SVC) Extension for WebRTC <https://www.w3.org/TR/webrtc-svc/>`_
+  - `WebRTC Encoded Transform <https://www.w3.org/TR/webrtc-encoded-transform/>`_
+  - `WebRTC Extensions <https://w3c.github.io/webrtc-extensions/>`_
+  - `WebRTC Priority Control API <https://www.w3.org/TR/webrtc-priority/>`_
+  - `Media Capture and Streams <https://www.w3.org/TR/mediacapture-streams/>`_
+  - `Audio Output Devices API <https://www.w3.org/TR/audio-output/>`_
+  - `MediaStreamTrack Content Hints <https://www.w3.org/TR/mst-content-hint/>`_
+  - `MediaStreamTrack Insertable Media Processing using Streams <https://www.w3.org/TR/mediacapture-transform/>`_
+  - `Screen Capture <https://www.w3.org/TR/screen-capture/>`_
+  - `WebRTC Extended Use Cases <https://www.w3.org/TR/webrtc-nv-use-cases/>`_
 - `はじめに | 好奇心旺盛な人のためのWebRTC <https://webrtcforthecurious.com/ja/>`_
 - @voluntas が書いた資料
 

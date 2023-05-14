@@ -132,6 +132,7 @@ WebRTC の正しい知識を学ぶ機会を提供する必要があると考え�
 現時点での WebRTC の状況を踏まえて話をします。
 
 - WebRTC の歴史
+
   - プラン B とユニファイドプラン
   - マルチストリーム
   - ポート共通化
@@ -141,21 +142,25 @@ WebRTC の正しい知識を学ぶ機会を提供する必要があると考え�
   - AV1
   - mDNS
 - WebRTC を学ぶポイント
+
   - どこまで深追いしたいかどうか
   - SDP は読めた方がいいの？
   - RTP や SCTP について学ぶ必要性は？
   - STUN や TURN の仕組みは理解した方がいい
 - WebRTC の仕組み
+
   - Media Transport
   - Data Channels
   - W3C 解説
   - RFC 解説
 - WebRTC シグナリング
+
   - 手動
   - XHR
   - WebSocket
   - XMPP
 - WebRTC プロトコルスタック
+
   - SDP
   - ICE
   - STUN
@@ -166,13 +171,16 @@ WebRTC の正しい知識を学ぶ機会を提供する必要があると考え�
   - SRTP/SRTCP
   - SCTP
 - WebRTC SFU の仕組み
+
   - MCU との比較
   - SFU の仕組み
 - WebRTC の今
+
   - AV1
   - SVC
   - WHIP / WHEP
 - WebRTC の今後
+
   - QUIC
   - HTTP/3
   - WebTransport
@@ -181,6 +189,7 @@ WebRTC の正しい知識を学ぶ機会を提供する必要があると考え�
   - RTP over WebTransport
   - libwebrtc の代わり
 - WebRTC の OSS
+
   - OSS を採用すべきかどうか
   - OSS を選ぶときのポイント
   - WebRTC の SaaS を選ぶときのポイント

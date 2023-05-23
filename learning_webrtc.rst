@@ -4,6 +4,7 @@
 
 :日時: 2023 年 5 月 25 日 (木) 14:00-18:00
 :場所: オンライン Discord https://discord.gg/shiguredo
+:申込締切: 2023 年 5 月 24 日 (水) 14:00
 
 概要
 ====
@@ -46,7 +47,7 @@ WebRTC の **正しい知識** を強制的にインプットさせ、
 WebRTC を学ぶ気がある人。
 
 参加申込方法
-===========
+===============
 
 ``時雨堂コミュニティ`` の Discord のサーバに参加している必要があります。
 
@@ -125,76 +126,6 @@ Discord でリアルタイムにコメントでの質問を拾いつつ説明し
 WebRTC の正しい知識を学ぶ機会を提供する必要があると考え、
 多くの企業に利用されている WebRTC SFU Sora の開発メーカーである時雨堂が主催するイベントです。
 
-学べること
-============
-
-**資料は当日共有します**
-
-現時点での WebRTC の状況を踏まえて話をします。
-
-- WebRTC の歴史
-
-  - プラン B とユニファイドプラン
-  - マルチストリーム
-  - ポート共通化
-  - H.264
-  - VP9
-  - サイマルキャスト
-  - AV1
-  - mDNS
-- WebRTC を学ぶポイント
-
-  - どこまで深追いしたいかどうか
-  - SDP は読めた方がいいの？
-  - RTP や SCTP について学ぶ必要性は？
-  - STUN や TURN の仕組みは理解した方がいい
-- WebRTC の仕組み
-
-  - Media Transport
-  - Data Channels
-  - W3C 解説
-  - RFC 解説
-- WebRTC シグナリング
-
-  - 手動
-  - XHR
-  - WebSocket
-  - XMPP
-- WebRTC プロトコルスタック
-
-  - SDP
-  - ICE
-  - STUN
-  - TURN
-  - DTLS
-  - RTP
-  - RTCP
-  - SRTP/SRTCP
-  - SCTP
-- WebRTC SFU の仕組み
-
-  - MCU との比較
-  - SFU の仕組み
-- WebRTC の今
-
-  - AV1
-  - SVC
-  - WHIP / WHEP
-- WebRTC の今後
-
-  - QUIC
-  - HTTP/3
-  - WebTransport
-  - WebCodecs
-  - Warp
-  - RTP over WebTransport
-  - libwebrtc の代わり
-- WebRTC の OSS
-
-  - OSS を採用すべきかどうか
-  - OSS を選ぶときのポイント
-  - WebRTC の SaaS を選ぶときのポイント
-
 学べないこと
 ============
 
@@ -209,36 +140,3 @@ WebRTC の正しい知識を学ぶ機会を提供する必要があると考え�
 
   - 講師が明るくないので話しません
 
-参考資料
-==========
-
-**そのうち消します**
-
-- WebRTC 関連 RFC
-
-  - `RFC 8825: Overview: Real-Time Protocols for Browser-Based Applications <https://www.rfc-editor.org/rfc/rfc8825.html>`_
-  - `RFC 8835: Transports for WebRTC <https://www.rfc-editor.org/rfc/rfc8835.html>`_
-  - `RFC 8853: Using Simulcast in Session Description Protocol (SDP) and RTP Sessions <https://www.rfc-editor.org/rfc/rfc8853>`_
-- WebRTC 関連 RFC ドラフト
-
-  - `draft-uberti-rtcweb-rfc8829bis-04 <https://datatracker.ietf.org/doc/html/draft-uberti-rtcweb-rfc8829bis-04>`_
-- WebRTC 関連 W3C
-
-  - `WebRTC: Real-Time Communication in Browsers <https://www.w3.org/TR/webrtc/>`_
-  - `Identifiers for WebRTC's Statistics API <https://www.w3.org/TR/webrtc-stats/>`_
-  - `Scalable Video Coding (SVC) Extension for WebRTC <https://www.w3.org/TR/webrtc-svc/>`_
-  - `WebRTC Encoded Transform <https://www.w3.org/TR/webrtc-encoded-transform/>`_
-  - `WebRTC Extensions <https://w3c.github.io/webrtc-extensions/>`_
-  - `WebRTC Priority Control API <https://www.w3.org/TR/webrtc-priority/>`_
-  - `Media Capture and Streams <https://www.w3.org/TR/mediacapture-streams/>`_
-  - `Audio Output Devices API <https://www.w3.org/TR/audio-output/>`_
-  - `MediaStreamTrack Content Hints <https://www.w3.org/TR/mst-content-hint/>`_
-  - `MediaStreamTrack Insertable Media Processing using Streams <https://www.w3.org/TR/mediacapture-transform/>`_
-  - `Screen Capture <https://www.w3.org/TR/screen-capture/>`_
-  - `WebRTC Extended Use Cases <https://www.w3.org/TR/webrtc-nv-use-cases/>`_
-- `はじめに | 好奇心旺盛な人のためのWebRTC <https://webrtcforthecurious.com/ja/>`_
-- @voluntas が書いた資料
-
-  - `WebRTC を今から学ぶ人に向けて <https://zenn.dev/voluntas/scraps/82b9e111f43ab3>`_
-  - `WebRTC コトハジメ <https://gist.github.com/voluntas/67e5a26915751226fdcf>`_
-  - `WebRTC SFU コトハジメ <https://gist.github.com/voluntas/4d2bd3e878965bdd747a>`_

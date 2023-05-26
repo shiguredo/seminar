@@ -15,7 +15,7 @@ WebRTC SFU Sora & Sora Cloud 入門
 このあたりで 1 から自社製品を学べる機会を作ろうと考えました。
 
 コードを書いたり、ハンズオンをしたりはしません。
-興味ある方は [Sora Labo](https://sora-labo.shiguredo.app/) を利用して触ってみてください。
+興味ある方は `Sora Labo <https://sora-labo.shiguredo.app>`_ を利用して触ってみてください。
 
 WebRTC の入門的なのは別に開催していますので、そちらにご参加ください。
 
@@ -23,8 +23,8 @@ WebRTC の入門的なのは別に開催していますので、そちらにご�
 ====
 
 - なぜ P2P ではなく WebRTC SFU なのかを知ってもらいたい
-- 時雨堂の [WebRTC SFU Sora](https://sora.shiguredo.jp) を知ってもらいたい
-- 時雨堂の [Sora Cloud](https://sora-cloud.shiguredo.jp) を知ってもらいたい
+- 時雨堂の `WebRTC SFU Sora <https://sora.shiguredo.jp>`_ を知ってもらいたい
+- 時雨堂の `Sora Cloud <https://sora-cloud.shiguredo.jp>`_ を知ってもらいたい
 
 講師
 ====

@@ -4,7 +4,7 @@
 
 :日時: 2023 年 11 月 21 日 (木) 15:00-17:00
 :場所: オンライン Discord https://discord.gg/shiguredo
-:申込締切: 2023 年 5 月 20 日 (月) 15:00
+:申込締切: 2023 年 11 月 20 日 (月) 15:00
 
 概要
 ====
@@ -31,7 +31,7 @@ OBS が 30.0.0 で新しく対応した、WebRTC/WHIP の仕組みや技術に�
 
 `時雨堂 <https://shiguredo.jp>`_ `@voluntas <https://twitter.com/voluntas>`_
 
-時雨堂の創業者で、時雨堂が開発、販売している WebRTC SFU Sora の設計者です。
+時雨堂の創業者で、時雨堂が開発、販売している WebRTC SFU Sora / Sora Cloud の設計者です。
 
 費用
 ====

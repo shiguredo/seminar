@@ -131,17 +131,3 @@ Discord でリアルタイムにコメントでの質問を拾いつつ説明し
 WebRTC ベースの WHIP の正しい知識を学ぶ機会を提供するイベントです。
 
 主催は多くの企業に利用されている WebRTC SFU Sora の開発メーカーである時雨堂が行います。
-
-学べないこと
-============
-
-- NAPT 関連
-
-  - 時間がかかるので割愛します、学びたい人は Tailscale の記事を読んでください
-  - `How NAT traversal works · Tailscale <https://tailscale.com/blog/how-nat-traversal-works/>`_
-- libwebrtc 関連
-
-  - 講師が明るくないので話しません
-- ハードウェア関連
-
-  - 講師が明るくないので話しません

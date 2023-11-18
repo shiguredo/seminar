@@ -33,6 +33,11 @@ OBS が 30.0.0 で新しく対応した、WebRTC/WHIP の仕組みや技術に�
 
 時雨堂の創業者で、時雨堂が開発、販売している WebRTC SFU Sora / Sora Cloud の設計者です。
 
+資料
+----------------
+
+`時雨堂 OBS WebRTC/WHIP 入門 (講師資料) <https://gist.github.com/voluntas/06d7f992d78fbddf8061a09a8caf4efb>`_
+
 費用
 ====
 

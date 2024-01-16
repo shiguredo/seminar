@@ -142,13 +142,16 @@ Discord サーバには以下から参加可能です。
     - 録画 HEVC や AAC 対応
     - WebRTC Codec Selection API 対応
     - 録画ファイル出力時に WebM の TAG を利用したメタデータ付与
+  - アプリケーション連携ドキュメントの提供
+
+    - https://develop.shiguredo-sora-doc.pages.dev/APP_INTEGRATE_TUTORIAL
 - Sora Cloud
 
   - Sora 最新版の反映
   - 録画機能を管理コンソールから利用する
   - ログ検索機能
   - ウェブフック再送信機能
-- Sora SDK
+- Sora SDK 全般
 
   - H.265 対応
   
@@ -167,6 +170,9 @@ Discord サーバには以下から参加可能です。
   - Raspberry Pi Zero 対応
   - recvonly (受信のみ) 対応
   - RISC-V 対応
+- Sora Python SDK
+
+  - サーバー向け SDK の提供
 - React Component の提供
 
   - Sora JS SDK を利用した React Component の提供
@@ -175,6 +181,9 @@ Discord サーバには以下から参加可能です。
   - NVIDIA Jetson 5.1.2 対応
   - NVIDIA Jetson 6 対応
   - NVIDIA Jetson H.265 対応
+  - Jetson Orin Nano と Raspberry Pi 5 は優先実装対応
+
+    - HWA エンコーダー非搭載のため積極的に対応する理由がない
 
 過去
 ================

@@ -106,28 +106,40 @@ Discord サーバには以下から参加可能です。
     
       - セッション状態のクラスターによる共有
     - 転送フィルター機能の紹介
+  - 次の Sora の新機能について
+
+    - リレー機能
+    - 音声ストリーミング失敗対応
 - Sora Cloud
 
   - Sora 最新版の反映
   - 録画機能を管理コンソールから利用する
+  - ログ検索機能
+  - ウェブフック再送信機能
 - Sora SDK
 
   - H.265 対応
   - iOS / Android の C++ SDK 化
 
     - 完全互換で対応する方針で進めてる
+    - まずは iOS から
   - モバイルの音声デバイス周りの改善
   - Sora C SDK
 
     - リダイレクトや複数シグナリング URL
+
+      - この時点でリリース予定
     - Raspberry Pi Zero 対応
     - recvonly (受信のみ) 対応
     - RISC-V 対応
+  - React Component の提供
+
+    - Sora JS SDK を利用した React Component の提供
 - Momo
 
+  - NVIDIA Jetson 5.1.2 対応
+  - NVIDIA Jetson 6 対応
   - NVIDIA Jetson H.265 対応
-  - メンテナンスモードで機能追加の予定は優先実装以外ではなし
-  - 積極的なアップデートはしないが、セキュリティアップデートはする
 
 過去
 ================

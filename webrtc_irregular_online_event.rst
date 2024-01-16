@@ -23,7 +23,7 @@ Discord サーバーブースト
 Discord で Sora Lab / Sora SDK の Discord サーバへサーバブーストをしてくれているユーザは申請なしで全てのイベントに参加可能です。
 また、イベントの過去ログを見ることができるようになります。締め切りを過ぎたイベントでも参加が可能です。
 
-`サーバーブースト 💨 – Discord <https://support.discord.com/hc/ja/articles/360028038352>`_
+`サーバーブースト 💨 - Discord <https://support.discord.com/hc/ja/articles/360028038352>`_
 
 2024 年 1 月 16 日 (火) のイベントへの参加申込方法
 =====================================================
@@ -93,10 +93,37 @@ Discord サーバには以下から参加可能です。
 今回から 15:00 スタート 16:30 終了の 90 分です。今後は平日昼間のみの開催なります。
 
 - 雑談
+
+  - `M121 Release Notes <https://groups.google.com/g/discuss-webrtc/c/N8QOWRz39hc>`_
+  - `M120 Release Notes <https://groups.google.com/g/discuss-webrtc/c/U12Vs7hKDMY/m/2DINDrU3AQAJ>`_
+  - `WebRTC M119 Release Notes <https://groups.google.com/g/discuss-webrtc/c/LCTbG0jMT9k/m/eNZYttO1AAAJ>`_
+  - `WebRTC 118 Release Notes <https://groups.google.com/g/discuss-webrtc/c/6FL4yW3UdZg/m/EoRYc83UAwAJ>`_
+  - `WebRTC 117 release notes <https://groups.google.com/g/discuss-webrtc/c/GKl4zc5kTog/m/_QzhHW3GAwAJ>`_
+  - `WebRTC 116 Release Notes <https://groups.google.com/g/discuss-webrtc/c/bEsO8Lz7psE/m/wVDwcuhIAAAJ>`_
+  - `WebRTC 115 Release Notes <https://groups.google.com/g/discuss-webrtc/c/1CTKFxJsrmQ/m/2v_RuAJdAAAJ>`_
+  - `WebRTC 114 release notes <https://groups.google.com/g/discuss-webrtc/c/GS-28AVIhg4/m/wGgWSt0TAgAJ>`_
+  - `WebRTC 113 Release Notes <https://groups.google.com/g/discuss-webrtc/c/imXxtjKJfIA/m/kTj9D_PtAQAJ>`_
+  - `Mixed-codec simulcast と WebRTC Codec Selection API <https://zenn.dev/shiguredo/articles/webrtc-mixed-codec-simulcast>`_
+
+    - https://chromestatus.com/feature/5200982281027584
+    - https://github.com/Orphis/webrtc-extensions/blob/explainer/explainers/codec-selection.md
+    - https://bugs.chromium.org/p/webrtc/issues/detail?id=15064
+    - https://webrtc.googlesource.com/src/+/43a5dd86c20df887496979acf5041f9920b1b501
+    - https://github.com/w3c/webrtc-extensions/issues/43
+    - https://www.w3.org/2023/01/17-webrtc-minutes.html#t07
+    - https://github.com/w3c/webrtc-extensions/issues/126
+    - https://github.com/w3ctag/design-reviews/issues/836
+    - https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpCodecParameters
+  - `obs-webrtc: Add AV1 Support by Sean-Der · Pull Request #9331 · obsproject/obs-studio <https://github.com/obsproject/obs-studio/pull/9331>`_
+  - `The Hidden AV1 Gift in Google Meet - webrtcHacks <https://webrtchacks.com/the-hidden-av1-gift-in-google-meet/>`_
+  - `Twilio layoffs: Company to cut 5% of employees <https://www.cnbc.com/2023/12/04/twilio-layoffs-company-to-cut-5percent-of-employees.html>`_
+  - `WebCodecs, WebTransport, and the Future of WebRTC - webrtcHacks <https://webrtchacks.com/webcodecs-webtransport-and-webrtc/>`_
+  - `Replacing WebRTC - Media over QUIC <https://quic.video/blog/replacing-webrtc/>`_
 - WebRTC SFU Sora
 
   - Sora 2023.2.x の新機能について
 
+    - https://sora-doc.shiguredo.jp/RELEASE_NOTE
     - 新しい録画機能 (セッション単位)
     - レガシー録画機能の廃止
       
@@ -106,10 +133,15 @@ Discord サーバには以下から参加可能です。
     
       - セッション状態のクラスターによる共有
     - 転送フィルター機能の紹介
-  - 次の Sora の新機能について
+  - 今後の Sora の新機能について
 
     - リレー機能
-    - 音声ストリーミング失敗対応
+    - 音声ストリーミング失敗処理対応
+    - OBS HEVC 対応
+    - OBS AAC 対応
+    - 録画 HEVC や AAC 対応
+    - WebRTC Codec Selection API 対応
+    - 録画ファイル出力時に WebM の TAG を利用したメタデータ付与
 - Sora Cloud
 
   - Sora 最新版の反映
@@ -119,22 +151,25 @@ Discord サーバには以下から参加可能です。
 - Sora SDK
 
   - H.265 対応
+  
+    - oneVPL
+    - NVIDIA Video Codec SDK
   - iOS / Android の C++ SDK 化
 
     - 完全互換で対応する方針で進めてる
     - まずは iOS から
   - モバイルの音声デバイス周りの改善
-  - Sora C SDK
+- Sora C SDK
 
-    - リダイレクトや複数シグナリング URL
+  - リダイレクトや複数シグナリング URL
 
-      - この時点でリリース予定
-    - Raspberry Pi Zero 対応
-    - recvonly (受信のみ) 対応
-    - RISC-V 対応
-  - React Component の提供
+    - この機能に対応した時点でリリース予定
+  - Raspberry Pi Zero 対応
+  - recvonly (受信のみ) 対応
+  - RISC-V 対応
+- React Component の提供
 
-    - Sora JS SDK を利用した React Component の提供
+  - Sora JS SDK を利用した React Component の提供
 - Momo
 
   - NVIDIA Jetson 5.1.2 対応

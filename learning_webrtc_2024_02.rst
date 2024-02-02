@@ -121,7 +121,7 @@ Discord でリアルタイムにコメントでの質問を拾いつつ説明し
 
 **当日までにアップデートしていきます**
 
-`時雨堂 WebRTC 入門 (講師資料) v2024-02 <https://gist.github.com/voluntas/c65484c388a5d4eaddcb2c05d99a4cac>`_
+`時雨堂 WebRTC 入門 (講師資料) v2024-02 <https://gist.github.com/voluntas/b67af408b8950b568e750918920016d8>`_
 
 事前準備
 ===================

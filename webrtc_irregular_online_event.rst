@@ -93,7 +93,6 @@ Discord サーバには以下から参加可能です。
 
   - Sora 2024.1.x の新機能について
 
-    - https://sora-doc.shiguredo.jp/RELEASE_NOTE
     - クラスターリレー機能
     - クラスターリレーアフィニティ機能
     - クラスターテンポラリーノード機能
@@ -108,7 +107,7 @@ Discord サーバには以下から参加可能です。
     - サイマルキャストマルチコーデック機能
     - H.264 / HEVC B-frame 対応
     - プレイアウト遅延機能
-  - 今後の Sora の新機能について
+  - 今後の Sora の新機能と戦略
 
     - HEVC 録画機能
     - MP4 出力機能
@@ -118,9 +117,15 @@ Discord サーバには以下から参加可能です。
     - OBS WHIP/WHEP
     
       - サイマルキャスト
+    - Media over QUIC WebTransport
+
+      - OpenSSL QUIC
+      - Zig
 - Sora Cloud
 
   - Sora 最新版の反映
+  - Suzu Cloud の提供
+  - Kohaku Cloud の提供
 - Sora SDK 全般
 
   - H.265 B-frame 対応

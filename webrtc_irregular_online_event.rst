@@ -25,7 +25,7 @@ Discord で Sora Lab / Sora SDK の Discord サーバへサーバブーストを
 
 `サーバーブースト 💨 - Discord <https://support.discord.com/hc/ja/articles/360028038352>`_
 
-2024 年 1 月 16 日 (火) のイベントへの参加申込方法
+2024 年 7 月 9 日 (火) のイベントへの参加申込方法
 =====================================================
 
 まず ``時雨堂コミュニティ`` の Discord のサーバに参加している必要があります。
@@ -43,7 +43,7 @@ Discord サーバには以下から参加可能です。
 ロールが管理者のアカウントから参加宣言にリアクションが付き、
 その後イベント用のロールを付与されます。
 
-今回は ``2024-01-16`` というロールが付与されます。
+今回は ``2024-07-09`` というロールが付与されます。
 
 注意
 ----
@@ -77,15 +77,78 @@ Discord サーバには以下から参加可能です。
 事前準備
 ========
 
-- Chrome の最新版が必須です
+- Chrome または Edge の最新版が必須です
 - WebRTC の基本的な話などは一切しません
-
-  - 以下は読んでる前提です
-  - `WebRTC コトハジメ <https://gist.github.com/voluntas/67e5a26915751226fdcf>`_
-  - `WebRTC の未来 <https://gist.github.com/voluntas/59a135343538c290e515>`_
 
 開催
 ====
+
+2024 年 7 月 9 日 15:00-17:00
+---------------------------------------
+
+今回から 15:00 スタート 17:00 終了の 120 分です。
+
+- 雑談
+- WebRTC SFU Sora
+
+  - Sora 2024.1.x の新機能について
+
+    - https://sora-doc.shiguredo.jp/RELEASE_NOTE
+    - クラスターリレー機能
+    - クラスターリレーアフィニティ機能
+    - クラスターテンポラリーノード機能
+    - クラスター合計接続数維持機能
+    - OBS WHIP / WHEP
+
+      - HEVC
+      - TURN-UDP
+    - 統計ウェブフック
+    - RTC 統計
+    - ライフタイム機能
+    - サイマルキャストマルチコーデック機能
+    - H.264 / HEVC B-frame 対応
+    - プレイアウト遅延機能
+  - 今後の Sora の新機能について
+
+    - HEVC 録画機能
+    - MP4 出力機能
+    - サイマルキャストマルチコーデック録画
+    - サイマルキャストマルチコーデックフォールバック
+    - マルチフィンガープリント SHA-256/512 対応
+    - OBS WHIP/WHEP
+    
+      - サイマルキャスト
+- Sora Cloud
+
+  - Sora 最新版の反映
+- Sora SDK 全般
+
+  - H.265 B-frame 対応
+  - H.265 対応
+  
+    - oneVPL
+    - NVIDIA Video Codec SDK
+  - iOS / Android の C++ SDK 化
+
+    - 完全互換で対応する方針で進めてる
+    - まずは iOS から
+  - モバイルの音声デバイス周りの改善
+- Sora C SDK
+
+  - サイマルキャストマルチコーデック対応
+  - Raspberry Pi Zero 対応
+  - RISC-V 対応
+- Sora Python SDK
+
+  - nanobind 2.0 による型提供
+- React Component の提供
+
+  - Sora JS SDK を利用した React Component の提供
+- Momo
+
+  - NVIDIA Jetson 5.1.2 対応
+  - NVIDIA Jetson 6 対応
+  - NVIDIA Jetson H.265 対応
 
 2024 年 1 月 16 日 15:00-16:30
 ---------------------------------------

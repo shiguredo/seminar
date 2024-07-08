@@ -89,10 +89,23 @@ Discord サーバには以下から参加可能です。
 今回から 15:00 スタート 17:00 終了の 120 分です。
 
 - 雑談
+
+  - WebRTC
+
+    - `Debugging with about:webrtc in Firefox, Getting Data Out - Advancing WebRTC <https://blog.mozilla.org/webrtc/debugging-with-aboutwebrtc-in-firefox-getting-data-out/>`_
+    - `How WebRTC speaker selection works - Advancing WebRTC <https://blog.mozilla.org/webrtc/how-webrtc-speaker-selection-works/>`_
+    - `WebRTC & HEVC - how can you get these two to work together • BlogGeek.me <https://bloggeek.me/webrtc-hevc-work-together/>`_
+  - QUIC
+
+    - `Never* use Datagrams - Media over QUIC <https://quic.video/blog/never-use-datagrams/>`_
+    - `draft-kazuho-quic-quic-on-streams-00 <https://datatracker.ietf.org/doc/html/draft-kazuho-quic-quic-on-streams-00>`_
+  - WebTransport
+  - Media over QUIC Transport
 - WebRTC SFU Sora
 
   - Sora 2024.1.x の新機能について
 
+    - なぜ Raft を採用し、分散システム化したのか
     - クラスターリレー機能
     - クラスターリレーアフィニティ機能
     - クラスターテンポラリーノード機能
@@ -109,7 +122,14 @@ Discord サーバには以下から参加可能です。
     - プレイアウト遅延機能
   - 今後の Sora の新機能と戦略
 
-    - HEVC 録画機能
+    - データチャネル積極的改善
+
+      - `RFC 8260 - Stream Schedulers and User Message Interleaving for the Stream Control Transmission Protocol <https://duckduckgo.com/?q=RFC8260&atb=v376-1&ia=web>`_
+    - リダイレクトトークンの検討
+
+      - リダイレクト時に認証をスキップできる仕組み
+    - セキュリティ強化
+    - H.265 (HEVC) 録画機能
     - MP4 出力機能
     - サイマルキャストマルチコーデック録画
     - サイマルキャストマルチコーデックフォールバック
@@ -117,43 +137,60 @@ Discord サーバには以下から参加可能です。
     - OBS WHIP/WHEP
     
       - サイマルキャスト
-    - Media over QUIC WebTransport
+    - RTP/RTCP ダンプ機能
 
-      - OpenSSL QUIC
-      - Zig
+      - pcap で出力できるようになる
+    - Media over QUIC Transport (MOQT)
+
+      - 最初は C++ SDK でのサポートを想定
+      - WebTransport ではなく QUIC のみの対応を想定
+      - コーデックは AV1/Opus １択で進める想定
+      - サーバーは Erlang/OTP の QUIC 実装 (自前) を利用
+      - クライアントは OpenSSL の QUIC 実装を利用
 - Sora Cloud
 
   - Sora 最新版の反映
   - Suzu Cloud の提供
   - Kohaku Cloud の提供
-- Sora SDK 全般
+- Sora C++ SDK
 
-  - H.265 B-frame 対応
-  - H.265 対応
-  
-    - oneVPL
-    - NVIDIA Video Codec SDK
-  - iOS / Android の C++ SDK 化
-
-    - 完全互換で対応する方針で進めてる
-    - まずは iOS から
-  - モバイルの音声デバイス周りの改善
-- Sora C SDK
-
-  - サイマルキャストマルチコーデック対応
-  - Raspberry Pi Zero 対応
-  - RISC-V 対応
+  - [x] サイマルキャストマルチコーデック
+  - [x] メンテナンス強化のためのプライオリティ付け
+  - Raspberry Pi 対応
 - Sora Python SDK
 
-  - nanobind 2.0 による型提供
+  - [x] nanobind 2.0 による型提供
+  - 多機能化
+  - Jetson などの別パッケージ化
+- Sora Unity SDK
+
+  - WebGL 対応版の検討
 - React Component の提供
 
   - Sora JS SDK を利用した React Component の提供
 - Momo
 
-  - NVIDIA Jetson 5.1.2 対応
-  - NVIDIA Jetson 6 対応
-  - NVIDIA Jetson H.265 対応
+  - 積極的な改善予定
+  - [x] NVIDIA Jetson 6 対応
+  - [x] NVIDIA Jetson H.265 対応
+  - [x] NVIDIA Jetson 5.1.3 対応
+  - [x] Intel VPL 対応
+- Kohaku
+
+  - [x] TimescaleDB から ClickHouse へ
+  - [x] 統計エクスポーターから統計ウェブフックへ
+- WebRTC 統計ローカル可視化ツール
+
+  - OSS として公開予定
+  - Sora に限定しない MediaProcessors の可視化ツール版
+
+    - WebRTCStatistics とか？
+  - WebRTC Stats をローカルでため込みローカルで確認できる仕組み
+
+    - Sora-DevTools に組み込み予定
+  - DuckDB-Wasm + OPFS
+
+    - https://github.com/duckdb/duckdb-wasm
 
 2024 年 1 月 16 日 15:00-16:30
 ---------------------------------------
@@ -491,3 +528,4 @@ Discord サーバには以下から参加可能です。
 https://github.com/shiguredo/seminar/blob/master/old_webrtc_irregular_online_event.rst
 
 http://66.42.39.71:5000/whip/shiguradio
+

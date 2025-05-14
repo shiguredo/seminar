@@ -25,7 +25,7 @@ Discord で Sora Lab / Sora SDK の Discord サーバへサーバブーストを
 
 `サーバーブースト 💨 - Discord <https://support.discord.com/hc/ja/articles/360028038352>`_
 
-2024 年 7 月 9 日 (火) のイベントへの参加申込方法
+2025 年 7 月 8 日 (火) のイベントへの参加申込方法
 =====================================================
 
 まず ``時雨堂コミュニティ`` の Discord のサーバに参加している必要があります。
@@ -43,7 +43,7 @@ Discord サーバには以下から参加可能です。
 ロールが管理者のアカウントから参加宣言にリアクションが付き、
 その後イベント用のロールを付与されます。
 
-今回は ``2024-07-09`` というロールが付与されます。
+今回は ``2025-07-08`` というロールが付与されます。
 
 注意
 ----
@@ -77,11 +77,46 @@ Discord サーバには以下から参加可能です。
 事前準備
 ========
 
-- Chrome または Edge の最新版が必須です
+- Chrome または Safari の最新版が必須です
 - WebRTC の基本的な話などは一切しません
 
 開催
 ====
+
+2025 年 7 月 8 日 15:00-17:00
+---------------------------------------
+
+今回から 15:00 スタート 17:00 終了の 120 分です。
+
+- 雑談
+
+  - WebRTC
+  - MOQT
+
+    - https://quic.video/blog/application-first
+- WebRTC SFU Sora
+
+  - Sora 2025.1.x の新機能について
+  - 今後の Sora の新機能と戦略
+- Sora Cloud
+- Sora JavaScript SDK
+- Sora C++ SDK
+- Sora Python SDK
+- Sora iOS/Android SDK
+- Sora Unity SDK
+- Kohaku
+- Hisui
+- Zakuro
+- Momo
+- Media Processors
+
+  - @shiguredo/rnnoise-wasm
+- libdatachannel-py
+
+
+過去
+================
+
 
 2024 年 7 月 9 日 15:00-17:00
 ---------------------------------------
@@ -289,9 +324,6 @@ Discord サーバには以下から参加可能です。
   - Jetson Orin Nano と Raspberry Pi 5 は優先実装対応
 
     - HWA エンコーダー非搭載のため積極的に対応する理由がない
-
-過去
-================
 
 2023 年 4 月 18 日 19:00-20:30
 ---------------------------------------
@@ -528,4 +560,5 @@ Discord サーバには以下から参加可能です。
 https://github.com/shiguredo/seminar/blob/master/old_webrtc_irregular_online_event.rst
 
 http://66.42.39.71:5000/whip/shiguradio
+
 

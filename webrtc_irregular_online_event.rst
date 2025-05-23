@@ -91,13 +91,33 @@ Discord サーバには以下から参加可能です。
 - 雑談
 
   - WebRTC
+
+    - Chrome で WebRTC H.265
   - MOQT
 
     - https://quic.video/blog/application-first
 - WebRTC SFU Sora
 
   - Sora 2025.1.x の新機能について
+
+    - Plumtree を利用した複数ノードでのスケールアウト
+    - H.265 パラメーター指定
+    - セッションのグルーピング
+    - セッション単位での最大同時接続数制限
+    - セッション単位でのクライアント ID 重複時の既存接続の追い出し
+    - 帯域推定
+    - シグナリング通知 network.status に帯域推定を追加
+    - メディア配信ワーカー自動スケール
+    - WHIP/WHEP RFC 追従
   - 今後の Sora の新機能と戦略
+
+    - マルチコーデックサイマルキャスト
+
+      - 録画
+    - サイマルキャスト rid: auto
+    - WHIP サイマルキャスト
+    - DTLS 1.3 対応
+    - 待機推定改善
 - Sora Cloud
 - Sora JavaScript SDK
 - Sora C++ SDK
@@ -560,5 +580,6 @@ Discord サーバには以下から参加可能です。
 https://github.com/shiguredo/seminar/blob/master/old_webrtc_irregular_online_event.rst
 
 http://66.42.39.71:5000/whip/shiguradio
+
 
 

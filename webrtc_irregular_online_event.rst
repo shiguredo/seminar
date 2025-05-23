@@ -119,19 +119,43 @@ Discord サーバには以下から参加可能です。
     - DTLS 1.3 対応
     - 待機推定改善
 - Sora Cloud
+
+  - DuckDB を利用したログ解析
+  - Suzu Cloud
+  - Hiisui Cloud
 - Sora JavaScript SDK
 - Sora C++ SDK
 - Sora Python SDK
+
+  - 積極的な改善
 - Sora iOS/Android SDK
-- Sora Unity SDK
+
+  - CA 証明書の指定
+  - 開発ツール
 - Kohaku
+
+  - DuckDB 版のリリース
 - Hisui
+
+  - Rust 版の正式リリース
+  - 録画ファイル解析ツール
+  - NETINT ハードウェアアクセラレーターに対応
 - Zakuro
+
+  - 統計情報の改善
+  - NETINT ハードウェアアクセラレーターに対応
 - Momo
+
+  - 最新の libwebrtc へ追従
 - Media Processors
 
   - @shiguredo/rnnoise-wasm
+
+    - 最新の RNNoise にアップデート
 - libdatachannel-py
+
+  - Opus / AV1 / H.264 / H.265 対応
+  - ミキサー機能
 
 
 過去

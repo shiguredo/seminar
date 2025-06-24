@@ -111,6 +111,7 @@ Discord サーバには以下から参加可能です。
     - WHIP/WHEP RFC 追従
   - 今後の Sora の新機能と戦略
 
+    - JSON-RPC over DataChannel
     - マルチコーデックサイマルキャスト
 
       - 録画
@@ -127,6 +128,8 @@ Discord サーバには以下から参加可能です。
 
   - `社内専用オンラインミーティングツールを Claude Code で作ってる <https://voluntas.ghost.io/internal-online-meeting-tool-with-claude-code/>`_
 - Sora JavaScript SDK
+
+  - ステレオ関連
 - Sora C++ SDK
 - Sora Python SDK
 

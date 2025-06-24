@@ -123,6 +123,9 @@ Discord サーバには以下から参加可能です。
   - DuckDB を利用したログ解析
   - Suzu Cloud
   - Hiisui Cloud
+- Private Meeting Tool Misora
+
+  - `社内専用オンラインミーティングツールを Claude Code で作ってる <https://voluntas.ghost.io/internal-online-meeting-tool-with-claude-code/>`_
 - Sora JavaScript SDK
 - Sora C++ SDK
 - Sora Python SDK

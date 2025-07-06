@@ -88,6 +88,8 @@ Discord サーバには以下から参加可能です。
 
 今回から 15:00 スタート 17:00 終了の 120 分です。
 
+開発中の Misora を利用して配信します。
+
 - 雑談
 
   - WebRTC
@@ -111,33 +113,45 @@ Discord サーバには以下から参加可能です。
     - WHIP/WHEP RFC 追従
   - 今後の Sora の新機能と戦略
 
-    - JSON-RPC over DataChannel
+    - RPC 機能
+      
+      - JSON-RPC 2.0 over DataChannel による Sora API の実行
+    - サイマルキャスト rid: auto
+    - サイマルキャスト rid: none
+    - DTLS 1.3 対応
+    - WHIP サイマルキャスト
+    - 帯域推定改善
     - マルチコーデックサイマルキャスト
 
       - 録画
-    - サイマルキャスト rid: auto
-    - WHIP サイマルキャスト
-    - DTLS 1.3 対応
-    - 待機推定改善
 - Sora Cloud
 
   - DuckDB を利用したログ解析
   - Suzu Cloud
-  - Hiisui Cloud
-- Private Meeting Tool Misora
+  - Hisui Cloud
+- Misora
 
-  - `社内専用オンラインミーティングツールを Claude Code で作ってる <https://voluntas.ghost.io/internal-online-meeting-tool-with-claude-code/>`_
+  - Claude Code で作成しているミーティング＆ライブツール
+  - 静的サイト
+  - DuckDB-Wasm (OPFS) を利用した津系情報
 - Sora JavaScript SDK
 
+  - RPC 機能
   - ステレオ関連
 - Sora C++ SDK
+
+  - 積極的な改善
 - Sora Python SDK
 
   - 積極的な改善
 - Sora iOS/Android SDK
 
+  - ステレオ関連
   - CA 証明書の指定
   - 開発ツール
+- ESP SDK
+
+  - https://github.com/espressif/esp-webrtc-solution
 - Kohaku
 
   - DuckDB 版のリリース
@@ -149,10 +163,13 @@ Discord サーバには以下から参加可能です。
 - Zakuro
 
   - 統計情報の改善
+  - H.265 対応
   - NETINT ハードウェアアクセラレーターに対応
 - Momo
 
   - 最新の libwebrtc へ追従
+  - コード改善
+  - MOQT 対応版の準備
 - Media Processors
 
   - @shiguredo/rnnoise-wasm
@@ -162,7 +179,9 @@ Discord サーバには以下から参加可能です。
 
   - Opus / AV1 / H.264 / H.265 対応
   - ミキサー機能
+- libmoqt
 
+  - https://github.com/shiguredo-webrtc-build/libmoqt-build
 
 過去
 ================
@@ -610,6 +629,3 @@ Discord サーバには以下から参加可能です。
 https://github.com/shiguredo/seminar/blob/master/old_webrtc_irregular_online_event.rst
 
 http://66.42.39.71:5000/whip/shiguradio
-
-
-

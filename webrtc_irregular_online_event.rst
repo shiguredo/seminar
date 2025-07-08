@@ -158,6 +158,9 @@ Discord サーバには以下から参加可能です。
   - ステレオ関連
   - CA 証明書の指定
   - 開発ツール
+- Unity SDK
+
+  - Apple Vision Pro 向けビルド追加調査
 - Sora ESP32 SDK
 
   - https://github.com/espressif/esp-webrtc-solution

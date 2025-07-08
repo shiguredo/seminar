@@ -95,13 +95,21 @@ Discord サーバには以下から参加可能です。
   - WebRTC
 
     - Chrome で WebRTC H.265
+    - Safari で WebRTC AV1
+    - https://www.daily.co/blog/how-lemon-slice-builds-ai-characters-with-pipecat-and-daily/
+    - https://github.com/coturn/coturn/releases/tag/4.7.0
   - MOQT
 
     - https://quic.video/blog/application-first
+    - https://github.com/shiguredo-webrtc-build/libmoqt-build
+  - OBS
+
+    - https://github.com/obsproject/obs-studio/pull/10885
 - WebRTC SFU Sora
 
   - Sora 2025.1.x の新機能について
 
+    - https://blog.shiguredo.jp/webrtc-sfu-sora-2025-1-0-release-notes/
     - Plumtree を利用した複数ノードでのスケールアウト
     - H.265 パラメーター指定
     - セッションのグルーピング
@@ -127,13 +135,14 @@ Discord サーバには以下から参加可能です。
 - Sora Cloud
 
   - DuckDB を利用したログ解析
-  - Suzu Cloud
+  - 監視周り強化
   - Hisui Cloud
+  - Suzu Cloud
 - Misora
 
   - Claude Code で作成しているミーティング＆ライブツール
-  - 静的サイト
-  - DuckDB-Wasm (OPFS) を利用した津系情報
+  - 静的サイトなのでデプロイが簡単
+  - DuckDB-Wasm (OPFS) を利用した統計情報
 - Sora JavaScript SDK
 
   - RPC 機能
@@ -149,9 +158,12 @@ Discord サーバには以下から参加可能です。
   - ステレオ関連
   - CA 証明書の指定
   - 開発ツール
-- ESP SDK
+- Sora ESP32 SDK
 
   - https://github.com/espressif/esp-webrtc-solution
+
+    - https://github.com/espressif/esp-webrtc-solution/issues/5
+    - https://github.com/espressif/esp-webrtc-solution/issues/43
 - Kohaku
 
   - DuckDB 版のリリース
@@ -159,6 +171,7 @@ Discord サーバには以下から参加可能です。
 
   - Rust 版の正式リリース
   - 録画ファイル解析ツール
+  - 録画ファイル画質チェックツール
   - NETINT ハードウェアアクセラレーターに対応
 - Zakuro
 
@@ -178,10 +191,7 @@ Discord サーバには以下から参加可能です。
 - libdatachannel-py
 
   - Opus / AV1 / H.264 / H.265 対応
-  - ミキサー機能
-- libmoqt
 
-  - https://github.com/shiguredo-webrtc-build/libmoqt-build
 
 過去
 ================

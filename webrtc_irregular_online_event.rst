@@ -97,26 +97,42 @@ Discord サーバには以下から参加可能です。
 - Media Pipeline Tool Hisui
 
   - Sora の録画合成ツールからマルチプロトコル対応のメディアパイプラインツールへ
+  - Sora 入出力対応
+  
+    - shiguredo/sora-rust-sdk
+    - libwebrtc-c
+    - WHIP / WHEP も対応予定
   - RTMP 入出力対応
 
     - shiguredo/rtmp-rust
   - SRT 入出力対応
 
     - shiguredo/srt-rust
-  - RPC を利用したフックポイント
+  - RTSP 入出力対応
+
+    - shiguredo/rtsp-rust
+  
+  - MOQT 入出力対応
+
+    - shiguredo/moqt-rust
+  - JSON-RPC 2.0 を利用したフックポイント
 - Media over QUIC Transport (MOQT)
 
-  - Python での対応
+  - Python (C/C++) によるクライアント/サーバー/リレー実装
   
-    - まずは色々検証したいはず
-    - その後 iOS/Android 向けに提供
-    - ブラウザは仕様がコントロールできないため一番最後
-  - msquic を利用したマルチパス QUIC への対応
-  - msquic + nghttp3 を利用した MOQT 実装
-
-    - nghttp3 側で WebTransport 対応が進んでいる
+    - msquic + nghttp3 を利用した MOQT 実装
+  - TypeScript によるクライアント実装
+  
+    - 依存 0
+  - Rust によるクライアント/サーバー実装
+  
+    - Cloudflare Quiche を利用した MOQT 実装
   - Python で WebCodecs API が利用できる webcodecs-py の提供
   - Python で生データ (NV12 や I420) を再生できるプレイヤー
+  - iOS/Android 向けに提供対応予定
+- マルチパス QUIC
+
+  - msquic 利用
 - Misora
 
   - Sora Labo / Sora Cloud で利用できる
@@ -124,9 +140,7 @@ Discord サーバには以下から参加可能です。
 
   - md/mdx を利用した日本語全文検索組み込みドキュメントツール
   - DuckDB-Wasm (OPFS) を利用した全文検索エンジン
-- Sora Rust SDK
 
-  - libwebrtc-c
 
 
 過去
@@ -687,3 +701,4 @@ Discord サーバには以下から参加可能です。
 https://github.com/shiguredo/seminar/blob/master/old_webrtc_irregular_online_event.rst
 
 http://66.42.39.71:5000/whip/shiguradio
+

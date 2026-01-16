@@ -94,27 +94,31 @@ Discord サーバには以下から参加可能です。
 
   - Sora 2025.2.x について
   - Sora 2026.1.x について
+- Rust
+
+  - shiguredo/http11-rs
+
+    - 公開済み
+  - shiguredo/websocket-rs
+
+    - 公開済み
+  - shiguredo/rtmp-rs
+  - shiguredo/srt-rs
+  - shiguredo/rtsp-rs
+  - shiguredo/moqt-rs
 - Media Pipeline Tool Hisui
 
   - Sora の録画合成ツールからマルチプロトコル対応のメディアパイプラインツールへ
-  - Sora 入出力対応
+  - WebRTC / WebSocket / WebTransport を利用してブラウザでリアルタイムな編集
+  - Sora との入出力対応
   
     - shiguredo/sora-rust-sdk
     - libwebrtc-c
     - WHIP / WHEP も対応予定
   - RTMP 入出力対応
-
-    - shiguredo/rtmp-rust
   - SRT 入出力対応
-
-    - shiguredo/srt-rust
   - RTSP 入出力対応
-
-    - shiguredo/rtsp-rust
-  
   - MOQT 入出力対応
-
-    - shiguredo/moqt-rust
   - JSON-RPC 2.0 を利用したフックポイント
 - Media over QUIC Transport (MOQT)
 
@@ -140,7 +144,6 @@ Discord サーバには以下から参加可能です。
 
   - md/mdx を利用した日本語全文検索組み込みドキュメントツール
   - DuckDB-Wasm (OPFS) を利用した全文検索エンジン
-
 
 
 過去
@@ -701,4 +704,5 @@ Discord サーバには以下から参加可能です。
 https://github.com/shiguredo/seminar/blob/master/old_webrtc_irregular_online_event.rst
 
 http://66.42.39.71:5000/whip/shiguradio
+
 

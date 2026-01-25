@@ -92,11 +92,11 @@ Discord サーバには以下から参加可能です。
 
 - Rust
 
-  - shiguredo/http11-rs
-  - shiguredo/websocket-rs
-  - shiguredo/rtmp-rs
-  - shiguredo/srt-rs
-  - shiguredo/rtsp-rs
+  - https://github.com/shiguredo/http11-rs
+  - https://github.com/shiguredo/websocket-rs
+  - https://github.com/shiguredo/rtmp-rs
+  - https://github.com/shiguredo/srt-rs
+  - https://github.com/shiguredo/rtsp-rs
   
     - 開発中
   - shiguredo/moqt-rs
@@ -110,7 +110,12 @@ Discord サーバには以下から参加可能です。
 - WebRTC SFU Sora
 
   - Sora 2025.2.x について
+
+    - 色々正式版に
+    - 自動切り替え
   - Sora 2026.1.x について
+
+    - MOQT 対応
 - Toki (仮)
 
   - Sora 専用のリバースプロキシ

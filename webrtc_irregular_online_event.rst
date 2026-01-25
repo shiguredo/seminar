@@ -122,15 +122,17 @@ Discord サーバには以下から参加可能です。
 
   - Sora 専用のログ解析ソリューション
   - ログ転送エージェント
+
     - QUIC
     - OpenMetrics
   - ログ保存と解析サーバー
+
     - DuckLake
     - QUIC
     - SQLite
     - 組み込みオブジェクトストレージ
 
-      - 外部も利用可能
+      - 外部利用もできる
     - OpenMetrics
     - UI
   - クローズドソース

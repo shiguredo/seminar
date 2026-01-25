@@ -90,60 +90,113 @@ Discord サーバには以下から参加可能です。
 
 時雨堂のライブ配信ツール Misora を利用して配信します。
 
+- Rust
+
+  - shiguredo/http11-rs
+  - shiguredo/websocket-rs
+  - shiguredo/rtmp-rs
+  - shiguredo/srt-rs
+  - shiguredo/rtsp-rs
+  
+    - 開発中
+  - shiguredo/moqt-rs
+
+    - 開発中
+- Sora Rust SDK
+
+  - libwebrtc-c
+  - WHIP / WHEP も対応予定
+  - 開発中
 - WebRTC SFU Sora
 
   - Sora 2025.2.x について
   - Sora 2026.1.x について
-- Rust
+- Toki (仮)
 
-  - shiguredo/http11-rs
+  - Sora 専用のリバースプロキシ
+  - nginx を置き換える TLS Proxy
+  - UI
+  - クローズドソース
+  - 既に検証サーバーで動作確認中
+- Kogane (仮)
 
-    - 公開済み
-  - shiguredo/websocket-rs
+  - Sora 専用のログ解析ソリューション
+  - ログ転送エージェント
+    - QUIC
+    - OpenMetrics
+  - ログ保存と解析サーバー
+    - DuckLake
+    - QUIC
+    - SQLite
+    - 組み込みオブジェクトストレージ
 
-    - 公開済み
-  - shiguredo/rtmp-rs
-  - shiguredo/srt-rs
-  - shiguredo/rtsp-rs
-  - shiguredo/moqt-rs
+      - 外部も利用可能
+    - OpenMetrics
+    - UI
+  - クローズドソース
 - Media Pipeline Tool Hisui
 
   - Sora の録画合成ツールからマルチプロトコル対応のメディアパイプラインツールへ
   - WebRTC / WebSocket / WebTransport を利用してブラウザでリアルタイムな編集
-  - Sora との入出力対応
-  
-    - shiguredo/sora-rust-sdk
-    - libwebrtc-c
-    - WHIP / WHEP も対応予定
+  - Sora Rust SDK 入出力対応
   - RTMP 入出力対応
   - SRT 入出力対応
   - RTSP 入出力対応
   - MOQT 入出力対応
   - JSON-RPC 2.0 を利用したフックポイント
-- Media over QUIC Transport (MOQT)
+  - Hisui UI
+  - オープンソース
+- QUIC
 
-  - Python (C/C++) によるクライアント/サーバー/リレー実装
-  
-    - msquic + nghttp3 を利用した MOQT 実装
-  - TypeScript によるクライアント実装
-  
-    - 依存 0
-  - Rust によるクライアント/サーバー実装
-  
-    - Cloudflare Quiche を利用した MOQT 実装
+  - Media over QUIC Transport (MOQT)
+
+    - Erlang/OTP
+
+      - フルスクラッチの QUIC / HTTP/3 / WebTransport 実装
+      - MOQT 対応
+      - Sora 搭載
+      - クローズドソース
+    - TypeScript によるクライアント実装
+    
+      - https://github.com/shiguredo/moqt-js
+      - draft-16 対応中
+      - 依存 0
+    - Python (C/C++) によるクライアント/サーバー/リレー実装
+    
+      - msquic + nghttp3 を利用した MOQT 実装
+
+        - msquic は IO 周りが優秀なので採用
+      - クローズドソース
+    - Rust によるクライアント/サーバー実装
+    
+      - Cloudflare Quiche を利用した MOQT 実装
+    - iOS/Android 向けにも提供したい
+  - マルチパス QUIC
+
+    - Erlang/OTP には実装済み
+    - ngtcp2 利用で Python 経由で利用
+- Python
+
   - Python で WebCodecs API が利用できる webcodecs-py の提供
-  - Python で生データ (NV12 や I420) を再生できるプレイヤー
-  - iOS/Android 向けに提供対応予定
-- マルチパス QUIC
 
-  - msquic 利用
+    - https://github.com/shiguredo/webcodecs-py
+  - Python で生データ (NV12 や I420) を再生できるプレイヤー
+
+    - https://github.com/shiguredo/raw-player
+  - https://github.com/shiguredo/uvc-py
+  - https://github.com/shiguredo/portaudio-py
+  - https://github.com/shiguredo/blend2d-py
+  - https://github.com/shiguredo/libdatachannel-py
+  - https://github.com/shiguredo/mp4-py
 - Misora
 
-  - Sora Labo / Sora Cloud で利用できる
+  - Sora Labo / Sora Cloud で利用できる会議サービス
+  - クローズドソース
 - Mikan
 
   - md/mdx を利用した日本語全文検索組み込みドキュメントツール
-  - DuckDB-Wasm (OPFS) を利用した全文検索エンジン
+  - オフライン日本語全文検索エンジン搭載
+  - クローズドソース
 
 
 過去
@@ -704,5 +757,6 @@ Discord サーバには以下から参加可能です。
 https://github.com/shiguredo/seminar/blob/master/old_webrtc_irregular_online_event.rst
 
 http://66.42.39.71:5000/whip/shiguradio
+
 
 

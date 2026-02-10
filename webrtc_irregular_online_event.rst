@@ -93,6 +93,7 @@ Discord サーバには以下から参加可能です。
 - Rust
 
   - https://github.com/shiguredo/http11-rs
+  - https://github.com/shiguredo/http2-rs
   - https://github.com/shiguredo/websocket-rs
   - https://github.com/shiguredo/rtmp-rs
   - https://github.com/shiguredo/srt-rs
@@ -104,8 +105,9 @@ Discord サーバには以下から参加可能です。
     - 開発中
 - Sora Rust SDK
 
-  - libwebrtc-c
-  - WHIP / WHEP も対応予定
+  - shiguredo/webrtc-rs
+
+    - libwebrtc ベース
   - 開発中
 - WebRTC SFU Sora
 
@@ -123,23 +125,20 @@ Discord サーバには以下から参加可能です。
   - UI
   - クローズドソース
   - 既に検証サーバーで動作確認中
+- Kikyo (仮)
+
+  - 組み込みオブジェクトストレージ
+  - Raft を利用した S3 API 互換オブジェクトストレージ
+  - クローズドソース
 - Kogane (仮)
 
-  - Sora 専用のログ解析ソリューション
+  - DuckLake を利用
+  - ログの解析、保存、収集をこれだけで
+  - Kikyo 組み込みなので S3 不要
   - ログ転送エージェント
 
-    - QUIC
+    - QUIC / TCP
     - OpenMetrics
-  - ログ保存と解析サーバー
-
-    - DuckLake
-    - QUIC
-    - SQLite
-    - 組み込みオブジェクトストレージ
-
-      - 外部利用もできる
-    - OpenMetrics
-    - UI
   - クローズドソース
 - Media Pipeline Tool Hisui
 
@@ -153,7 +152,7 @@ Discord サーバには以下から参加可能です。
   - JSON-RPC 2.0 を利用したフックポイント
   - Hisui UI
   - オープンソース
-- QUIC
+- QUIC 
 
   - Media over QUIC Transport (MOQT)
 
@@ -764,6 +763,7 @@ Discord サーバには以下から参加可能です。
 https://github.com/shiguredo/seminar/blob/master/old_webrtc_irregular_online_event.rst
 
 http://66.42.39.71:5000/whip/shiguradio
+
 
 
 

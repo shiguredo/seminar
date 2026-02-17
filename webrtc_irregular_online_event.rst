@@ -160,19 +160,19 @@ Discord サーバには以下から参加可能です。
     - 自動切り替え
 - Rust
 
-  - shiguredo/mp4-rs
-  - shiguredo/http11-rs
-  - shiguredo/http2-rs
+  - https://github.com/shiguredo/mp4-rs
+  - https://github.com/shiguredo/http11-rs
+  - https://github.com/shiguredo/http2-rs
   - shiguredo/http3-rs
   
     - 公開準備中
-  - shiguredo/websocket-rs
-  - shiguredo/webrtc-rs
-  - shiguredo/audio-device-rs
-  - shiguredo/video-device-rs
-  - shiguredo/raw-player-rs
-  - shiguredo/rtmp-rs
-  - shiguredo/srt-rs
+  - https://github.com/shiguredo/websocket-rs
+  - https://github.com/shiguredo/webrtc-rs
+  - https://github.com/shiguredo/audio-device-rs
+  - https://github.com/shiguredo/video-device-rs
+  - https://github.com/shiguredo/raw-player-rs
+  - https://github.com/shiguredo/rtmp-rs
+  - https://github.com/shiguredo/srt-rs
   - shiguredo/rtsp-rs
 
     - 公開準備中
@@ -189,7 +189,7 @@ Discord サーバには以下から参加可能です。
   - Blend2D 互換 API を提供する CPU 利用の 2D ベクターグラフィックスライブラリ
   - 高速に CPU で高解像度かつ高フレームレートな複雑なダミー映像を生成するために開発中
   - Cranelift
-  - shiguredo/raden
+  - https://github.com/shiguredo/raden
 - Toki
 
   - Sora 専用のリバースプロキシ

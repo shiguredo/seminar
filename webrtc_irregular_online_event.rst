@@ -98,12 +98,15 @@ Discord サーバには以下から参加可能です。
     - レガシー機能の削除
   - Sora 2026.1.x について
 
-    - 分散システムとしての WebRTC SFU 強化
-    - 帯域推定の強化
+    - 分散システム強化
+    - コンテナ対応強化
+    - 帯域推定強化
     - WHIP サイマルキャスト
+    - ウェブフック強化
     - MOQT 対応
 - Media over QUIC Transport (MOQT)
 
+  - nghttp2/nghtcp2/nghttp3 の開発者をアドバイザーとして参戦してもらっている
   - Erlang/OTP
 
     - フルスクラッチの QUIC / HTTP/3 / WebTransport 実装
@@ -121,12 +124,9 @@ Discord サーバには以下から参加可能です。
   - Python での対応
   
     - まずは色々検証したいはず
-    - その後 iOS/Android 向けに提供
-    - ブラウザは仕様がコントロールできないため一番最後
-    - msquic を利用したマルチパス QUIC への対応
     - msquic + nghttp3 を利用した MOQT 実装
 
-      - nghttp3 側で WebTransport 対応が進んでいる
+      - nghttp3 側で WebTransport 対応を進めて貰ってる
     - Python で WebCodecs API が利用できる webcodecs-py の提供
     - Python で生データ (NV12 や I420) を再生できるプレイヤー
     - Python (C/C++) によるクライアント/サーバー/リレー実装
@@ -135,14 +135,10 @@ Discord サーバには以下から参加可能です。
 
         - msquic は IO 周りが優秀なので採用
       - クローズドソース
-    - Rust によるクライアント/サーバー実装
-    
-      - Cloudflare Quiche を利用した MOQT 実装
-    - iOS/Android 向けにも提供したい
   - マルチパス QUIC
 
     - Erlang/OTP には実装済み
-    - ngtcp2 利用で Python 経由で利用
+    - モバイル向けを優先したい
   - Rust での対応
 
     - s2n-quic と msquic への対応
@@ -164,24 +160,36 @@ Discord サーバには以下から参加可能です。
     - 自動切り替え
 - Rust
 
+  - shiguredo/mp4-rs
+  - shiguredo/http11-rs
+  - shiguredo/http2-rs
+  - shiguredo/http3-rs
+  
+    - 公開準備中
+  - shiguredo/websocket-rs
+  - shiguredo/webrtc-rs
+  - shiguredo/audio-device-rs
+  - shiguredo/video-device-rs
+  - shiguredo/raw-player-rs
+  - shiguredo/rtmp-rs
+  - shiguredo/srt-rs
+  - shiguredo/rtsp-rs
+
+    - 公開準備中
   - Sora Rust SDK
 
-    - Rust 向けの SDK を提供予定
+    - shiguredo/sora-rust-sdk
+    - 公開準備中
   - Ayame Rust SDK
 
-    - Ayame も Rust SDK を提供予定
-
-      - OpenAyame/ayame-rust-sdk
-    - shiguredo/webrtc-rs
-    - shiguredo/audio-device-rs
-    - shiguredo/video-device-rs
-    - shiguredo/raw-player-rs
-
+    - OpenAyame/ayame-rust-sdk
+    - 公開準備中
 - Raden
 
   - Blend2D 互換 API を提供する CPU 利用の 2D ベクターグラフィックスライブラリ
   - 高速に CPU で高解像度かつ高フレームレートな複雑なダミー映像を生成するために開発中
   - Cranelift
+  - shiguredo/raden
 - Toki
 
   - Sora 専用のリバースプロキシ
@@ -189,11 +197,13 @@ Discord サーバには以下から参加可能です。
   - 大量の統計情報
   - UI
   - クローズドソース
+  - Sora 利用者に apt install で利用できる用にする予定
   - 既に検証サーバーで動作中
 - Kikyo
 
-  - 組み込みオブジェクトストレージ
-  - Raft を利用した S3 API 互換オブジェクトストレージ
+  - 組み込みオブジェクトストレージフレームワーク
+  - Raft + Plumtree を利用した S3 API 互換オブジェクトストレージ
+  - 商用製品として提供予定
   - クローズドソース
 - Kogane (仮)
 
@@ -207,7 +217,7 @@ Discord サーバには以下から参加可能です。
   - クローズドソース
 - Misora
 
-  - Sora Labo / Sora Cloud で利用できる会議サービス
+  - Sora Labo / Sora Cloud で利用できるミーティング＆ライブ配信サービス
   - クローズドソース
 - Mikan
 

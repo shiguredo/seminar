@@ -93,30 +93,79 @@ Discord サーバには以下から参加可能です。
 - WebRTC SFU Sora
 
   - Sora 2025.2.x について
+  
+    - JSON-RPC 2.0 over DataChannel による Sora API の実行
+    - レガシー機能の削除
   - Sora 2026.1.x について
+
+    - 分散システムとしての WebRTC SFU 強化
+    - 帯域推定の強化
+    - WHIP サイマルキャスト
+    - MOQT 対応
 - Media Pipeline Tool Hisui
 
-  - Sora の録画合成ツールからマルチプロトコル対応のメディアパイプラインツールへ
+  - Sora の録画合成ツールからマルチプロトコル対応のリアルタイムな合成ツールへ
+  - WebRTC 入出力対応
+  - MP4 出力対応
+  - マイク/カメラ入力
+  - スピーカー出力対応
   - RTMP 入出力対応
 
-    - shiguredo/rtmp-rust
+    - https://github.com/shiguredo/rtmp-rs
+    - 公開済み
   - SRT 入出力対応
 
-    - shiguredo/srt-rust
+    - https://github.com/shiguredo/srt-rs
+  
+  - RTSP 入力対応
+
+    - 公開予定
+  - WHIP/WHEP 対応
+
+    - 開発中
   - RPC を利用したフックポイント
 - Media over QUIC Transport (MOQT)
 
+  - Rust での対応
+
+    - s2n-quic と msquic への対応
+    - HTTP/3 ライブラリ
+    - HTTP/3 over WebTransport 対応
+    - HTTP/2 over WebTransport 対応
+  - iOS/Android
+
+    - ngtcp2 + nghttp3 を利用して iOS/Android 向けに提供予定
   - Python での対応
   
     - まずは色々検証したいはず
     - その後 iOS/Android 向けに提供
     - ブラウザは仕様がコントロールできないため一番最後
-  - msquic を利用したマルチパス QUIC への対応
-  - msquic + nghttp3 を利用した MOQT 実装
+    - msquic を利用したマルチパス QUIC への対応
+    - msquic + nghttp3 を利用した MOQT 実装
 
-    - nghttp3 側で WebTransport 対応が進んでいる
-  - Python で WebCodecs API が利用できる webcodecs-py の提供
-  - Python で生データ (NV12 や I420) を再生できるプレイヤー
+      - nghttp3 側で WebTransport 対応が進んでいる
+    - Python で WebCodecs API が利用できる webcodecs-py の提供
+    - Python で生データ (NV12 や I420) を再生できるプレイヤー
+- Raden
+
+  - Blend2D 互換 API を提供する CPU 利用の 2D ベクターグラフィックスライブラリ
+  - 高速に CPU で高解像度かつ高フレームレートな複雑なダミー映像を生成するために開発中
+  - Cranelift
+- raw-player-rs
+
+  - SDL3 を利用した生データプレイヤー
+- Sora Rust SDK
+
+  - Rust 向けの SDK を提供予定
+- Ayame Rust SDK
+
+  - Ayame も Rust SDK を提供予定
+
+    - OpenAyame/ayame-rust-sdk
+  - shiguredo/webrtc-rs
+  - shiguredo/audio-device-rs
+  - shiguredo/video-device-rs
+  - shiguredo/raw-player-rs
 - Misora
 
   - Sora Labo / Sora Cloud で利用できる
@@ -124,9 +173,6 @@ Discord サーバには以下から参加可能です。
 
   - md/mdx を利用した日本語全文検索組み込みドキュメントツール
   - DuckDB-Wasm (OPFS) を利用した全文検索エンジン
-- Sora Rust SDK
-
-  - libwebrtc-c
 
 
 過去

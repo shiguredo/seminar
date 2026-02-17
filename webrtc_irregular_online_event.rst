@@ -102,36 +102,19 @@ Discord サーバには以下から参加可能です。
     - 帯域推定の強化
     - WHIP サイマルキャスト
     - MOQT 対応
-- Media Pipeline Tool Hisui
-
-  - Sora の録画合成ツールからマルチプロトコル対応のリアルタイムな合成ツールへ
-  - WebRTC 入出力対応
-  - MP4 出力対応
-  - マイク/カメラ入力
-  - スピーカー出力対応
-  - RTMP 入出力対応
-
-    - https://github.com/shiguredo/rtmp-rs
-    - 公開済み
-  - SRT 入出力対応
-
-    - https://github.com/shiguredo/srt-rs
-  
-  - RTSP 入力対応
-
-    - 公開予定
-  - WHIP/WHEP 対応
-
-    - 開発中
-  - RPC を利用したフックポイント
 - Media over QUIC Transport (MOQT)
 
-  - Rust での対応
+  - Erlang/OTP
 
-    - s2n-quic と msquic への対応
-    - HTTP/3 ライブラリ
-    - HTTP/3 over WebTransport 対応
-    - HTTP/2 over WebTransport 対応
+    - フルスクラッチの QUIC / HTTP/3 / WebTransport 実装
+    - MOQT 対応
+    - Sora 搭載
+    - クローズドソース
+  - TypeScript によるクライアント実装
+  
+    - https://github.com/shiguredo/moqt-js
+    - draft-16 対応中
+    - 依存 0
   - iOS/Android
 
     - ngtcp2 + nghttp3 を利用して iOS/Android 向けに提供予定
@@ -146,33 +129,91 @@ Discord サーバには以下から参加可能です。
       - nghttp3 側で WebTransport 対応が進んでいる
     - Python で WebCodecs API が利用できる webcodecs-py の提供
     - Python で生データ (NV12 や I420) を再生できるプレイヤー
+    - Python (C/C++) によるクライアント/サーバー/リレー実装
+    
+      - msquic + nghttp3 を利用した MOQT 実装
+
+        - msquic は IO 周りが優秀なので採用
+      - クローズドソース
+    - Rust によるクライアント/サーバー実装
+    
+      - Cloudflare Quiche を利用した MOQT 実装
+    - iOS/Android 向けにも提供したい
+  - マルチパス QUIC
+
+    - Erlang/OTP には実装済み
+    - ngtcp2 利用で Python 経由で利用
+  - Rust での対応
+
+    - s2n-quic と msquic への対応
+    - HTTP/3 ライブラリ
+    - HTTP/3 over WebTransport 対応
+    - HTTP/2 over WebTransport 対応
+- Media Pipeline Tool Hisui
+
+  - Sora の録画合成ツールからマルチプロトコル対応のリアルタイムな合成ツールへ
+  - WebRTC 入出力対応
+  - MP4 出力対応
+  - マイク/カメラ入力
+  - スピーカー出力対応
+  - RTMP 入出力対応
+
+    - https://github.com/shiguredo/rtmp-rs
+    - 公開済み
+    - 色々正式版に
+    - 自動切り替え
+- Rust
+
+  - Sora Rust SDK
+
+    - Rust 向けの SDK を提供予定
+  - Ayame Rust SDK
+
+    - Ayame も Rust SDK を提供予定
+
+      - OpenAyame/ayame-rust-sdk
+    - shiguredo/webrtc-rs
+    - shiguredo/audio-device-rs
+    - shiguredo/video-device-rs
+    - shiguredo/raw-player-rs
+
 - Raden
 
   - Blend2D 互換 API を提供する CPU 利用の 2D ベクターグラフィックスライブラリ
   - 高速に CPU で高解像度かつ高フレームレートな複雑なダミー映像を生成するために開発中
   - Cranelift
-- raw-player-rs
+- Toki
 
-  - SDL3 を利用した生データプレイヤー
-- Sora Rust SDK
+  - Sora 専用のリバースプロキシ
+  - nginx を置き換える TLS Proxy
+  - 大量の統計情報
+  - UI
+  - クローズドソース
+  - 既に検証サーバーで動作中
+- Kikyo
 
-  - Rust 向けの SDK を提供予定
-- Ayame Rust SDK
+  - 組み込みオブジェクトストレージ
+  - Raft を利用した S3 API 互換オブジェクトストレージ
+  - クローズドソース
+- Kogane (仮)
 
-  - Ayame も Rust SDK を提供予定
+  - DuckLake を利用
+  - ログの解析、保存、収集をこれだけで
+  - Kikyo 組み込みなので S3 不要
+  - ログ転送エージェント
 
-    - OpenAyame/ayame-rust-sdk
-  - shiguredo/webrtc-rs
-  - shiguredo/audio-device-rs
-  - shiguredo/video-device-rs
-  - shiguredo/raw-player-rs
+    - QUIC / TCP
+    - OpenMetrics
+  - クローズドソース
 - Misora
 
-  - Sora Labo / Sora Cloud で利用できる
+  - Sora Labo / Sora Cloud で利用できる会議サービス
+  - クローズドソース
 - Mikan
 
   - md/mdx を利用した日本語全文検索組み込みドキュメントツール
-  - DuckDB-Wasm (OPFS) を利用した全文検索エンジン
+  - オフライン日本語全文検索エンジン搭載
+  - クローズドソース
 
 
 過去
@@ -733,3 +774,7 @@ Discord サーバには以下から参加可能です。
 https://github.com/shiguredo/seminar/blob/master/old_webrtc_irregular_online_event.rst
 
 http://66.42.39.71:5000/whip/shiguradio
+
+
+
+

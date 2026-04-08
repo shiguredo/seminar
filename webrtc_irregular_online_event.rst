@@ -2,7 +2,7 @@
 時雨堂 不定期オンライン雑談配信 (SHIGURADIO)
 #######################################################
 
-:日時: どこかの火曜日 15:00 ~ から
+:日時: 平日 15:00 ~ から
 :場所: Discord https://discord.gg/shiguredo
 
 .. image:: https://i.gyazo.com/0a6b81c59054c9a2d1918df5b6da110d.jpg
@@ -25,7 +25,7 @@ Discord で Sora Lab / Sora SDK の Discord サーバへサーバブーストを
 
 `サーバーブースト 💨 - Discord <https://support.discord.com/hc/ja/articles/360028038352>`_
 
-2026 年 2 月 17 日 (火) のイベントへの参加申込方法
+2026 年 5 月 22 日 (金) のイベントへの参加申込方法
 =====================================================
 
 まず ``時雨堂コミュニティ`` の Discord のサーバに参加している必要があります。
@@ -83,147 +83,34 @@ Discord サーバには以下から参加可能です。
 開催
 ====
 
-2026 年 2 月 17 日 15:00-17:00
+2026 年 5 月 22 日 (金) 15:00-17:00
 ---------------------------------------
 
 今回から 15:00 スタート 17:00 終了の 120 分です。
 
-時雨堂のライブ配信ツール Misora を利用して配信します。
+WebRTC SFU Sora を利用した Misora を利用して配信します。
 
-- WebRTC SFU Sora
 
-  - Sora 2025.2.x について
+今回は MOQT (Media over QUIC Transport) を中心にリアルタイムな音声/映像配信に関する話題を中心に雑談をします。
+
+- 雑談
+
+  - MOQT
   
-    - JSON-RPC 2.0 over DataChannel による Sora API の実行
-    - レガシー機能の削除
-  - Sora 2026.1.x について
+    - 時雨堂の MOQT
 
-    - 分散システム強化
-    - コンテナ対応強化
-    - 帯域推定強化
-    - WHIP サイマルキャスト
-    - ウェブフック強化
-    - MOQT 対応
-- Media over QUIC Transport (MOQT)
+      - Erlang/OTP
+      - Rust
+      - TypeScript
+      - Python
+    - 時雨堂の QUIC
+    - Multipath QUIC 
+    - WebTransport の現状と今後
+    - MOQT の現状と今後
+  - WebRTC
 
-  - nghttp2/nghtcp2/nghttp3 の開発者をアドバイザーとして参戦してもらっている
-  - Erlang/OTP
-
-    - フルスクラッチの QUIC / HTTP/3 / WebTransport 実装
-    - MOQT 対応
-    - Sora 搭載
-    - クローズドソース
-  - TypeScript によるクライアント実装
-  
-    - https://github.com/shiguredo/moqt-js
-    - draft-16 対応中
-    - 依存 0
-  - iOS/Android
-
-    - ngtcp2 + nghttp3 を利用して iOS/Android 向けに提供予定
-  - Python での対応
-  
-    - まずは色々検証したいはず
-    - msquic + nghttp3 を利用した MOQT 実装
-
-      - nghttp3 側で WebTransport 対応を進めて貰ってる
-    - Python で WebCodecs API が利用できる webcodecs-py の提供
-    - Python で生データ (NV12 や I420) を再生できるプレイヤー
-    - Python (C/C++) によるクライアント/サーバー/リレー実装
-    
-      - msquic + nghttp3 を利用した MOQT 実装
-
-        - msquic は IO 周りが優秀なので採用
-      - クローズドソース
-  - マルチパス QUIC
-
-    - Erlang/OTP には実装済み
-    - モバイル向けを優先したい
-  - Rust での対応
-
-    - s2n-quic と msquic への対応
-    - HTTP/3 ライブラリ
-    - HTTP/3 over WebTransport 対応
-    - HTTP/2 over WebTransport 対応
-- Media Pipeline Tool Hisui
-
-  - Sora の録画合成ツールからマルチプロトコル対応のリアルタイムな合成ツールへ
-  - WebRTC 入出力対応
-  - MP4 出力対応
-  - マイク/カメラ入力
-  - スピーカー出力対応
-  - RTMP 入出力対応
-
-    - https://github.com/shiguredo/rtmp-rs
-    - 公開済み
-    - 色々正式版に
-    - 自動切り替え
-- Rust
-
-  - https://github.com/shiguredo/mp4-rs
-  - https://github.com/shiguredo/http11-rs
-  - https://github.com/shiguredo/http2-rs
-  - shiguredo/http3-rs
-  
-    - 公開準備中
-  - https://github.com/shiguredo/websocket-rs
-  - https://github.com/shiguredo/webrtc-rs
-  - https://github.com/shiguredo/audio-device-rs
-  - https://github.com/shiguredo/video-device-rs
-  - https://github.com/shiguredo/raw-player-rs
-  - https://github.com/shiguredo/rtmp-rs
-  - https://github.com/shiguredo/srt-rs
-  - shiguredo/rtsp-rs
-
-    - 公開準備中
-  - Sora Rust SDK
-
-    - shiguredo/sora-rust-sdk
-    - 公開準備中
-  - Ayame Rust SDK
-
-    - OpenAyame/ayame-rust-sdk
-    - 公開準備中
-- Raden
-
-  - Blend2D 互換 API を提供する CPU 利用の 2D ベクターグラフィックスライブラリ
-  - 高速に CPU で高解像度かつ高フレームレートな複雑なダミー映像を生成するために開発中
-  - Cranelift
-  - https://github.com/shiguredo/raden
-- Toki
-
-  - Sora 専用のリバースプロキシ
-  - nginx を置き換える TLS Proxy
-  - 大量の統計情報
-  - UI
-  - クローズドソース
-  - Sora 利用者に apt install で利用できる用にする予定
-  - 既に検証サーバーで動作中
-- Kikyo
-
-  - 組み込みオブジェクトストレージフレームワーク
-  - Raft + Plumtree を利用した S3 API 互換オブジェクトストレージ
-  - 商用製品として提供予定
-  - クローズドソース
-- Kogane (仮)
-
-  - DuckLake を利用
-  - ログの解析、保存、収集をこれだけで
-  - Kikyo 組み込みなので S3 不要
-  - ログ転送エージェント
-
-    - QUIC / TCP
-    - OpenMetrics
-  - クローズドソース
-- Misora
-
-  - Sora Labo / Sora Cloud で利用できるミーティング＆ライブ配信サービス
-  - クローズドソース
-- Mikan
-
-  - md/mdx を利用した日本語全文検索組み込みドキュメントツール
-  - オフライン日本語全文検索エンジン搭載
-  - クローズドソース
+    - libwebrtc を Rust で
+    - no_std な WebRTC スタック
 
 
 過去

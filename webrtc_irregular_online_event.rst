@@ -111,7 +111,7 @@ WebRTC SFU Sora を利用した Misora を利用して配信します。
 
     - libwebrtc を Rust で
     - no_std な WebRTC スタック
-
+  - 時間に余裕があったら LLM 利用の話
 
 過去
 ================

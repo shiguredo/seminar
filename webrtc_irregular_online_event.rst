@@ -111,7 +111,9 @@ WebRTC SFU Sora を利用した Misora を利用して配信します。
 
     - libwebrtc を Rust で
     - no_std な WebRTC スタック
-  - 時間に余裕があったら LLM 利用の話
+  - おまけ: LLM の話
+
+    - OpenCode Go/Zen
 
 過去
 ================
@@ -671,6 +673,7 @@ WebRTC SFU Sora を利用した Misora を利用して配信します。
 https://github.com/shiguredo/seminar/blob/master/old_webrtc_irregular_online_event.rst
 
 http://66.42.39.71:5000/whip/shiguradio
+
 
 
 

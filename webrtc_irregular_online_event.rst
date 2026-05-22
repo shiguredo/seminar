@@ -112,6 +112,9 @@ WebRTC SFU Sora を利用した Misora を利用して配信します。
 
       - https://moqt-devtools.shiguredo.app/webtransport-devtools
     - MOQT の現状と今後
+
+      - https://datatracker.ietf.org/wg/moq/documents/
+      - https://www.ietf.org/archive/id/draft-ietf-moq-transport-18.html
   - WebRTC
 
     - libwebrtc を Rust で

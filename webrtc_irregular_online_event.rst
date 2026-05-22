@@ -119,9 +119,13 @@ WebRTC SFU Sora を利用した Misora を利用して配信します。
   - おまけ: LLM の話
 
     - OpenCode Go/Zen
+
+      - https://opencode.ai/ja
       - DeepSeek V4 Pro / Flash
       - Kimi K2.6 / Qwen3.6 Plus / MiMo-V2.5-Pro
     - Cursor Composer 2.5 MAX Fast
+
+      - https://cursor.com/ja/docs/models/cursor-composer-2-5
 
 過去
 ================
